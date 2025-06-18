@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - GGGuys Gaming Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Left Section -->
+            <div class="nav-left">
+                <div class="logo-container">
+                    <a href="index.html"><img src="assets/GGG_logo_white.png" alt="GGGuys Logo" class="logo"></a>
+                </div>
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search products..." id="searchInput">
+                    <button class="search-btn" id="searchBtn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="cart-container">
+                    <button class="cart-btn" id="cartBtn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Right Section -->
+            <div class="nav-right">
+                <div class="nav-item dropdown">
+                    <button class="dropdown-btn">
+                        Categories <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-content" id="categoriesDropdown">
+                        <!-- Categories will be populated by JavaScript -->
+                    </div>
+                </div>
+                <a href="products.html" class="nav-link">Browse Products</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+            <div class="mobile-search">
+                <input type="text" placeholder="Search products..." class="mobile-search-input">
+                <button class="mobile-search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="mobile-nav-links">
+                <a href="products.html" class="mobile-nav-link">Browse Products</a>
+                <a href="contact.html" class="mobile-nav-link">Contact</a>
+                <div class="mobile-categories">
+                    <h4>Categories</h4>
+                    <div id="mobileCategoriesContent">
+                        <!-- Categories will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <nav class="breadcrumb-nav" id="breadcrumbNav">
+                <a href="index.html">Home</a>
+                <span class="breadcrumb-separator">/</span>
+                <a href="products.html">Products</a>
+                <span class="breadcrumb-separator">/</span>
+                <span class="breadcrumb-current" id="breadcrumbProduct">Loading...</span>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Product Details Content -->
+    <div class="product-details-page">
+        <div class="container">
+            <!-- Loading State -->
+            <div class="loading-state" id="loadingState">
+                <div class="loading-spinner"></div>
+                <p>Loading product details...</p>
+            </div>
+
+            <!-- Product Not Found -->
+            <div class="product-not-found" id="productNotFound" style="display: none;">
+                <div class="not-found-content">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h2>Product Not Found</h2>
+                    <p>The product you're looking for doesn't exist or has been removed.</p>
+                    <a href="products.html" class="back-to-products">Back to Products</a>
+                </div>
+            </div>
+
+            <!-- Product Details Content -->
+            <div class="product-details-content" id="productDetailsContent" style="display: none;">
+                <div class="product-details-layout">
+                    <!-- Product Images -->
+                    <div class="product-images">
+                        <div class="main-image-container">
+                            <img id="mainProductImage" src="" alt="" class="main-product-image">
+                            <div class="image-zoom-overlay" id="imageZoomOverlay">
+                                <img id="zoomedImage" src="" alt="">
+                                <button class="zoom-close" id="zoomClose">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="thumbnail-images" id="thumbnailImages">
+                            <!-- Thumbnail images will be populated by JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- Product Info -->
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h1 class="product-name" id="productName">Loading...</h1>
+                            <div class="product-brand" id="productBrand">Loading...</div>
+                            <div class="product-rating" id="productRating">
+                                <!-- Rating stars will be populated by JavaScript -->
+                            </div>
+                        </div>
+
+                        <div class="product-price-section">
+                            <div class="product-price" id="productPrice">$0.00</div>
+                            <div class="product-stock" id="productStock">
+                                <!-- Stock status will be populated by JavaScript -->
+                            </div>
+                        </div>
+
+                        <div class="product-description">
+                            <h3>Description</h3>
+                            <p id="productDescription">Loading product description...</p>
+                        </div>
+
+                        <div class="product-specifications" id="productSpecifications">
+                            <h3>Specifications</h3>
+                            <div class="specs-list" id="specsList">
+                                <!-- Specifications will be populated by JavaScript -->
+                            </div>
+                        </div>
+
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <label for="productQuantity">Quantity:</label>
+                                <div class="quantity-controls">
+                                    <button class="quantity-btn minus" id="decreaseQuantity">-</button>
+                                    <input type="number" id="productQuantity" value="1" min="1" max="10">
+                                    <button class="quantity-btn plus" id="increaseQuantity">+</button>
+                                </div>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="add-to-cart-btn" id="addToCartBtn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                                <button class="wishlist-btn" id="wishlistBtn">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="product-features">
+                            <div class="feature-item">
+                                <i class="fas fa-truck"></i>
+                                <div>
+                                    <strong>Free Shipping</strong>
+                                    <span>On orders over $100</span>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-undo"></i>
+                                <div>
+                                    <strong>30-Day Returns</strong>
+                                    <span>Easy return policy</span>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <div>
+                                    <strong>Warranty</strong>
+                                    <span>Manufacturer warranty included</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Related Products -->
+                <div class="related-products-section">
+                    <div class="section-header">
+                        <h2 class="section-title">Related Products</h2>
+                        <p class="section-subtitle">You might also like these products</p>
+                    </div>
+                    <div class="related-products-grid" id="relatedProducts">
+                        <!-- Related products will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="cart-close" id="cartClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-content" id="cartContent">
+            <div class="empty-cart" id="emptyCart">
+                <i class="fas fa-shopping-cart"></i>
+                <p>Your cart is empty</p>
+                <a href="products.html" class="shop-now-btn">Shop Now</a>
+            </div>
+        </div>
+        <div class="cart-footer" id="cartFooter" style="display: none;">
+            <div class="cart-total">
+                <div class="total-row">
+                    <span>Subtotal:</span>
+                    <span id="cartSubtotal">$0.00</span>
+                </div>
+                <div class="total-row">
+                    <span>Shipping:</span>
+                    <span>Free</span>
+                </div>
+                <div class="total-row total-final">
+                    <span>Total:</span>
+                    <span id="cartTotal">$0.00</span>
+                </div>
+            </div>
+            <button class="checkout-btn" id="checkoutBtn">
+                Proceed to Checkout
+            </button>
+        </div>
+    </div>
+
+    <!-- Cart Backdrop -->
+    <div class="cart-backdrop" id="cartBackdrop"></div>
+
+    <!-- Checkout Modal -->
+    <div class="checkout-modal" id="checkoutModal">
+        <div class="checkout-content">
+            <div class="checkout-header">
+                <h3>Checkout</h3>
+                <button class="checkout-close" id="checkoutClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form class="checkout-form" id="checkoutForm">
+                <div class="form-group">
+                    <label for="customerName">Full Name *</label>
+                    <input type="text" id="customerName" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="customerPhone">Phone Number *</label>
+                    <input type="tel" id="customerPhone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="customerEmail">Email Address *</label>
+                    <input type="email" id="customerEmail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="customerAddress">Shipping Address *</label>
+                    <textarea id="customerAddress" name="address" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="orderNotes">Order Notes (Optional)</label>
+                    <textarea id="orderNotes" name="notes" rows="2" placeholder="Special instructions for delivery..."></textarea>
+                </div>
+                <div class="checkout-summary">
+                    <h4>Order Summary</h4>
+                    <div id="checkoutItems"></div>
+                    <div class="checkout-total">
+                        <span>Total: <strong id="checkoutTotal">$0.00</strong></span>
+                    </div>
+                </div>
+                <button type="submit" class="place-order-btn">
+                    Place Order
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="success-modal" id="successModal">
+        <div class="success-content">
+            <div class="success-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Order Placed Successfully!</h3>
+            <p>Thank you for your order. We'll contact you soon with delivery details.</p>
+            <button class="success-close" id="successClose">Continue Shopping</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,538 @@
+{
+  "banners": [
+    {
+      "id": 1,
+      "title": "Ultimate Gaming Experience",
+      "subtitle": "Discover the latest gaming gear and accessories",
+      "image": "assets/banner/Banner (1).png",
+      "link": "products.html",
+      "buttonText": "Shop Now"
+    },
+    {
+      "id": 2,
+      "title": "Next-Gen Gaming",
+      "subtitle": "Experience the future of gaming with our premium selection",
+      "image": "assets/banner/Banner (2).png",
+      "link": "products.html?category=Consoles",
+      "buttonText": "Explore Consoles"
+    },
+    {
+      "id": 3,
+      "title": "Pro Gaming Setup",
+      "subtitle": "Build your perfect gaming battlestation",
+      "image": "assets/banner/Banner (3).png",
+      "link": "products.html?category=Peripherals",
+      "buttonText": "Build Setup"
+    }
+  ],
+  "products": [
+    {
+      "id": "acer-predator-helios-neo",
+      "name": "Acer Predator Helios Neo 16",
+      "brand": "Acer",
+      "category": "Laptops",
+      "price": 1299.99,
+      "description": "Powerful gaming laptop with Intel Core i7 processor, NVIDIA RTX 4060 graphics, and 16GB RAM. Perfect for high-performance gaming and content creation.",
+      "images": [
+        "assets/ProductImages/acer-predator-helios-neo-1.jpg",
+        "assets/ProductImages/acer-predator-helios-neo-2.jpg"
+      ],
+      "stock": 15,
+      "rating": 4.5,
+      "reviews": 128,
+      "featured": true,
+      "badge": {
+        "type": "hot",
+        "text": "Hot"
+      },
+      "specifications": {
+        "Processor": "Intel Core i7-13700HX",
+        "Graphics": "NVIDIA GeForce RTX 4060",
+        "RAM": "16GB DDR5",
+        "Storage": "512GB SSD",
+        "Display": "16-inch FHD 165Hz",
+        "Operating System": "Windows 11 Home"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2024-12-01"
+    },
+    {
+      "id": "asus-rog-strix-g16",
+      "name": "ASUS ROG Strix G16",
+      "brand": "ASUS",
+      "category": "Laptops",
+      "price": 1599.99,
+      "description": "Elite gaming laptop featuring AMD Ryzen 9 processor, RTX 4070 graphics, and advanced cooling system. Built for competitive gaming and streaming.",
+      "images": [
+        "assets/ProductImages/asus-rog-strix-g16-1.jpg",
+        "assets/ProductImages/asus-rog-strix-g16-2.jpg",
+        "assets/ProductImages/asus-rog-strix-g16-3.jpg"
+      ],
+      "stock": 8,
+      "rating": 4.7,
+      "reviews": 92,
+      "featured": true,
+      "badge": {
+        "type": "new",
+        "text": "New"
+      },
+      "specifications": {
+        "Processor": "AMD Ryzen 9 7940HX",
+        "Graphics": "NVIDIA GeForce RTX 4070",
+        "RAM": "32GB DDR5",
+        "Storage": "1TB SSD",
+        "Display": "16-inch QHD 240Hz",
+        "Operating System": "Windows 11 Pro"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2024-11-15"
+    },
+    {
+      "id": "lenovo-legion-9i",
+      "name": "Lenovo Legion 9i",
+      "brand": "Lenovo",
+      "category": "Laptops",
+      "price": 2299.99,
+      "description": "Premium gaming laptop with Intel Core i9, RTX 4080 graphics, and Legion ColdFront cooling. The ultimate machine for enthusiast gamers.",
+      "images": [
+        "assets/ProductImages/lenovo-legion-9i-1.jpg",
+        "assets/ProductImages/lenovo-legion-9i-2.jpg",
+        "assets/ProductImages/lenovo-legion-9i-3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.8,
+      "reviews": 67,
+      "featured": true,
+      "badge": {
+        "type": "sale",
+        "text": "Limited"
+      },
+      "specifications": {
+        "Processor": "Intel Core i9-13980HX",
+        "Graphics": "NVIDIA GeForce RTX 4080",
+        "RAM": "32GB DDR5",
+        "Storage": "2TB SSD",
+        "Display": "16-inch Mini LED 3.2K 165Hz",
+        "Operating System": "Windows 11 Pro"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2024-10-20"
+    },
+    {
+      "id": "playstation-5-console",
+      "name": "PlayStation 5 Console",
+      "brand": "Sony",
+      "category": "Consoles",
+      "price": 499.99,
+      "description": "Next-generation gaming console with custom SSD, 3D audio technology, and exclusive PlayStation games. Experience gaming like never before.",
+      "images": [
+        "assets/ProductImages/playstation-5-console-1.jpg",
+        "assets/ProductImages/playstation-5-console-2.jpg",
+        "assets/ProductImages/playstation-5-console-3.jpg"
+      ],
+      "stock": 12,
+      "rating": 4.6,
+      "reviews": 245,
+      "featured": true,
+      "specifications": {
+        "Processor": "Custom AMD Zen 2",
+        "Graphics": "Custom AMD RDNA 2",
+        "RAM": "16GB GDDR6",
+        "Storage": "825GB Custom SSD",
+        "Audio": "3D Audio Technology",
+        "Controller": "DualSense Wireless"
+      },
+      "platforms": ["PlayStation"],
+      "dateAdded": "2024-09-10"
+    },
+    {
+      "id": "xbox-series-x-console",
+      "name": "Xbox Series X Console",
+      "brand": "Microsoft",
+      "category": "Consoles",
+      "price": 499.99,
+      "description": "Most powerful Xbox ever with 4K gaming, 120fps capability, and Smart Delivery. Includes Game Pass Ultimate trial.",
+      "images": [
+        "assets/ProductImages/xbox-series-x-console-1.jpg",
+        "assets/ProductImages/xbox-series-x-console-2.jpg"
+      ],
+      "stock": 18,
+      "rating": 4.5,
+      "reviews": 189,
+      "featured": true,
+      "specifications": {
+        "Processor": "Custom AMD Zen 2",
+        "Graphics": "Custom AMD RDNA 2",
+        "RAM": "16GB GDDR6",
+        "Storage": "1TB Custom NVMe SSD",
+        "Resolution": "Up to 4K 120fps",
+        "Controller": "Xbox Wireless Controller"
+      },
+      "platforms": ["Xbox", "PC"],
+      "dateAdded": "2024-08-25"
+    },
+    {
+      "id": "nintendo-switch-oled",
+      "name": "Nintendo Switch OLED",
+      "brand": "Nintendo",
+      "category": "Consoles",
+      "price": 349.99,
+      "description": "Hybrid gaming console with vibrant OLED screen, enhanced audio, and versatile play modes. Perfect for gaming on-the-go or at home.",
+      "images": [
+        "assets/ProductImages/nintendo-switch-oled-1.jpg",
+        "assets/ProductImages/nintendo-switch-oled-2.jpg"
+      ],
+      "stock": 25,
+      "rating": 4.4,
+      "reviews": 156,
+      "featured": true,
+      "specifications": {
+        "Display": "7-inch OLED Multi-touch",
+        "Processor": "Custom NVIDIA Tegra X1",
+        "RAM": "4GB LPDDR4X",
+        "Storage": "64GB eMMC",
+        "Battery": "4.5-9 hours",
+        "Connectivity": "Wi-Fi, Bluetooth 4.1"
+      },
+      "platforms": ["Nintendo Switch"],
+      "dateAdded": "2024-07-12"
+    },
+    {
+      "id": "meta-quest-3-512gb",
+      "name": "Meta Quest 3 512GB",
+      "brand": "Meta",
+      "category": "VR",
+      "price": 649.99,
+      "description": "Advanced VR headset with mixed reality capabilities, high-resolution display, and wireless freedom. Includes Touch Plus controllers.",
+      "images": [
+        "assets/ProductImages/meta-quest-3-512gb-1.jpg",
+        "assets/ProductImages/meta-quest-3-512gb-2.jpg"
+      ],
+      "stock": 7,
+      "rating": 4.3,
+      "reviews": 84,
+      "featured": true,
+      "badge": {
+        "type": "new",
+        "text": "VR"
+      },
+      "specifications": {
+        "Display": "2064x2208 per eye LCD",
+        "Processor": "Snapdragon XR2 Gen 2",
+        "RAM": "8GB",
+        "Storage": "512GB",
+        "Refresh Rate": "72Hz, 80Hz, 90Hz, 120Hz",
+        "Controllers": "Touch Plus Controllers"
+      },
+      "platforms": ["VR"],
+      "dateAdded": "2024-06-30"
+    },
+    {
+      "id": "playstation-vr2",
+      "name": "PlayStation VR2",
+      "brand": "Sony",
+      "category": "VR",
+      "price": 549.99,
+      "description": "Next-gen VR for PlayStation 5 with 4K HDR, 3D audio, and haptic feedback. Experience immersive virtual worlds like never before.",
+      "images": [
+        "assets/ProductImages/playstation-vr2-1.jpg",
+        "assets/ProductImages/playstation-vr2-2.jpg"
+      ],
+      "stock": 10,
+      "rating": 4.2,
+      "reviews": 73,
+      "featured": false,
+      "specifications": {
+        "Display": "2000x2040 per eye OLED",
+        "Refresh Rate": "90Hz, 120Hz",
+        "Field of View": "Approximately 110 degrees",
+        "Connectivity": "USB-C to PlayStation 5",
+        "Audio": "3D Audio Technology",
+        "Controllers": "PlayStation VR2 Sense Controllers"
+      },
+      "platforms": ["PlayStation", "VR"],
+      "dateAdded": "2024-05-18"
+    },
+    {
+      "id": "asus-rog-swift-pg32uqx",
+      "name": "ASUS ROG Swift PG32UQX",
+      "brand": "ASUS",
+      "category": "Monitors",
+      "price": 2999.99,
+      "description": "32-inch 4K HDR gaming monitor with Mini LED technology, 144Hz refresh rate, and G-SYNC Ultimate. The pinnacle of gaming displays.",
+      "images": [
+        "assets/ProductImages/asus-rog-swift-pg32uqx-1.jpg",
+        "assets/ProductImages/asus-rog-swift-pg32uqx-2.jpg"
+      ],
+      "stock": 3,
+      "rating": 4.9,
+      "reviews": 45,
+      "featured": true,
+      "badge": {
+        "type": "sale",
+        "text": "Premium"
+      },
+      "specifications": {
+        "Screen Size": "32 inches",
+        "Resolution": "3840x2160 (4K UHD)",
+        "Refresh Rate": "144Hz",
+        "Panel Type": "IPS with Mini LED",
+        "Response Time": "1ms GTG",
+        "HDR": "DisplayHDR 1400"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2024-04-22"
+    },
+    {
+      "id": "steelseries-apex-pro-tkl",
+      "name": "SteelSeries Apex Pro TKL",
+      "brand": "SteelSeries",
+      "category": "Keyboards",
+      "price": 199.99,
+      "description": "Tenkeyless mechanical gaming keyboard with adjustable switches, OLED display, and premium aluminum construction.",
+      "images": [
+        "assets/ProductImages/steelseries-apex-pro-tkl-1.jpg",
+        "assets/ProductImages/steelseries-apex-pro-tkl-2.jpg"
+      ],
+      "stock": 20,
+      "rating": 4.6,
+      "reviews": 167,
+      "featured": false,
+      "specifications": {
+        "Switch Type": "OmniPoint Adjustable",
+        "Layout": "Tenkeyless (87-key)",
+        "Backlighting": "Per-key RGB",
+        "Connectivity": "USB-C",
+        "Features": "OLED Smart Display",
+        "Construction": "Aluminum Frame"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2024-03-15"
+    },
+    {
+      "id": "corsair-k70-rgb-pro",
+      "name": "Corsair K70 RGB Pro",
+      "brand": "Corsair",
+      "category": "Keyboards",
+      "price": 169.99,
+      "description": "Full-size mechanical gaming keyboard with Cherry MX switches, per-key RGB lighting, and tournament switch for instant profile switching.",
+      "images": [
+        "assets/ProductImages/corsair-k70-rgb-pro-1.jpg",
+        "assets/ProductImages/corsair-k70-rgb-pro-2.jpg"
+      ],
+      "stock": 30,
+      "rating": 4.4,
+      "reviews": 203,
+      "featured": false,
+      "specifications": {
+        "Switch Type": "Cherry MX Red/Blue/Brown",
+        "Layout": "Full-size (104-key)",
+        "Backlighting": "Per-key RGB",
+        "Connectivity": "USB-A",
+        "Features": "Tournament Switch, Media Keys",
+        "Construction": "Aluminum Frame"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2024-02-28"
+    },
+    {
+      "id": "razer-deathadder-v3-pro",
+      "name": "Razer DeathAdder V3 Pro",
+      "brand": "Razer",
+      "category": "Mice",
+      "price": 149.99,
+      "description": "Wireless gaming mouse with Focus Pro 30K sensor, 90-hour battery life, and ergonomic design. The ultimate precision gaming tool.",
+      "images": [
+        "assets/ProductImages/razer-deathadder-v3-pro-1.jpg",
+        "assets/ProductImages/razer-deathadder-v3-pro-2.jpg"
+      ],
+      "stock": 45,
+      "rating": 4.7,
+      "reviews": 289,
+      "featured": false,
+      "specifications": {
+        "Sensor": "Focus Pro 30K Optical",
+        "DPI": "Up to 30,000",
+        "Connectivity": "2.4GHz Wireless, Bluetooth",
+        "Battery Life": "Up to 90 hours",
+        "Buttons": "8 programmable buttons",
+        "Weight": "63g"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2024-01-20"
+    },
+    {
+      "id": "steelseries-aerox-5",
+      "name": "SteelSeries Aerox 5 Wireless",
+      "brand": "SteelSeries",
+      "category": "Mice",
+      "price": 129.99,
+      "description": "Ultra-lightweight wireless gaming mouse with TrueMove Air sensor, 80-hour battery, and honeycomb shell design for maximum performance.",
+      "images": [
+        "assets/ProductImages/steelseries-aerox-5-1.jpg",
+        "assets/ProductImages/steelseries-aerox-5-2.jpg"
+      ],
+      "stock": 35,
+      "rating": 4.5,
+      "reviews": 156,
+      "featured": false,
+      "specifications": {
+        "Sensor": "TrueMove Air Optical",
+        "DPI": "Up to 18,000",
+        "Connectivity": "2.4GHz Wireless, Bluetooth",
+        "Battery Life": "Up to 80 hours",
+        "Buttons": "9 programmable buttons",
+        "Weight": "74g"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2023-12-10"
+    },
+    {
+      "id": "steelseries-arctis-nova-pro",
+      "name": "SteelSeries Arctis Nova Pro",
+      "brand": "SteelSeries",
+      "category": "Headsets",
+      "price": 349.99,
+      "description": "Premium wireless gaming headset with active noise cancellation, Hi-Res audio, and hot-swappable batteries for unlimited gameplay.",
+      "images": [
+        "assets/ProductImages/steelseries-arctis-nova-pro-1.jpg",
+        "assets/ProductImages/steelseries-arctis-nova-pro-2.jpg"
+      ],
+      "stock": 22,
+      "rating": 4.8,
+      "reviews": 134,
+      "featured": true,
+      "badge": {
+        "type": "hot",
+        "text": "Pro"
+      },
+      "specifications": {
+        "Driver": "40mm Neodymium",
+        "Frequency Response": "10Hz - 40kHz",
+        "Connectivity": "2.4GHz Wireless, Bluetooth, USB-C",
+        "Battery Life": "44 hours (swappable)",
+        "Features": "Active Noise Cancellation",
+        "Microphone": "ClearCast Gen 2"
+      },
+      "platforms": ["PC", "PlayStation", "Xbox", "Nintendo Switch"],
+      "dateAdded": "2023-11-25"
+    },
+    {
+      "id": "hyperx-cloud-iii-wireless",
+      "name": "HyperX Cloud III Wireless",
+      "brand": "HyperX",
+      "category": "Headsets",
+      "price": 169.99,
+      "description": "Wireless gaming headset with DTS Headphone:X spatial audio, 120-hour battery life, and comfort-focused design for extended gaming sessions.",
+      "images": [
+        "assets/ProductImages/hyperx-cloud-iii-wireless-1.jpg",
+        "assets/ProductImages/hyperx-cloud-iii-wireless-2.jpg"
+      ],
+      "stock": 40,
+      "rating": 4.3,
+      "reviews": 198,
+      "featured": false,
+      "specifications": {
+        "Driver": "53mm Neodymium",
+        "Frequency Response": "10Hz - 21kHz",
+        "Connectivity": "2.4GHz Wireless",
+        "Battery Life": "Up to 120 hours",
+        "Features": "DTS Headphone:X Spatial Audio",
+        "Microphone": "Detachable noise-cancelling"
+      },
+      "platforms": ["PC", "PlayStation"],
+      "dateAdded": "2023-10-12"
+    },
+    {
+      "id": "secretlab-titan-evo",
+      "name": "Secretlab Titan Evo 2022",
+      "brand": "Secretlab",
+      "category": "Chairs",
+      "price": 519.99,
+      "description": "Premium gaming chair with NEO Hybrid Leatherette, 4-way lumbar support, and cold-cure foam. Designed for all-day comfort and gaming performance.",
+      "images": [
+        "assets/ProductImages/secretlab-titan-evo-1.jpg",
+        "assets/ProductImages/secretlab-titan-evo-2.jpg"
+      ],
+      "stock": 12,
+      "rating": 4.6,
+      "reviews": 78,
+      "featured": false,
+      "specifications": {
+        "Material": "NEO Hybrid Leatherette",
+        "Weight Capacity": "130kg (286 lbs)",
+        "Dimensions": "84-91cm height",
+        "Features": "4-way lumbar support, Memory foam",
+        "Armrests": "4D adjustable",
+        "Warranty": "5 years"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2023-09-08"
+    }
+  ],
+"partners": [
+  {
+    "id": 1,
+    "name": "NVIDIA",
+    "logo": "assets/partners/NVIDIA.png"
+  },
+  {
+    "id": 2,
+    "name": "AMD",
+    "logo": "assets/partners/AMD.png"
+  },
+  {
+    "id": 3,
+    "name": "Intel",
+    "logo": "assets/partners/intel.png"
+  },
+  {
+    "id": 4,
+    "name": "Sony",
+    "logo": "assets/partners/sony.png"
+  },
+  {
+    "id": 5,
+    "name": "Microsoft",
+    "logo": "assets/partners/microsoft.png"
+  },
+  {
+    "id": 6,
+    "name": "Nintendo",
+    "logo": "assets/partners/nintendo.png"
+  },
+  {
+    "id": 7,
+    "name": "ASUS",
+    "logo": "assets/partners/asus.png"
+  },
+  {
+    "id": 8,
+    "name": "Corsair",
+    "logo": "assets/partners/Corsair.png"
+  },
+  {
+    "id": 9,
+    "name": "Razer",
+    "logo": "assets/partners/razer.png"
+  },
+  {
+    "id": 10,
+    "name": "Redragon",
+    "logo": "assets/partners/redragon.png"
+  },
+  {
+    "id": 11,
+    "name": "Logitech",
+    "logo": "assets/partners/logitech.png"
+  },
+  {
+    "id": 12,
+    "name": "HyperX",
+    "logo": "assets/partners/HyperX.png"
+  }
+]
+
+
+
+}
