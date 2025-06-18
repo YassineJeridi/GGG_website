@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Ultimate Gaming Experience",
       "subtitle": "Discover the latest gaming gear and accessories",
-      "image": "assets/banner/Banner (1).png",
+      "image": "./assets/banner/Banner (1).png",
       "link": "products.html",
       "buttonText": "Shop Now"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "title": "Next-Gen Gaming",
       "subtitle": "Experience the future of gaming with our premium selection",
-      "image": "assets/banner/Banner (2).png",
+      "image": "./assets/banner/Banner (2).png",
       "link": "products.html?category=Consoles",
       "buttonText": "Explore Consoles"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "title": "Pro Gaming Setup",
       "subtitle": "Build your perfect gaming battlestation",
-      "image": "assets/banner/Banner (3).png",
+      "image": "./assets/banner/Banner (3).png",
       "link": "products.html?category=Peripherals",
       "buttonText": "Build Setup"
     }
@@ -34,7 +34,7 @@
       "price": 1299.99,
       "description": "Powerful gaming laptop with Intel Core i7 processor, NVIDIA RTX 4060 graphics, and 16GB RAM. Perfect for high-performance gaming and content creation.",
       "images": [
-        "assets/ProductImages/acer-predator-helios-neo-1.jpg",
+        "./assets/ProductImages/acer-predator-helios-neo-1.jpg",
         "assets/ProductImages/acer-predator-helios-neo-2.jpg"
       ],
       "stock": 15,
