@@ -35,7 +35,7 @@
       "description": "Powerful gaming laptop with Intel Core i7 processor, NVIDIA RTX 4060 graphics, and 16GB RAM. Perfect for high-performance gaming and content creation.",
       "images": [
         "./assets/ProductImages/acer-predator-helios-neo-1.jpg",
-        "assets/ProductImages/acer-predator-helios-neo-2.jpg"
+        "./assets/ProductImages/acer-predator-helios-neo-2.jpg"
       ],
       "stock": 15,
       "rating": 4.5,
@@ -64,9 +64,9 @@
       "price": 1599.99,
       "description": "Elite gaming laptop featuring AMD Ryzen 9 processor, RTX 4070 graphics, and advanced cooling system. Built for competitive gaming and streaming.",
       "images": [
-        "assets/ProductImages/asus-rog-strix-g16-1.jpg",
-        "assets/ProductImages/asus-rog-strix-g16-2.jpg",
-        "assets/ProductImages/asus-rog-strix-g16-3.jpg"
+        "./assets/ProductImages/asus-rog-strix-g16-1.jpg",
+        "./assets/ProductImages/asus-rog-strix-g16-2.jpg",
+        "./assets/ProductImages/asus-rog-strix-g16-3.jpg"
       ],
       "stock": 8,
       "rating": 4.7,
@@ -95,9 +95,9 @@
       "price": 2299.99,
       "description": "Premium gaming laptop with Intel Core i9, RTX 4080 graphics, and Legion ColdFront cooling. The ultimate machine for enthusiast gamers.",
       "images": [
-        "assets/ProductImages/lenovo-legion-9i-1.jpg",
-        "assets/ProductImages/lenovo-legion-9i-2.jpg",
-        "assets/ProductImages/lenovo-legion-9i-3.jpg"
+        "./assets/ProductImages/lenovo-legion-9i-1.jpg",
+        "./assets/ProductImages/lenovo-legion-9i-2.jpg",
+        "./assets/ProductImages/lenovo-legion-9i-3.jpg"
       ],
       "stock": 5,
       "rating": 4.8,
@@ -126,9 +126,9 @@
       "price": 499.99,
       "description": "Next-generation gaming console with custom SSD, 3D audio technology, and exclusive PlayStation games. Experience gaming like never before.",
       "images": [
-        "assets/ProductImages/playstation-5-console-1.jpg",
-        "assets/ProductImages/playstation-5-console-2.jpg",
-        "assets/ProductImages/playstation-5-console-3.jpg"
+        "./assets/ProductImages/playstation-5-console-1.jpg",
+        "./assets/ProductImages/playstation-5-console-2.jpg",
+        "./assets/ProductImages/playstation-5-console-3.jpg"
       ],
       "stock": 12,
       "rating": 4.6,
@@ -153,8 +153,8 @@
       "price": 499.99,
       "description": "Most powerful Xbox ever with 4K gaming, 120fps capability, and Smart Delivery. Includes Game Pass Ultimate trial.",
       "images": [
-        "assets/ProductImages/xbox-series-x-console-1.jpg",
-        "assets/ProductImages/xbox-series-x-console-2.jpg"
+        "./assets/ProductImages/xbox-series-x-console-1.jpg",
+        "./assets/ProductImages/xbox-series-x-console-2.jpg"
       ],
       "stock": 18,
       "rating": 4.5,
@@ -179,8 +179,8 @@
       "price": 349.99,
       "description": "Hybrid gaming console with vibrant OLED screen, enhanced audio, and versatile play modes. Perfect for gaming on-the-go or at home.",
       "images": [
-        "assets/ProductImages/nintendo-switch-oled-1.jpg",
-        "assets/ProductImages/nintendo-switch-oled-2.jpg"
+        "./assets/ProductImages/nintendo-switch-oled-1.jpg",
+        "./assets/ProductImages/nintendo-switch-oled-2.jpg"
       ],
       "stock": 25,
       "rating": 4.4,
@@ -205,8 +205,8 @@
       "price": 649.99,
       "description": "Advanced VR headset with mixed reality capabilities, high-resolution display, and wireless freedom. Includes Touch Plus controllers.",
       "images": [
-        "assets/ProductImages/meta-quest-3-512gb-1.jpg",
-        "assets/ProductImages/meta-quest-3-512gb-2.jpg"
+        "./assets/ProductImages/meta-quest-3-512gb-1.jpg",
+        "./assets/ProductImages/meta-quest-3-512gb-2.jpg"
       ],
       "stock": 7,
       "rating": 4.3,
@@ -235,8 +235,8 @@
       "price": 549.99,
       "description": "Next-gen VR for PlayStation 5 with 4K HDR, 3D audio, and haptic feedback. Experience immersive virtual worlds like never before.",
       "images": [
-        "assets/ProductImages/playstation-vr2-1.jpg",
-        "assets/ProductImages/playstation-vr2-2.jpg"
+        "./assets/ProductImages/playstation-vr2-1.jpg",
+        "./assets/ProductImages/playstation-vr2-2.jpg"
       ],
       "stock": 10,
       "rating": 4.2,
@@ -261,8 +261,8 @@
       "price": 2999.99,
       "description": "32-inch 4K HDR gaming monitor with Mini LED technology, 144Hz refresh rate, and G-SYNC Ultimate. The pinnacle of gaming displays.",
       "images": [
-        "assets/ProductImages/asus-rog-swift-pg32uqx-1.jpg",
-        "assets/ProductImages/asus-rog-swift-pg32uqx-2.jpg"
+        "./assets/ProductImages/asus-rog-swift-pg32uqx-1.jpg",
+        "./assets/ProductImages/asus-rog-swift-pg32uqx-2.jpg"
       ],
       "stock": 3,
       "rating": 4.9,
@@ -291,8 +291,8 @@
       "price": 199.99,
       "description": "Tenkeyless mechanical gaming keyboard with adjustable switches, OLED display, and premium aluminum construction.",
       "images": [
-        "assets/ProductImages/steelseries-apex-pro-tkl-1.jpg",
-        "assets/ProductImages/steelseries-apex-pro-tkl-2.jpg"
+        "./assets/ProductImages/steelseries-apex-pro-tkl-1.jpg",
+        "./assets/ProductImages/steelseries-apex-pro-tkl-2.jpg"
       ],
       "stock": 20,
       "rating": 4.6,
@@ -317,8 +317,8 @@
       "price": 169.99,
       "description": "Full-size mechanical gaming keyboard with Cherry MX switches, per-key RGB lighting, and tournament switch for instant profile switching.",
       "images": [
-        "assets/ProductImages/corsair-k70-rgb-pro-1.jpg",
-        "assets/ProductImages/corsair-k70-rgb-pro-2.jpg"
+        "./assets/ProductImages/corsair-k70-rgb-pro-1.jpg",
+        "./assets/ProductImages/corsair-k70-rgb-pro-2.jpg"
       ],
       "stock": 30,
       "rating": 4.4,
@@ -343,8 +343,8 @@
       "price": 149.99,
       "description": "Wireless gaming mouse with Focus Pro 30K sensor, 90-hour battery life, and ergonomic design. The ultimate precision gaming tool.",
       "images": [
-        "assets/ProductImages/razer-deathadder-v3-pro-1.jpg",
-        "assets/ProductImages/razer-deathadder-v3-pro-2.jpg"
+        "./assets/ProductImages/razer-deathadder-v3-pro-1.jpg",
+        "./assets/ProductImages/razer-deathadder-v3-pro-2.jpg"
       ],
       "stock": 45,
       "rating": 4.7,
@@ -369,8 +369,8 @@
       "price": 129.99,
       "description": "Ultra-lightweight wireless gaming mouse with TrueMove Air sensor, 80-hour battery, and honeycomb shell design for maximum performance.",
       "images": [
-        "assets/ProductImages/steelseries-aerox-5-1.jpg",
-        "assets/ProductImages/steelseries-aerox-5-2.jpg"
+        "./assets/ProductImages/steelseries-aerox-5-1.jpg",
+        "./assets/ProductImages/steelseries-aerox-5-2.jpg"
       ],
       "stock": 35,
       "rating": 4.5,
@@ -395,8 +395,8 @@
       "price": 349.99,
       "description": "Premium wireless gaming headset with active noise cancellation, Hi-Res audio, and hot-swappable batteries for unlimited gameplay.",
       "images": [
-        "assets/ProductImages/steelseries-arctis-nova-pro-1.jpg",
-        "assets/ProductImages/steelseries-arctis-nova-pro-2.jpg"
+        "./assets/ProductImages/steelseries-arctis-nova-pro-1.jpg",
+        "./assets/ProductImages/steelseries-arctis-nova-pro-2.jpg"
       ],
       "stock": 22,
       "rating": 4.8,
@@ -425,8 +425,8 @@
       "price": 169.99,
       "description": "Wireless gaming headset with DTS Headphone:X spatial audio, 120-hour battery life, and comfort-focused design for extended gaming sessions.",
       "images": [
-        "assets/ProductImages/hyperx-cloud-iii-wireless-1.jpg",
-        "assets/ProductImages/hyperx-cloud-iii-wireless-2.jpg"
+        "./assets/ProductImages/hyperx-cloud-iii-wireless-1.jpg",
+        "./assets/ProductImages/hyperx-cloud-iii-wireless-2.jpg"
       ],
       "stock": 40,
       "rating": 4.3,
@@ -451,8 +451,8 @@
       "price": 519.99,
       "description": "Premium gaming chair with NEO Hybrid Leatherette, 4-way lumbar support, and cold-cure foam. Designed for all-day comfort and gaming performance.",
       "images": [
-        "assets/ProductImages/secretlab-titan-evo-1.jpg",
-        "assets/ProductImages/secretlab-titan-evo-2.jpg"
+        "./assets/ProductImages/secretlab-titan-evo-1.jpg",
+        "./assets/ProductImages/secretlab-titan-evo-2.jpg"
       ],
       "stock": 12,
       "rating": 4.6,
@@ -474,62 +474,62 @@
   {
     "id": 1,
     "name": "NVIDIA",
-    "logo": "assets/partners/NVIDIA.png"
+    "logo": "./assets/partners/NVIDIA.png"
   },
   {
     "id": 2,
     "name": "AMD",
-    "logo": "assets/partners/AMD.png"
+    "logo": "./assets/partners/AMD.png"
   },
   {
     "id": 3,
     "name": "Intel",
-    "logo": "assets/partners/intel.png"
+    "logo": "./assets/partners/intel.png"
   },
   {
     "id": 4,
     "name": "Sony",
-    "logo": "assets/partners/sony.png"
+    "logo": "./assets/partners/sony.png"
   },
   {
     "id": 5,
     "name": "Microsoft",
-    "logo": "assets/partners/microsoft.png"
+    "logo": "./assets/partners/microsoft.png"
   },
   {
     "id": 6,
     "name": "Nintendo",
-    "logo": "assets/partners/nintendo.png"
+    "logo": "./assets/partners/nintendo.png"
   },
   {
     "id": 7,
     "name": "ASUS",
-    "logo": "assets/partners/asus.png"
+    "logo": "./assets/partners/asus.png"
   },
   {
     "id": 8,
     "name": "Corsair",
-    "logo": "assets/partners/Corsair.png"
+    "logo": "./assets/partners/Corsair.png"
   },
   {
     "id": 9,
     "name": "Razer",
-    "logo": "assets/partners/razer.png"
+    "logo": "./assets/partners/razer.png"
   },
   {
     "id": 10,
     "name": "Redragon",
-    "logo": "assets/partners/redragon.png"
+    "logo": "./assets/partners/redragon.png"
   },
   {
     "id": 11,
     "name": "Logitech",
-    "logo": "assets/partners/logitech.png"
+    "logo": "./assets/partners/logitech.png"
   },
   {
     "id": 12,
     "name": "HyperX",
-    "logo": "assets/partners/HyperX.png"
+    "logo": "./assets/partners/HyperX.png"
   }
 ]
 
