@@ -32,6 +32,9 @@ async function loadProductsData() {
         const response = await fetch('data/products.json');
         productsData = await response.json();
         
+        // NOW populate categories after data is loaded
+        populateCategoriesDropdown();
+        
         // Initialize page-specific content
         if (document.body.classList.contains('home-page') || window.location.pathname.includes('index.html') || window.location.pathname === '/') {
             initializeHomePage();
@@ -72,49 +75,50 @@ function initializeNavigation() {
         });
     }
     
-    // Populate categories dropdown
-    populateCategoriesDropdown();
 }
 
 // Populate Categories Dropdown
 function populateCategoriesDropdown() {
-    if (!productsData) return;
+    if (!productsData || !productsData.categories) return;
     
     const categoriesDropdown = document.getElementById('categoriesDropdown');
     const mobileCategoriesContent = document.getElementById('mobileCategoriesContent');
     const footerCategories = document.getElementById('footerCategories');
     
-    const categories = [...new Set(productsData.products.map(product => product.category))];
+    // Sort categories by order
+    const sortedCategories = productsData.categories.sort((a, b) => a.order - b.order);
     
-    categories.forEach(category => {
+    sortedCategories.forEach(category => {
         // Desktop dropdown
         if (categoriesDropdown) {
             const link = document.createElement('a');
-            link.href = `products.html?category=${encodeURIComponent(category)}`;
-            link.textContent = category;
+            link.href = `products.html?category=${encodeURIComponent(category.slug)}`;
+            link.innerHTML = `<i class="${category.icon}"></i> ${category.name}`;
+            link.title = category.description;
             categoriesDropdown.appendChild(link);
         }
         
         // Mobile dropdown
         if (mobileCategoriesContent) {
             const link = document.createElement('a');
-            link.href = `products.html?category=${encodeURIComponent(category)}`;
-            link.textContent = category;
+            link.href = `products.html?category=${encodeURIComponent(category.slug)}`;
+            link.innerHTML = `<i class="${category.icon}"></i> ${category.name}`;
             link.className = 'mobile-nav-link';
             mobileCategoriesContent.appendChild(link);
         }
         
-        // Footer categories
-        if (footerCategories) {
+        // Footer categories (only featured ones)
+        if (footerCategories && category.featured) {
             const li = document.createElement('li');
             const link = document.createElement('a');
-            link.href = `products.html?category=${encodeURIComponent(category)}`;
-            link.textContent = category;
+            link.href = `products.html?category=${encodeURIComponent(category.slug)}`;
+            link.textContent = category.name;
             li.appendChild(link);
             footerCategories.appendChild(li);
         }
     });
 }
+
 
 // Perform Search
 function performSearch() {
@@ -220,7 +224,14 @@ function updateCartQuantity(productId, quantity) {
         item.quantity = Math.max(1, quantity);
         saveCart();
         updateCartCount();
-        renderCartItems();
+        
+        // Only render cart items if cart sidebar exists and is visible
+        const cartSidebar = document.getElementById('cartSidebar');
+        const cartContent = document.getElementById('cartContent');
+        
+        if (cartSidebar && cartContent && cartSidebar.classList.contains('active')) {
+            renderCartItems();
+        }
     }
 }
 
@@ -240,12 +251,17 @@ function updateCartCount() {
 }
 
 // Render Cart Items
+// Render Cart Items
 function renderCartItems() {
     const cartContent = document.getElementById('cartContent');
     const emptyCart = document.getElementById('emptyCart');
     const cartFooter = document.getElementById('cartFooter');
     
-    if (!cartContent) return;
+    // Add null checks to prevent errors on pages without cart elements
+    if (!cartContent || !emptyCart || !cartFooter) {
+        console.warn('Cart elements not found on this page');
+        return;
+    }
     
     if (cart.length === 0) {
         emptyCart.style.display = 'block';
@@ -282,16 +298,23 @@ function renderCartItems() {
 }
 
 // Update Cart Totals
+// Update Cart Totals
 function updateCartTotals() {
-    const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-    const total = subtotal; // Free shipping
-    
     const cartSubtotal = document.getElementById('cartSubtotal');
     const cartTotal = document.getElementById('cartTotal');
     
-    if (cartSubtotal) cartSubtotal.textContent = `$${subtotal.toFixed(2)}`;
-    if (cartTotal) cartTotal.textContent = `$${total.toFixed(2)}`;
+    // Add null checks
+    if (!cartSubtotal || !cartTotal) {
+        return;
+    }
+    
+    const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+    const total = subtotal; // Free shipping
+    
+    cartSubtotal.textContent = `$${subtotal.toFixed(2)}`;
+    cartTotal.textContent = `$${total.toFixed(2)}`;
 }
+
 
 // Show Cart Notification
 function showCartNotification(message) {
@@ -699,15 +722,15 @@ function parseUrlFilters() {
 function initializeFilters() {
     if (!productsData) return;
     
-    // Populate category filters
+    // Populate category filters using the categories array
     const categoryFilters = document.getElementById('categoryFilters');
-    if (categoryFilters) {
-        const categories = [...new Set(productsData.products.map(p => p.category))];
-        categoryFilters.innerHTML = categories.map(category => `
+    if (categoryFilters && productsData.categories) {
+        const sortedCategories = productsData.categories.sort((a, b) => a.order - b.order);
+        categoryFilters.innerHTML = sortedCategories.map(category => `
             <label class="filter-option">
-                <input type="checkbox" name="category" value="${category}" ${filters.category.includes(category) ? 'checked' : ''}>
+                <input type="checkbox" name="category" value="${category.slug}" ${filters.category.includes(category.slug) ? 'checked' : ''}>
                 <span class="checkmark"></span>
-                ${category}
+                <i class="${category.icon}"></i> ${category.name}
             </label>
         `).join('');
         

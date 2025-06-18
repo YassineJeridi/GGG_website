@@ -531,8 +531,80 @@
     "name": "HyperX",
     "logo": "./assets/partners/HyperX.png"
   }
-]
-
-
-
+],
+  "categories": [
+    {
+      "id": "laptops",
+      "name": "Laptops",
+      "slug": "Laptops",
+      "description": "High-performance gaming laptops",
+      "icon": "fas fa-laptop",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "consoles",
+      "name": "Consoles", 
+      "slug": "Consoles",
+      "description": "Next-gen gaming consoles",
+      "icon": "fas fa-gamepad",
+      "featured": true,
+      "order": 2
+    },
+    {
+      "id": "vr",
+      "name": "VR Headsets",
+      "slug": "VR", 
+      "description": "Virtual reality gaming",
+      "icon": "fas fa-vr-cardboard",
+      "featured": true,
+      "order": 3
+    },
+    {
+      "id": "monitors",
+      "name": "Monitors",
+      "slug": "Monitors",
+      "description": "Gaming displays and monitors", 
+      "icon": "fas fa-desktop",
+      "featured": true,
+      "order": 4
+    },
+    {
+      "id": "keyboards",
+      "name": "Keyboards",
+      "slug": "Keyboards",
+      "description": "Mechanical gaming keyboards",
+      "icon": "fas fa-keyboard",
+      "featured": false,
+      "order": 5
+    },
+    {
+      "id": "mice",
+      "name": "Gaming Mouse",
+      "slug": "Mice", 
+      "description": "Precision gaming mice",
+      "icon": "fas fa-mouse",
+      "featured": false,
+      "order": 6
+    },
+    {
+      "id": "headsets",
+      "name": "Headsets",
+      "slug": "Headsets",
+      "description": "Gaming audio headsets",
+      "icon": "fas fa-headphones",
+      "featured": false,
+      "order": 7
+    },
+    {
+      "id": "chairs",
+      "name": "Gaming Chairs",
+      "slug": "Chairs",
+      "description": "Ergonomic gaming chairs",
+      "icon": "fas fa-chair",
+      "featured": false,
+      "order": 8
+    }
+    
+  ]
 }
