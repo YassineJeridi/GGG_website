@@ -277,7 +277,7 @@ function renderCartItems() {
             <img src="${item.image}" alt="${item.name}" class="cart-item-image">
             <div class="cart-item-details">
                 <div class="cart-item-name">${item.name}</div>
-                <div class="cart-item-price">$${item.price.toFixed(2)}</div>
+                <div class="cart-item-price">DT ${item.price.toFixed(2)}</div>
                 <div class="cart-item-quantity">
                     <button class="quantity-btn" onclick="updateCartQuantity('${item.id}', ${item.quantity - 1})">-</button>
                     <input type="number" value="${item.quantity}" min="1" class="quantity-input" 
@@ -311,8 +311,8 @@ function updateCartTotals() {
     const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
     const total = subtotal; // Free shipping
     
-    cartSubtotal.textContent = `$${subtotal.toFixed(2)}`;
-    cartTotal.textContent = `$${total.toFixed(2)}`;
+    cartSubtotal.textContent = `DT ${subtotal.toFixed(2)}`;
+    cartTotal.textContent = `DT ${total.toFixed(2)}`;
 }
 
 
@@ -408,7 +408,7 @@ function renderCheckoutItems() {
     const itemsHTML = cart.map(item => `
         <div class="checkout-item">
             <span>${item.name} x ${item.quantity}</span>
-            <span>$${(item.price * item.quantity).toFixed(2)}</span>
+            <span>DT ${(item.price * item.quantity).toFixed(2)}</span>
         </div>
     `).join('');
     
@@ -416,7 +416,7 @@ function renderCheckoutItems() {
     
     const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
     if (checkoutTotal) {
-        checkoutTotal.textContent = `$${total.toFixed(2)}`;
+        checkoutTotal.textContent = `DT ${total.toFixed(2)}`;
     }
 }
 
@@ -444,7 +444,7 @@ async function handleCheckout(e) {
       `Phone: ${order.phone}\n` +
       `Email: ${order.email}\n` +
       `Address: ${order.address}\n` +
-      `Total: $${order.total.toFixed(2)}`;
+      `Total: DT ${order.total.toFixed(2)}`;
 
     await fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
       method: 'POST',
@@ -632,7 +632,7 @@ function createProductCard(product) {
                     <span class="rating-text">(${product.reviews} reviews)</span>
                 </div>
                 <div class="product-price-section">
-                    <div class="product-price">$${product.price.toFixed(2)}</div>
+                    <div class="product-price">DT ${product.price.toFixed(2)}</div>
                     <div class="product-stock ${stockClass}">${stockText}</div>
                 </div>
                 <button class="add-to-cart-btn" ${isDisabled ? 'disabled' : ''} 
@@ -1237,7 +1237,7 @@ function renderProductDetails(product) {
     
     if (productName) productName.textContent = product.name;
     if (productBrand) productBrand.textContent = product.brand;
-    if (productPrice) productPrice.textContent = `$${product.price.toFixed(2)}`;
+    if (productPrice) productPrice.textContent = `DT ${product.price.toFixed(2)}`;
     if (productDescription) productDescription.textContent = product.description;
     
     if (productRating) {

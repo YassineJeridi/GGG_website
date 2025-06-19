@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Ultimate Gaming Experience",
       "subtitle": "Discover the latest gaming gear and accessories",
-      "image": "./assets/banner/Banner (1).png",
+      "image": "./assets/banner/Banner (1).jpg",
       "link": "products.html",
       "buttonText": "Shop Now"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "title": "Next-Gen Gaming",
       "subtitle": "Experience the future of gaming with our premium selection",
-      "image": "./assets/banner/Banner (2).png",
+      "image": "./assets/banner/Banner (2).jpg",
       "link": "products.html?category=Consoles",
       "buttonText": "Explore Consoles"
     },
@@ -20,251 +20,367 @@
       "id": 3,
       "title": "Pro Gaming Setup",
       "subtitle": "Build your perfect gaming battlestation",
-      "image": "./assets/banner/Banner (3).png",
+      "image": "./assets/banner/Banner (3).jpg",
       "link": "products.html?category=Peripherals",
       "buttonText": "Build Setup"
     }
   ],
   "products": [
     {
-      "id": "acer-predator-helios-neo",
-      "name": "Acer Predator Helios Neo 16",
-      "brand": "Acer",
-      "category": "Laptops",
-      "price": 1299.99,
-      "description": "Powerful gaming laptop with Intel Core i7 processor, NVIDIA RTX 4060 graphics, and 16GB RAM. Perfect for high-performance gaming and content creation.",
+      "id": "aqirys-mizar-rgb",
+      "name": "AQIRYS Mizar RGB",
+      "brand": "AQIRYS",
+      "category": "Cases",
+      "price": 117,
+      "description": "Boîtier AQIRYS MIZAR ARGB, type : Midi-tour. Format de carte mère : Mini-ITX, Micro-ATX, ATX. Alimentation : ATX, longueur max. 175 mm (installation par le bas). Longueur maximale VGA : 340 mm. Prise en charge du refroidisseur CPU : hauteur max. 150 mm, refroidissement liquide de 120 mm (à l'arrière). Baies de lecteur : 2×3,5″, 1×2,5″. 7 emplacements d'extension.",
       "images": [
-        "./assets/ProductImages/acer-predator-helios-neo-1.jpg",
-        "./assets/ProductImages/acer-predator-helios-neo-2.jpg"
+        "./assets/ProductImages/CASE/AQIRYS_Mizar_RGB_Mid_Tower/AQIRYS_Mizar_RGB_Mid_Tower_image_1.jpg",
+        "./assets/ProductImages/CASE/AQIRYS_Mizar_RGB_Mid_Tower/AQIRYS_Mizar_RGB_Mid_Tower_image_2.jpg",
+        "./assets/ProductImages/CASE/AQIRYS_Mizar_RGB_Mid_Tower/AQIRYS_Mizar_RGB_Mid_Tower_image_3.jpg"
       ],
-      "stock": 15,
+      "stock": 5,
+      "rating": 4.2,
+      "reviews": 89,
+      "featured": false,
+      "specifications": {
+        "Brand": "AQIRYS",
+        "Type": "Mid Tower Case"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "aqirys-bellatrix-pro-white",
+      "name": "AQIRYS Bellatrix Pro - Blanc",
+      "brand": "AQIRYS",
+      "category": "Cases",
+      "price": 129,
+      "description": "Type de boîtier : Mini Tower. Support de carte mère : Mini-ITX, Micro-ATX. Longueur maximale de la carte graphique : 280 mm. Hauteur maximale du refroidisseur CPU : 140 mm. Baies de lecteur : 2x 3,5″, 1x 2,5″. Emplacements d'extension : 4. Panneau avant I/O : 2x USB 2.0, 1x USB 3.0, audio HD. Éclairage : Arc-en-ciel. Ventilateurs installés : 1x 80 mm (arrière), 2x 120 mm (avant). Dimensions : 325 x 175 x 358 mm. Garantie : 1 an.",
+      "images": [
+        "./assets/ProductImages/CASE/AQIRYS_Bellatrix_Pro_White_Mini_Tower/AQIRYS_Bellatrix_Pro_White_Mini_Tower_image_1.jpg",
+        "./assets/ProductImages/CASE/AQIRYS_Bellatrix_Pro_White_Mini_Tower/AQIRYS_Bellatrix_Pro_White_Mini_Tower_image_2.jpg",
+        "./assets/ProductImages/CASE/AQIRYS_Bellatrix_Pro_White_Mini_Tower/AQIRYS_Bellatrix_Pro_White_Mini_Tower_image_3.png"
+      ],
+      "stock": 5,
+      "rating": 4.1,
+      "reviews": 67,
+      "featured": false,
+      "specifications": {
+        "Brand": "AQIRYS",
+        "Type": "Mini Tower Case"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "msi-mag-forge-m100a",
+      "name": "MSI MAG FORGE M100A",
+      "brand": "MSI",
+      "category": "Cases",
+      "price": 120,
+      "description": "Le boîtier gamer MSI MAG FORGE 111R est un moyen tour avec fenêtre en acrylique et 4 ventilateurs RGB fixes. Compatible avec les cartes mères Micro-ATX et Mini-ITX, il dispose de ports USB 2.0 et 3.2, ainsi que d'un espace pour plusieurs disques. Ses dimensions sont de 388 x 200 x 423 mm et il pèse 3,36 kg, parfait pour les configurations gaming.",
+      "images": [
+        "./assets/ProductImages/CASE/MSI_MAG_FORGE_M100A_Mid_Tower_RGB/MSI_MAG_FORGE_M100A_Mid_Tower_RGB_image_1.jpg",
+        "./assets/ProductImages/CASE/MSI_MAG_FORGE_M100A_Mid_Tower_RGB/MSI_MAG_FORGE_M100A_Mid_Tower_RGB_image_2.jpg",
+        "./assets/ProductImages/CASE/MSI_MAG_FORGE_M100A_Mid_Tower_RGB/MSI_MAG_FORGE_M100A_Mid_Tower_RGB_image_3.png"
+      ],
+      "stock": 5,
+      "rating": 4.3,
+      "reviews": 124,
+      "featured": false,
+      "specifications": {
+        "Brand": "MSI",
+        "Type": "Mid Tower Case"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "msi-mag-forge-120a-airflow",
+      "name": "Boitier Msi MAG FORGE 120A AIRFLOW",
+      "brand": "MSI",
+      "category": "Cases",
+      "price": 189,
+      "description": "Le boîtier MAG FORGE 120A AIRFLOW est un mid tower conçu pour un refroidissement optimal avec support ATX, micro-ATX et mini-ITX. Équipé de 7 emplacements d'extension, de ventilateurs auto-RGB pré-installés et de ports I/O pratiques, il offre une excellente connectivité et une esthétique moderne pour votre configuration PC.",
+      "images": [
+        "./assets/ProductImages/CASE/MSI_MAG_FORGE_120A_AIRFLOW_Mid_Tower/MSI_MAG_FORGE_120A_AIRFLOW_Mid_Tower_image_1.jpg",
+        "./assets/ProductImages/CASE/MSI_MAG_FORGE_120A_AIRFLOW_Mid_Tower/MSI_MAG_FORGE_120A_AIRFLOW_Mid_Tower_image_2.jpg",
+        "./assets/ProductImages/CASE/MSI_MAG_FORGE_120A_AIRFLOW_Mid_Tower/MSI_MAG_FORGE_120A_AIRFLOW_Mid_Tower_image_3.jpg"
+      ],
+      "stock": 5,
       "rating": 4.5,
-      "reviews": 128,
-      "featured": true,
+      "reviews": 156,
+      "featured": false,
       "badge": {
         "type": "hot",
         "text": "Hot"
       },
       "specifications": {
-        "Processor": "Intel Core i7-13700HX",
-        "Graphics": "NVIDIA GeForce RTX 4060",
-        "RAM": "16GB DDR5",
-        "Storage": "512GB SSD",
-        "Display": "16-inch FHD 165Hz",
-        "Operating System": "Windows 11 Home"
+        "Brand": "MSI",
+        "Type": "Mid Tower Case",
+        "LED RGB": "Ventilateurs auto-RGB"
       },
       "platforms": ["PC"],
-      "dateAdded": "2024-12-01"
+      "dateAdded": "2025-06-18"
     },
     {
-      "id": "asus-rog-strix-g16",
-      "name": "ASUS ROG Strix G16",
-      "brand": "ASUS",
-      "category": "Laptops",
-      "price": 1599.99,
-      "description": "Elite gaming laptop featuring AMD Ryzen 9 processor, RTX 4070 graphics, and advanced cooling system. Built for competitive gaming and streaming.",
+      "id": "msi-mag-forge-320r-airflow",
+      "name": "Boitier Msi MAG FORGE 320R AIRFLOW",
+      "brand": "MSI",
+      "category": "Cases",
+      "price": 225,
+      "description": "le boîtier MAG FORGE 320R AIRFLOW est un mid tower conçu pour un refroidissement optimal avec support ATX, micro-ATX et mini-ITX. Équipé de ports USB 3.2, de ventilateurs ARGB pré-installés et d'un espace généreux pour vos composants, il allie performance et esthétique pour votre configuration PC.",
       "images": [
-        "./assets/ProductImages/asus-rog-strix-g16-1.jpg",
-        "./assets/ProductImages/asus-rog-strix-g16-2.jpg",
-        "./assets/ProductImages/asus-rog-strix-g16-3.jpg"
+        "./assets/ProductImages/CASE/MSI_MAG_FORGE_320R_AIRFLOW_Mid_Tower/MSI_MAG_FORGE_320R_AIRFLOW_Mid_Tower_image_1.jpg",
+        "./assets/ProductImages/CASE/MSI_MAG_FORGE_320R_AIRFLOW_Mid_Tower/MSI_MAG_FORGE_320R_AIRFLOW_Mid_Tower_image_2.jpg",
+        "./assets/ProductImages/CASE/MSI_MAG_FORGE_320R_AIRFLOW_Mid_Tower/MSI_MAG_FORGE_320R_AIRFLOW_Mid_Tower_image_3.webp"
       ],
-      "stock": 8,
-      "rating": 4.7,
-      "reviews": 92,
-      "featured": true,
-      "badge": {
-        "type": "new",
-        "text": "New"
-      },
+      "stock": 5,
+      "rating": 4.4,
+      "reviews": 198,
+      "featured": false,
       "specifications": {
-        "Processor": "AMD Ryzen 9 7940HX",
-        "Graphics": "NVIDIA GeForce RTX 4070",
-        "RAM": "32GB DDR5",
-        "Storage": "1TB SSD",
-        "Display": "16-inch QHD 240Hz",
-        "Operating System": "Windows 11 Pro"
+        "Brand": "MSI",
+        "Type": "Mid Tower Case",
+        "LED RGB": "Ventilateurs auto-RGB"
       },
       "platforms": ["PC"],
-      "dateAdded": "2024-11-15"
+      "dateAdded": "2025-06-18"
     },
     {
-      "id": "lenovo-legion-9i",
-      "name": "Lenovo Legion 9i",
-      "brand": "Lenovo",
-      "category": "Laptops",
-      "price": 2299.99,
-      "description": "Premium gaming laptop with Intel Core i9, RTX 4080 graphics, and Legion ColdFront cooling. The ultimate machine for enthusiast gamers.",
+      "id": "msi-mag-forge-320r-airflow-white",
+      "name": "Boitier Msi MAG FORGE 320R AIRFLOW WHITE",
+      "brand": "MSI",
+      "category": "Cases",
+      "price": 269,
+      "description": "le boîtier MAG FORGE 320R AIRFLOW white est un mid tower conçu pour un refroidissement optimal avec support ATX, micro-ATX et mini-ITX. Équipé de ports USB 3.2, de ventilateurs ARGB pré-installés et d'un espace généreux pour vos composants, il allie performance et esthétique pour votre configuration PC.",
       "images": [
-        "./assets/ProductImages/lenovo-legion-9i-1.jpg",
-        "./assets/ProductImages/lenovo-legion-9i-2.jpg",
-        "./assets/ProductImages/lenovo-legion-9i-3.jpg"
+        "./assets/ProductImages/CASE/MSI_MAG_FORGE_320R_AIRFLOW_WHITE_Mid_Tower/MSI_MAG_FORGE_320R_AIRFLOW_WHITE_Mid_Tower_image_1.jpg",
+        "./assets/ProductImages/CASE/MSI_MAG_FORGE_320R_AIRFLOW_WHITE_Mid_Tower/MSI_MAG_FORGE_320R_AIRFLOW_WHITE_Mid_Tower_image_2.jpg",
+        "./assets/ProductImages/CASE/MSI_MAG_FORGE_320R_AIRFLOW_WHITE_Mid_Tower/MSI_MAG_FORGE_320R_AIRFLOW_WHITE_Mid_Tower_image_3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.6,
+      "reviews": 143,
+      "featured": false,
+      "specifications": {
+        "Brand": "MSI",
+        "Type": "Mid Tower Case",
+        "LED RGB": "Ventilateurs auto-RGB",
+        "Color": "White"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "msi-mpg-gungnir-110r",
+      "name": "Boitier Msi MPG GUNGNIR 110R",
+      "brand": "MSI",
+      "category": "Cases",
+      "price": 319,
+      "description": "Le boîtier MSI MPG GUNGNIR 110R est un mid tower élégant avec panneau en verre trempé et éclairage RGB. Conçu pour un refroidissement optimal, il supporte les cartes mères ATX et offre de nombreux ports I/O. Parfait pour les gamers et créateurs de contenu cherchant performance et esthétique.",
+      "images": [
+        "./assets/ProductImages/CASE/MSI_MPG_GUNGNIR_110R_Mid_Tower/MSI_MPG_GUNGNIR_110R_Mid_Tower_image_1.jpg",
+        "./assets/ProductImages/CASE/MSI_MPG_GUNGNIR_110R_Mid_Tower/MSI_MPG_GUNGNIR_110R_Mid_Tower_image_2.png"
+      ],
+      "stock": 5,
+      "rating": 4.7,
+      "reviews": 87,
+      "featured": false,
+      "specifications": {
+        "Brand": "MSI",
+        "Type": "Mid Tower Case",
+        "LED RGB": "Oui, personnalisable",
+        "Color": "Black"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "msi-mpg-gungnir-110r-white",
+      "name": "Boitier Msi MPG GUNGNIR 110R WHITE",
+      "brand": "MSI",
+      "category": "Cases",
+      "price": 329,
+      "description": "Le boîtier MSI MPG GUNGNIR 110R white est un mid tower élégant avec panneau en verre trempé et éclairage RGB. Conçu pour un refroidissement optimal, il supporte les cartes mères ATX et offre de nombreux ports I/O. Parfait pour les gamers et créateurs de contenu cherchant performance et esthétique.",
+      "images": [
+        "./assets/ProductImages/CASE/MSI_MPG_GUNGNIR_110R_WHITE_Mid_Tower/MSI_MPG_GUNGNIR_110R_WHITE_Mid_Tower_image_1.jpg",
+        "./assets/ProductImages/CASE/MSI_MPG_GUNGNIR_110R_WHITE_Mid_Tower/MSI_MPG_GUNGNIR_110R_WHITE_Mid_Tower_image_2.jpg",
+        "./assets/ProductImages/CASE/MSI_MPG_GUNGNIR_110R_WHITE_Mid_Tower/MSI_MPG_GUNGNIR_110R_WHITE_Mid_Tower_image_3.jpg"
       ],
       "stock": 5,
       "rating": 4.8,
-      "reviews": 67,
-      "featured": true,
-      "badge": {
-        "type": "sale",
-        "text": "Limited"
-      },
+      "reviews": 92,
+      "featured": false,
       "specifications": {
-        "Processor": "Intel Core i9-13980HX",
-        "Graphics": "NVIDIA GeForce RTX 4080",
-        "RAM": "32GB DDR5",
-        "Storage": "2TB SSD",
-        "Display": "16-inch Mini LED 3.2K 165Hz",
-        "Operating System": "Windows 11 Pro"
+        "Brand": "MSI",
+        "Type": "Mid Tower Case",
+        "LED RGB": "Oui, personnalisable",
+        "Color": "White"
       },
       "platforms": ["PC"],
-      "dateAdded": "2024-10-20"
+      "dateAdded": "2025-06-18"
     },
     {
-      "id": "playstation-5-console",
-      "name": "PlayStation 5 Console",
-      "brand": "Sony",
-      "category": "Consoles",
-      "price": 499.99,
-      "description": "Next-generation gaming console with custom SSD, 3D audio technology, and exclusive PlayStation games. Experience gaming like never before.",
+      "id": "msi-mag-pano-m100r-pz",
+      "name": "Boitier MSI MAG PANO M100R PZ",
+      "brand": "MSI",
+      "category": "Cases",
+      "price": 359,
+      "description": "Découvrez le MSI MAG PANO M100R PZ un boîtier mid-tower élégant et performant, idéal pour les passionnés de gaming. Compatible avec ATX, Micro-ATX et Mini-ITX, il offre un excellent refroidissement, des ventilateurs ARGB préinstallés, et une connectivité moderne. Son design en verre trempé met en valeur vos composants tout en assurant une gestion thermique optimale.",
       "images": [
-        "./assets/ProductImages/playstation-5-console-1.jpg",
-        "./assets/ProductImages/playstation-5-console-2.jpg",
-        "./assets/ProductImages/playstation-5-console-3.jpg"
+        "./assets/ProductImages/CASE/MSI_MAG_PANO_M100R_PZ_Mid_Tower/MSI_MAG_PANO_M100R_PZ_Mid_Tower_image_1.jpg",
+        "./assets/ProductImages/CASE/MSI_MAG_PANO_M100R_PZ_Mid_Tower/MSI_MAG_PANO_M100R_PZ_Mid_Tower_image_2.jpg"
       ],
-      "stock": 12,
-      "rating": 4.6,
-      "reviews": 245,
-      "featured": true,
-      "specifications": {
-        "Processor": "Custom AMD Zen 2",
-        "Graphics": "Custom AMD RDNA 2",
-        "RAM": "16GB GDDR6",
-        "Storage": "825GB Custom SSD",
-        "Audio": "3D Audio Technology",
-        "Controller": "DualSense Wireless"
-      },
-      "platforms": ["PlayStation"],
-      "dateAdded": "2024-09-10"
-    },
-    {
-      "id": "xbox-series-x-console",
-      "name": "Xbox Series X Console",
-      "brand": "Microsoft",
-      "category": "Consoles",
-      "price": 499.99,
-      "description": "Most powerful Xbox ever with 4K gaming, 120fps capability, and Smart Delivery. Includes Game Pass Ultimate trial.",
-      "images": [
-        "./assets/ProductImages/xbox-series-x-console-1.jpg",
-        "./assets/ProductImages/xbox-series-x-console-2.jpg"
-      ],
-      "stock": 18,
+      "stock": 5,
       "rating": 4.5,
-      "reviews": 189,
-      "featured": true,
+      "reviews": 134,
+      "featured": false,
       "specifications": {
-        "Processor": "Custom AMD Zen 2",
-        "Graphics": "Custom AMD RDNA 2",
-        "RAM": "16GB GDDR6",
-        "Storage": "1TB Custom NVMe SSD",
-        "Resolution": "Up to 4K 120fps",
-        "Controller": "Xbox Wireless Controller"
+        "Brand": "MSI",
+        "Type": "Mid Tower Case",
+        "Color": "Black"
       },
-      "platforms": ["Xbox", "PC"],
-      "dateAdded": "2024-08-25"
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
     },
     {
-      "id": "nintendo-switch-oled",
-      "name": "Nintendo Switch OLED",
-      "brand": "Nintendo",
-      "category": "Consoles",
-      "price": 349.99,
-      "description": "Hybrid gaming console with vibrant OLED screen, enhanced audio, and versatile play modes. Perfect for gaming on-the-go or at home.",
+      "id": "msi-mag-pano-m100r-pz-white",
+      "name": "Boitier MSI MAG PANO M100R PZ WHITE",
+      "brand": "MSI",
+      "category": "Cases",
+      "price": 369,
+      "description": "Découvrez le MSI MAG PANO M100R PZ White un boîtier mid-tower élégant et performant, idéal pour les passionnés de gaming. Compatible avec ATX, Micro-ATX et Mini-ITX, il offre un excellent refroidissement, des ventilateurs ARGB préinstallés, et une connectivité moderne. Son design en verre trempé met en valeur vos composants tout en assurant une gestion thermique optimale.",
       "images": [
-        "./assets/ProductImages/nintendo-switch-oled-1.jpg",
-        "./assets/ProductImages/nintendo-switch-oled-2.jpg"
+        "./assets/ProductImages/CASE/MSI_MAG_PANO_M100R_PZ_WHITE_Mid_Tower/MSI_MAG_PANO_M100R_PZ_WHITE_Mid_Tower_image_1.jpg",
+        "./assets/ProductImages/CASE/MSI_MAG_PANO_M100R_PZ_WHITE_Mid_Tower/MSI_MAG_PANO_M100R_PZ_WHITE_Mid_Tower_image_2.jpg",
+        "./assets/ProductImages/CASE/MSI_MAG_PANO_M100R_PZ_WHITE_Mid_Tower/MSI_MAG_PANO_M100R_PZ_WHITE_Mid_Tower_image_3.png"
       ],
-      "stock": 25,
+      "stock": 5,
+      "rating": 4.6,
+      "reviews": 118,
+      "featured": false,
+      "specifications": {
+        "Brand": "MSI",
+        "Type": "Mid Tower Case",
+        "Color": "White"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "msi-mpg-velox-100p-airflow",
+      "name": "Boitier Msi MPG VELOX 100P AIRFLOW",
+      "brand": "MSI",
+      "category": "Cases",
+      "price": 379,
+      "description": "Découvrez le MSI MPG VELOX 100P AIRFLOW un boîtier mid tower conçu pour un refroidissement optimal et une circulation d'air efficace. Équipé de plusieurs emplacements pour ventilateurs, d'un panneau en verre trempé et d'un éclairage RGB personnalisable, il allie performance et esthétisme pour votre configuration gaming.",
+      "images": [
+        "./assets/ProductImages/CASE/MSI_MPG_VELOX_100P_AIRFLOW_Mid_Tower/MSI_MPG_VELOX_100P_AIRFLOW_Mid_Tower_image_1.jpg",
+        "./assets/ProductImages/CASE/MSI_MPG_VELOX_100P_AIRFLOW_Mid_Tower/MSI_MPG_VELOX_100P_AIRFLOW_Mid_Tower_image_2.jpg",
+        "./assets/ProductImages/CASE/MSI_MPG_VELOX_100P_AIRFLOW_Mid_Tower/MSI_MPG_VELOX_100P_AIRFLOW_Mid_Tower_image_3.jpg"
+      ],
+      "stock": 5,
       "rating": 4.4,
-      "reviews": 156,
-      "featured": true,
+      "reviews": 167,
+      "featured": false,
       "specifications": {
-        "Display": "7-inch OLED Multi-touch",
-        "Processor": "Custom NVIDIA Tegra X1",
-        "RAM": "4GB LPDDR4X",
-        "Storage": "64GB eMMC",
-        "Battery": "4.5-9 hours",
-        "Connectivity": "Wi-Fi, Bluetooth 4.1"
+        "Brand": "MSI",
+        "Type": "Mid Tower Case",
+        "LED RGB": "Oui, personnalisable",
+        "Color": "Black"
       },
-      "platforms": ["Nintendo Switch"],
-      "dateAdded": "2024-07-12"
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
     },
     {
-      "id": "meta-quest-3-512gb",
-      "name": "Meta Quest 3 512GB",
-      "brand": "Meta",
-      "category": "VR",
-      "price": 649.99,
-      "description": "Advanced VR headset with mixed reality capabilities, high-resolution display, and wireless freedom. Includes Touch Plus controllers.",
+      "id": "msi-mpg-velox-100r-white",
+      "name": "Boitier Msi MPG VELOX 100R WHITE",
+      "brand": "MSI",
+      "category": "Cases",
+      "price": 435,
+      "description": "Découvrez le MSI MPG VELOX 100R WHITE un boîtier mid-tower élégant avec panneau en verre trempé, conçu pour un refroidissement optimal. Supportant ATX, Micro-ATX et Mini-ITX, il offre une connectivité avancée avec ports USB 3.2 et un éclairage ARGB. Idéal pour les gamers et les créateurs de contenu.",
       "images": [
-        "./assets/ProductImages/meta-quest-3-512gb-1.jpg",
-        "./assets/ProductImages/meta-quest-3-512gb-2.jpg"
+        "./assets/ProductImages/CASE/MSI_MPG_VELOX_100R_WHITE/MSI_MPG_VELOX_100R_WHITE_image_1.jpg",
+        "./assets/ProductImages/CASE/MSI_MPG_VELOX_100R_WHITE/MSI_MPG_VELOX_100R_WHITE_image_2.jpg",
+        "./assets/ProductImages/CASE/MSI_MPG_VELOX_100R_WHITE/MSI_MPG_VELOX_100R_WHITE_image_3.jpg"
       ],
-      "stock": 7,
-      "rating": 4.3,
-      "reviews": 84,
-      "featured": true,
-      "badge": {
-        "type": "new",
-        "text": "VR"
-      },
+      "stock": 5,
+      "rating": 4.7,
+      "reviews": 95,
+      "featured": false,
       "specifications": {
-        "Display": "2064x2208 per eye LCD",
-        "Processor": "Snapdragon XR2 Gen 2",
-        "RAM": "8GB",
-        "Storage": "512GB",
-        "Refresh Rate": "72Hz, 80Hz, 90Hz, 120Hz",
-        "Controllers": "Touch Plus Controllers"
+        "Brand": "MSI",
+        "Type": "Mid Tower Case",
+        "LED RGB": "OUI",
+        "Color": "White"
       },
-      "platforms": ["VR"],
-      "dateAdded": "2024-06-30"
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
     },
     {
-      "id": "playstation-vr2",
-      "name": "PlayStation VR2",
-      "brand": "Sony",
-      "category": "VR",
-      "price": 549.99,
-      "description": "Next-gen VR for PlayStation 5 with 4K HDR, 3D audio, and haptic feedback. Experience immersive virtual worlds like never before.",
+      "id": "msi-mpg-gungnir-300p-airflow",
+      "name": "Boitier Msi MPG GUNGNIR 300P AIRFLOW",
+      "brand": "MSI",
+      "category": "Cases",
+      "price": 739,
+      "description": "Découvrez le MSI MPG GUNGNIR 300P AIRFLOW un boîtier mid-tower alliant performance et style. Compatible avec E-ATX, il offre un excellent refroidissement avec plusieurs options de ventilateurs et de radiateurs. Équipé de ports USB 3.2 et d'un design moderne, il est parfait pour les gamers et les professionnels.",
       "images": [
-        "./assets/ProductImages/playstation-vr2-1.jpg",
-        "./assets/ProductImages/playstation-vr2-2.jpg"
+        "./assets/ProductImages/CASE/MSI_MPG_GUNGNIR_300P_AIRFLOW/MSI_MPG_GUNGNIR_300P_AIRFLOW_image_1.jpg",
+        "./assets/ProductImages/CASE/MSI_MPG_GUNGNIR_300P_AIRFLOW/MSI_MPG_GUNGNIR_300P_AIRFLOW_image_2.jpg",
+        "./assets/ProductImages/CASE/MSI_MPG_GUNGNIR_300P_AIRFLOW/MSI_MPG_GUNGNIR_300P_AIRFLOW_image_3.jpg"
       ],
-      "stock": 10,
-      "rating": 4.2,
+      "stock": 5,
+      "rating": 4.8,
       "reviews": 73,
       "featured": false,
       "specifications": {
-        "Display": "2000x2040 per eye OLED",
-        "Refresh Rate": "90Hz, 120Hz",
-        "Field of View": "Approximately 110 degrees",
-        "Connectivity": "USB-C to PlayStation 5",
-        "Audio": "3D Audio Technology",
-        "Controllers": "PlayStation VR2 Sense Controllers"
+        "Brand": "MSI",
+        "Type": "Mid Tower Case",
+        "Support": "E-ATX (jusqu'à 280 x 305 mm), ATX, Micro-ATX, Mini-ITX",
+        "Color": "Black"
       },
-      "platforms": ["PlayStation", "VR"],
-      "dateAdded": "2024-05-18"
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
     },
     {
-      "id": "asus-rog-swift-pg32uqx",
-      "name": "ASUS ROG Swift PG32UQX",
-      "brand": "ASUS",
-      "category": "Monitors",
-      "price": 2999.99,
-      "description": "32-inch 4K HDR gaming monitor with Mini LED technology, 144Hz refresh rate, and G-SYNC Ultimate. The pinnacle of gaming displays.",
+      "id": "msi-mpg-gungnir-300r-airflow-white",
+      "name": "Boitier Msi MPG GUNGNIR 300R AIRFLOW WHITE",
+      "brand": "MSI",
+      "category": "Cases",
+      "price": 789,
+      "description": "Découvrez le MSI MPG GUNGNIR 300R AIRFLOW / WHITE un boîtier mid-tower élégant et performant. Compatible avec E-ATX, il offre un excellent refroidissement avec plusieurs options de ventilateurs et de radiateurs, ainsi que des ports USB 3.2. Parfait pour les gamers et les créateurs de contenu à la recherche d'une configuration stylée.",
       "images": [
-        "./assets/ProductImages/asus-rog-swift-pg32uqx-1.jpg",
-        "./assets/ProductImages/asus-rog-swift-pg32uqx-2.jpg"
+        "./assets/ProductImages/CASE/MSI_MPG_GUNGNIR_300R_AIRFLOW_WHITE/MSI_MPG_GUNGNIR_300R_AIRFLOW_WHITE_image_1.jpg",
+        "./assets/ProductImages/CASE/MSI_MPG_GUNGNIR_300R_AIRFLOW_WHITE/MSI_MPG_GUNGNIR_300R_AIRFLOW_WHITE_image_2.jpg",
+        "./assets/ProductImages/CASE/MSI_MPG_GUNGNIR_300R_AIRFLOW_WHITE/MSI_MPG_GUNGNIR_300R_AIRFLOW_WHITE_image_3.jpg"
       ],
-      "stock": 3,
+      "stock": 5,
+      "rating": 4.9,
+      "reviews": 61,
+      "featured": false,
+      "specifications": {
+        "Brand": "MSI",
+        "Type": "Mid Tower Case",
+        "Support": "E-ATX (jusqu'à 280 x 305 mm), ATX, Micro-ATX, Mini-ITX",
+        "Color": "White"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "msi-meg-prospect-700r",
+      "name": "Boitier Msi MEG PROSPECT 700R",
+      "brand": "MSI",
+      "category": "Cases",
+      "price": 1109,
+      "description": "Découvrez le MSI MEG PROSPECT 700R un boîtier mid-tower haut de gamme conçu pour les gamers et les créateurs de contenu. Compatible avec E-ATX, il offre un excellent refroidissement avec des ventilateurs ARGB préinstallés, une connectivité moderne, et un design élégant avec panneaux en verre trempé. Idéal pour des configurations puissantes et esthétiques.",
+      "images": [
+        "./assets/ProductImages/CASE/MSI_MEG_PROSPECT_700R/MSI_MEG_PROSPECT_700R_image_1.jpg",
+        "./assets/ProductImages/CASE/MSI_MEG_PROSPECT_700R/MSI_MEG_PROSPECT_700R_image_2.jpg",
+        "./assets/ProductImages/CASE/MSI_MEG_PROSPECT_700R/MSI_MEG_PROSPECT_700R_image_3.jpg"
+      ],
+      "stock": 5,
       "rating": 4.9,
       "reviews": 45,
       "featured": true,
@@ -273,202 +389,3048 @@
         "text": "Premium"
       },
       "specifications": {
-        "Screen Size": "32 inches",
-        "Resolution": "3840x2160 (4K UHD)",
-        "Refresh Rate": "144Hz",
-        "Panel Type": "IPS with Mini LED",
-        "Response Time": "1ms GTG",
-        "HDR": "DisplayHDR 1400"
+        "Brand": "MSI",
+        "Type": "Mid Tower Case",
+        "Support": "E-ATX, ATX, Micro-ATX, Mini-ITX",
+        "Color": "Black"
       },
       "platforms": ["PC"],
-      "dateAdded": "2024-04-22"
+      "dateAdded": "2025-06-18"
     },
     {
-      "id": "steelseries-apex-pro-tkl",
-      "name": "SteelSeries Apex Pro TKL",
-      "brand": "SteelSeries",
-      "category": "Keyboards",
-      "price": 199.99,
-      "description": "Tenkeyless mechanical gaming keyboard with adjustable switches, OLED display, and premium aluminum construction.",
+      "id": "msi-rtx-3050-ventus-2x-xs-8g-oc",
+      "name": "GeForce RTX 3050 VENTUS 2X XS 8G OC",
+      "brand": "MSI",
+      "category": "Graphics Cards",
+      "price": 799,
+      "description": "GeForce RTX™ 3050 VENTUS 2X XS 8G OC — GPU : NVIDIA® GeForce RTX™ 3050 — Interface : PCIe Gen 4 x8 — Cœurs CUDA® : 2560 — Mémoire : 8 Go GDDR6, 14 Gbps, 128-bit — Sorties : 1x DisplayPort, 1x HDMI™ (4K à 120Hz), 1x DL-DVI-D — HDCP : Oui — Consommation : 115 W — Connecteurs d'alimentation : 6-pin x 1 — PSU recommandé : 500W — Dimensions : 205 x 112 x 45 mm — Poids : 570 g / 774 g — DirectX : 12 Ultimate — OpenGL : 4.6 — Affichages maximum : 3 — G-SYNC® : Oui — Résolution maximale : 7680 x 4320.",
       "images": [
-        "./assets/ProductImages/steelseries-apex-pro-tkl-1.jpg",
-        "./assets/ProductImages/steelseries-apex-pro-tkl-2.jpg"
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_3050_VENTUS_2X_XS_8G_OC/MSI_RTX_3050_VENTUS_2X_XS_8G_OC_image_1.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_3050_VENTUS_2X_XS_8G_OC/MSI_RTX_3050_VENTUS_2X_XS_8G_OC_image_2.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_3050_VENTUS_2X_XS_8G_OC/MSI_RTX_3050_VENTUS_2X_XS_8G_OC_image_3.png"
       ],
-      "stock": 20,
+      "stock": 5,
+      "rating": 4.3,
+      "reviews": 178,
+      "featured": false,
+      "specifications": {
+        "Brand": "MSI",
+        "GPU": "NVIDIA GeForce RTX 3050",
+        "Memory": "8 Go GDDR6",
+        "Power": "115 W"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "msi-rtx-4060-ventus-2x-black-8g-oc",
+      "name": "GeForce RTX 4060 VENTUS 2X BLACK 8G OC",
+      "brand": "MSI",
+      "category": "Graphics Cards",
+      "price": 1089,
+      "description": "8 Go GDDR6 – HDMI/Tri DisplayPort – DLSS 3 – PCI Express (NVIDIA GeForce RTX 4060). La GeForce RTX™ 4060 VENTUS 2X BLACK 8G OC est équipée du processeur graphique NVIDIA® GeForce RTX™ 4060 avec 3072 cœurs et 8 Go de mémoire GDDR6 sur un bus mémoire de 128 bits. La fréquence du GPU atteint 2505 MHz en mode « Extreme Performance » et 2490 MHz en mode Boost, tandis que la mémoire fonctionne à une vitesse de 17 Gb/s.",
+      "images": [
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4060_VENTUS_2X_BLACK_8G_OC/MSI_RTX_4060_VENTUS_2X_BLACK_8G_OC_image_1.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4060_VENTUS_2X_BLACK_8G_OC/MSI_RTX_4060_VENTUS_2X_BLACK_8G_OC_image_2.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4060_VENTUS_2X_BLACK_8G_OC/MSI_RTX_4060_VENTUS_2X_BLACK_8G_OC_image_3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.5,
+      "reviews": 234,
+      "featured": true,
+      "specifications": {
+        "Brand": "MSI",
+        "GPU": "NVIDIA GeForce RTX 4060",
+        "Memory": "8 Go GDDR6",
+        "Power": "115 W"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "msi-rtx-4060-ti-gaming-x-slim",
+      "name": "MSI RTX 4060 Ti GAMING X SLIM",
+      "brand": "MSI",
+      "category": "Graphics Cards",
+      "price": 1899,
+      "description": "Découvrez la MSI GeForce RTX 4060 Ti GAMING X SLIM WHITE 16G, avec NVIDIA DLSS 3 et ray tracing ultra-rapide pour des jeux en 1440p. Elle offre 16 Go de GDDR6, des sorties HDMI et DisplayPort, et une consommation de 165 W avec 4352 processeurs de flux.",
+      "images": [
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4060_Ti_GAMING_X_SLIM/MSI_RTX_4060_Ti_GAMING_X_SLIM_image_1.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4060_Ti_GAMING_X_SLIM/MSI_RTX_4060_Ti_GAMING_X_SLIM_image_2.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4060_Ti_GAMING_X_SLIM/MSI_RTX_4060_Ti_GAMING_X_SLIM_image_3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.6,
+      "reviews": 156,
+      "featured": true,
+      "specifications": {
+        "Brand": "MSI",
+        "GPU": "NVIDIA GeForce RTX 4060 Ti",
+        "Memory": "16 Go GDDR6",
+        "Power": "165 W"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "msi-rtx-4070-ventus-2x-e1-12g-oc",
+      "name": "GeForce RTX 4070 VENTUS 2X E1 12G OC",
+      "brand": "MSI",
+      "category": "Graphics Cards",
+      "price": 2079,
+      "description": "La GeForce RTX™ 4070 VENTUS 2X E1 12G OC de NVIDIA offre 12 Go de GDDR6, une fréquence de 2505 MHz, et 5888 cœurs CUDA®. Elle supporte des résolutions jusqu'à 8K et dispose de trois DisplayPort et d'un HDMI™ 2.1. Avec une consommation de 200 W, elle nécessite une alimentation de 650 W. Elle est compatible avec DirectX 12 Ultimate, OpenGL 4.6, et G-SYNC® pour des performances fluides.",
+      "images": [
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4070_VENTUS_2X_E1_12G_OC/MSI_RTX_4070_VENTUS_2X_E1_12G_OC_image_1.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4070_VENTUS_2X_E1_12G_OC/MSI_RTX_4070_VENTUS_2X_E1_12G_OC_image_2.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4070_VENTUS_2X_E1_12G_OC/MSI_RTX_4070_VENTUS_2X_E1_12G_OC_image_3.png"
+      ],
+      "stock": 5,
+      "rating": 4.7,
+      "reviews": 189,
+      "featured": true,
+      "specifications": {
+        "Brand": "MSI",
+        "GPU": "NVIDIA GeForce RTX 4070",
+        "Memory": "12 Go GDDR6",
+        "Power": "200 W"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "msi-rtx-4070-ventus-2x-white-12g-oc",
+      "name": "MSI RTX 4070 VENTUS 2X WHITE 12G OC",
+      "brand": "MSI",
+      "category": "Graphics Cards",
+      "price": 2079,
+      "description": "La GeForce RTX™ 4070 VENTUS 2X WHITE 12G OC de NVIDIA offre 12 Go de GDDR6X et une fréquence de 2520 MHz, idéale pour le jeu en 4K et la création de contenu. Elle dispose de 3 DisplayPort et 1 HDMI™, avec une résolution maximale de 7680 x 4320 (8K). Sa consommation est de 200 W, avec un connecteur 8 broches et une alimentation recommandée de 650 W.",
+      "images": [
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4070_VENTUS_2X_WHITE_12G_OC/MSI_RTX_4070_VENTUS_2X_WHITE_12G_OC_image_1.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4070_VENTUS_2X_WHITE_12G_OC/MSI_RTX_4070_VENTUS_2X_WHITE_12G_OC_image_2.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4070_VENTUS_2X_WHITE_12G_OC/MSI_RTX_4070_VENTUS_2X_WHITE_12G_OC_image_3.png"
+      ],
+      "stock": 5,
       "rating": 4.6,
       "reviews": 167,
-      "featured": false,
+      "featured": true,
       "specifications": {
-        "Switch Type": "OmniPoint Adjustable",
-        "Layout": "Tenkeyless (87-key)",
-        "Backlighting": "Per-key RGB",
-        "Connectivity": "USB-C",
-        "Features": "OLED Smart Display",
-        "Construction": "Aluminum Frame"
+        "Brand": "MSI",
+        "GPU": "NVIDIA GeForce RTX 4070",
+        "Memory": "12 Go GDDR6X",
+        "Power": "200 W"
       },
       "platforms": ["PC"],
-      "dateAdded": "2024-03-15"
+      "dateAdded": "2025-06-18"
     },
     {
-      "id": "corsair-k70-rgb-pro",
-      "name": "Corsair K70 RGB Pro",
-      "brand": "Corsair",
-      "category": "Keyboards",
-      "price": 169.99,
-      "description": "Full-size mechanical gaming keyboard with Cherry MX switches, per-key RGB lighting, and tournament switch for instant profile switching.",
+      "id": "msi-rtx-4070-ventus-2x-e-12g-oc",
+      "name": "GeForce RTX 4070 VENTUS 2X E 12G OC",
+      "brand": "MSI",
+      "category": "Graphics Cards",
+      "price": 2099,
+      "description": "La MSI GeForce RTX™ 4070 VENTUS 2X E 12G OC est une carte graphique haute performance équipée de 12 Go de GDDR6X et d'une fréquence de 2505 MHz (Boost). Elle offre une résolution maximale de 7680 x 4320 et prend en charge G-SYNC® pour des jeux fluides. Avec 5888 cœurs CUDA®, elle est idéale pour les jeux en 4K et 8K.",
       "images": [
-        "./assets/ProductImages/corsair-k70-rgb-pro-1.jpg",
-        "./assets/ProductImages/corsair-k70-rgb-pro-2.jpg"
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4070_VENTUS_2X_E_12G_OC/MSI_RTX_4070_VENTUS_2X_E_12G_OC_image_1.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4070_VENTUS_2X_E_12G_OC/MSI_RTX_4070_VENTUS_2X_E_12G_OC_image_2.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4070_VENTUS_2X_E_12G_OC/MSI_RTX_4070_VENTUS_2X_E_12G_OC_image_3.png"
       ],
-      "stock": 30,
-      "rating": 4.4,
-      "reviews": 203,
-      "featured": false,
-      "specifications": {
-        "Switch Type": "Cherry MX Red/Blue/Brown",
-        "Layout": "Full-size (104-key)",
-        "Backlighting": "Per-key RGB",
-        "Connectivity": "USB-A",
-        "Features": "Tournament Switch, Media Keys",
-        "Construction": "Aluminum Frame"
-      },
-      "platforms": ["PC"],
-      "dateAdded": "2024-02-28"
-    },
-    {
-      "id": "razer-deathadder-v3-pro",
-      "name": "Razer DeathAdder V3 Pro",
-      "brand": "Razer",
-      "category": "Mice",
-      "price": 149.99,
-      "description": "Wireless gaming mouse with Focus Pro 30K sensor, 90-hour battery life, and ergonomic design. The ultimate precision gaming tool.",
-      "images": [
-        "./assets/ProductImages/razer-deathadder-v3-pro-1.jpg",
-        "./assets/ProductImages/razer-deathadder-v3-pro-2.jpg"
-      ],
-      "stock": 45,
-      "rating": 4.7,
-      "reviews": 289,
-      "featured": false,
-      "specifications": {
-        "Sensor": "Focus Pro 30K Optical",
-        "DPI": "Up to 30,000",
-        "Connectivity": "2.4GHz Wireless, Bluetooth",
-        "Battery Life": "Up to 90 hours",
-        "Buttons": "8 programmable buttons",
-        "Weight": "63g"
-      },
-      "platforms": ["PC"],
-      "dateAdded": "2024-01-20"
-    },
-    {
-      "id": "steelseries-aerox-5",
-      "name": "SteelSeries Aerox 5 Wireless",
-      "brand": "SteelSeries",
-      "category": "Mice",
-      "price": 129.99,
-      "description": "Ultra-lightweight wireless gaming mouse with TrueMove Air sensor, 80-hour battery, and honeycomb shell design for maximum performance.",
-      "images": [
-        "./assets/ProductImages/steelseries-aerox-5-1.jpg",
-        "./assets/ProductImages/steelseries-aerox-5-2.jpg"
-      ],
-      "stock": 35,
+      "stock": 5,
       "rating": 4.5,
-      "reviews": 156,
-      "featured": false,
+      "reviews": 143,
+      "featured": true,
       "specifications": {
-        "Sensor": "TrueMove Air Optical",
-        "DPI": "Up to 18,000",
-        "Connectivity": "2.4GHz Wireless, Bluetooth",
-        "Battery Life": "Up to 80 hours",
-        "Buttons": "9 programmable buttons",
-        "Weight": "74g"
+        "Brand": "MSI",
+        "GPU": "NVIDIA GeForce RTX 4070",
+        "Memory": "12 Go GDDR6X",
+        "Power": "200 W"
       },
       "platforms": ["PC"],
-      "dateAdded": "2023-12-10"
+      "dateAdded": "2025-06-18"
     },
     {
-      "id": "steelseries-arctis-nova-pro",
-      "name": "SteelSeries Arctis Nova Pro",
-      "brand": "SteelSeries",
-      "category": "Headsets",
-      "price": 349.99,
-      "description": "Premium wireless gaming headset with active noise cancellation, Hi-Res audio, and hot-swappable batteries for unlimited gameplay.",
+      "id": "msi-rtx-4070-super-12g-gaming-x-slim",
+      "name": "MSI RTX 4070 SUPER 12G GAMING X SLIM",
+      "brand": "MSI",
+      "category": "Graphics Cards",
+      "price": 2589,
+      "description": "La GeForce RTX™ 4070 SUPER 12G GAMING X SLIM est une carte graphique haut de gamme idéale pour les joueurs exigeants, offrant des performances exceptionnelles en 4K et 8K grâce à sa mémoire GDDR6X de 12 Go, son GPU boosté à 2640 MHz et son support de G-SYNC™ pour des visuels fluides. Conçue pour des configurations compactes, elle propose une consommation de 200 W et une connectivité complète avec 3 DisplayPorts et 1 HDMI™ 2.1 pour une expérience immersive.",
       "images": [
-        "./assets/ProductImages/steelseries-arctis-nova-pro-1.jpg",
-        "./assets/ProductImages/steelseries-arctis-nova-pro-2.jpg"
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4070_SUPER_12G_GAMING_X_SLIM/MSI_RTX_4070_SUPER_12G_GAMING_X_SLIM_image_1.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4070_SUPER_12G_GAMING_X_SLIM/MSI_RTX_4070_SUPER_12G_GAMING_X_SLIM_image_2.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4070_SUPER_12G_GAMING_X_SLIM/MSI_RTX_4070_SUPER_12G_GAMING_X_SLIM_image_3.jpg"
       ],
-      "stock": 22,
+      "stock": 5,
       "rating": 4.8,
-      "reviews": 134,
+      "reviews": 98,
+      "featured": true,
+      "badge": {
+        "type": "new",
+        "text": "New"
+      },
+      "specifications": {
+        "Brand": "MSI",
+        "GPU": "NVIDIA GeForce RTX 4070 SUPER",
+        "Memory": "12 Go GDDR6X",
+        "Power": "200 W"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "msi-rtx-4090-ventus-3x-e-oc",
+      "name": "MSI RTX 4090 VENTUS 3X E OC",
+      "brand": "MSI",
+      "category": "Graphics Cards",
+      "price": 6899,
+      "description": "La carte graphique MSI NVIDIA GeForce RTX 4090 VENTUS 3X E 24G OC offre des performances extrêmes pour les joueurs et les créateurs. Avec une fréquence de base de 2 565 MHz, 24 Go de mémoire GDDR6X et des vitesses de 21 Gbit/s, elle assure une expérience fluide et immersive.",
+      "images": [
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4090_VENTUS_3X_E_OC/MSI_RTX_4090_VENTUS_3X_E_OC_image_1.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4090_VENTUS_3X_E_OC/MSI_RTX_4090_VENTUS_3X_E_OC_image_2.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4090_VENTUS_3X_E_OC/MSI_RTX_4090_VENTUS_3X_E_OC_image_3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.9,
+      "reviews": 67,
       "featured": true,
       "badge": {
         "type": "hot",
-        "text": "Pro"
+        "text": "Hot"
       },
       "specifications": {
-        "Driver": "40mm Neodymium",
-        "Frequency Response": "10Hz - 40kHz",
-        "Connectivity": "2.4GHz Wireless, Bluetooth, USB-C",
-        "Battery Life": "44 hours (swappable)",
-        "Features": "Active Noise Cancellation",
-        "Microphone": "ClearCast Gen 2"
+        "Brand": "MSI",
+        "GPU": "NVIDIA GeForce RTX 4090",
+        "Memory": "24 Go GDDR6X",
+        "Power": "450 W"
       },
-      "platforms": ["PC", "PlayStation", "Xbox", "Nintendo Switch"],
-      "dateAdded": "2023-11-25"
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
     },
     {
-      "id": "hyperx-cloud-iii-wireless",
-      "name": "HyperX Cloud III Wireless",
-      "brand": "HyperX",
-      "category": "Headsets",
-      "price": 169.99,
-      "description": "Wireless gaming headset with DTS Headphone:X spatial audio, 120-hour battery life, and comfort-focused design for extended gaming sessions.",
+      "id": "msi-rtx-4090-ventus-3x-e-24g-oc",
+      "name": "MSI RTX 4090 VENTUS 3X E 24G OC",
+      "brand": "MSI",
+      "category": "Graphics Cards",
+      "price": 6899,
+      "description": "La carte graphique NVIDIA GeForce RTX 4090 offre une rapidité extrême pour les joueurs comme pour les créateurs. Avec des performances hors norme et des capacités graphiques améliorées par Intelligence Artificielle, ce nouveau monstre de puissance vous permettra de plonger au coeur de l'action.",
       "images": [
-        "./assets/ProductImages/hyperx-cloud-iii-wireless-1.jpg",
-        "./assets/ProductImages/hyperx-cloud-iii-wireless-2.jpg"
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4090_VENTUS_3X_E_24G_OC/MSI_RTX_4090_VENTUS_3X_E_24G_OC_image_1.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4090_VENTUS_3X_E_24G_OC/MSI_RTX_4090_VENTUS_3X_E_24G_OC_image_2.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4090_VENTUS_3X_E_24G_OC/MSI_RTX_4090_VENTUS_3X_E_24G_OC_image_3.jpg"
       ],
-      "stock": 40,
-      "rating": 4.3,
+      "stock": 5,
+      "rating": 4.9,
+      "reviews": 52,
+      "featured": true,
+      "specifications": {
+        "Brand": "MSI",
+        "GPU": "NVIDIA GeForce RTX 4090",
+        "Memory": "24 Go GDDR6X",
+        "Power": "450 W"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "msi-rtx-4090-suprim-liquid-x-24g",
+      "name": "MSI RTX 4090 SUPRIM LIQUID X 24G",
+      "brand": "MSI",
+      "category": "Graphics Cards",
+      "price": 7999,
+      "description": "La GeForce RTX™ 4090 SUPRIM LIQUID X 24G est une carte graphique ultra-haute performance équipée de 24 Go de GDDR6X, conçue pour le gaming 4K et 8K, avec un refroidissement liquide pour une meilleure gestion thermique. Elle dispose de 16 384 cœurs CUDA, d'une fréquence GPU allant jusqu'à 2640 MHz et supporte jusqu'à 4 écrans avec des sorties DisplayPort et HDMI™.",
+      "images": [
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4090_SUPRIM_LIQUID_X_24G/MSI_RTX_4090_SUPRIM_LIQUID_X_24G_image_1.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4090_SUPRIM_LIQUID_X_24G/MSI_RTX_4090_SUPRIM_LIQUID_X_24G_image_2.jpg",
+        "./assets/ProductImages/Graphic Card/MSI/MSI_RTX_4090_SUPRIM_LIQUID_X_24G/MSI_RTX_4090_SUPRIM_LIQUID_X_24G_image_3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.9,
+      "reviews": 34,
+      "featured": true,
+      "badge": {
+        "type": "sale",
+        "text": "Premium"
+      },
+      "specifications": {
+        "Brand": "MSI",
+        "GPU": "NVIDIA GeForce RTX 4090",
+        "Memory": "24 Go GDDR6X",
+        "Power": "450 W",
+        "Cooling": "Liquid Cooling"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "intel-core-i3-12100f",
+      "name": "Processeur Intel Core i3-12100F",
+      "brand": "Intel",
+      "category": "Processors",
+      "price": 363,
+      "description": "Avec un nombre accru de cœurs et une puissance supérieure, les processeurs Intel de 12ème génération (Alder Lake) sont conçus pour les jeux de nouvelle génération, les cartes graphiques PCI-Express 5.0 et la RAM DDR5. Ils vous permettent de créer des machines performantes adaptées à toutes vos tâches.",
+      "images": [
+        "./assets/ProductImages/CPU/Intel_Core_i3_12100F/Intel_Core_i3_12100F_image_1.jpg",
+        "./assets/ProductImages/CPU/Intel_Core_i3_12100F/Intel_Core_i3_12100F_image_2.jpg",
+        "./assets/ProductImages/CPU/Intel_Core_i3_12100F/Intel_Core_i3_12100F_image_3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.4,
+      "reviews": 267,
+      "featured": true,
+      "specifications": {
+        "Brand": "Intel",
+        "Generation": "12ème génération",
+        "Power": "89W",
+        "Socket": "LGA1700"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "asus-tuf-vg249qm1a",
+      "name": "ASUS 23.8″ LED TUF VG249QM1A",
+      "brand": "ASUS",
+      "category": "Monitors",
+      "price": 819,
+      "description": "Votre légende commence aujourd'hui lorsque vous accueillez le moniteur de jeu ASUS TUF Gaming VG249QM1A dans votre arsenal ! Avec une dalle IPS Full HD de 23,8 pouces, ce moniteur a tout ce dont vous avez besoin pour gagner.",
+      "images": [
+        "./assets/ProductImages/Monitors/ASUS/TUF_VG249QM1A_23_8_inch_Gaming_Monitor/ASUS_TUF_VG249QM1A_23_8_inch_Gaming_Monitor_image_1.jpg",
+        "./assets/ProductImages/Monitors/ASUS/TUF_VG249QM1A_23_8_inch_Gaming_Monitor/ASUS_TUF_VG249QM1A_23_8_inch_Gaming_Monitor_image_2.jpg",
+        "./assets/ProductImages/Monitors/ASUS/TUF_VG249QM1A_23_8_inch_Gaming_Monitor/ASUS_TUF_VG249QM1A_23_8_inch_Gaming_Monitor_image_3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.6,
       "reviews": 198,
+      "featured": true,
+      "specifications": {
+        "Brand": "ASUS",
+        "Size": "23.8 inches",
+        "Resolution": "Full HD",
+        "Panel": "IPS"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "xpg-spectrix-d35-16gb-black",
+      "name": "kit mémoire XPG SPECTRIX D35 16GB BLACK",
+      "brand": "XPG",
+      "category": "Memory",
+      "price": 135,
+      "description": "La XPG GAMMIX D45 est une mémoire RAM DDR4 de 16 Go (2 x 16 Go) à 3200 MHz. Conçue pour des performances optimales, elle offre une vitesse rapide et une réactivité idéale pour le gaming et les applications intensives. Son élégant design noir s'intègre parfaitement dans toute configuration.",
+      "images": [
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_D35_16GB_BLACK_DDR4_3200MHz/XPG_SPECTRIX_D35_16GB_BLACK_DDR4_3200MHz_image_1.jpg",
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_D35_16GB_BLACK_DDR4_3200MHz/XPG_SPECTRIX_D35_16GB_BLACK_DDR4_3200MHz_image_2.jpg",
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_D35_16GB_BLACK_DDR4_3200MHz/XPG_SPECTRIX_D35_16GB_BLACK_DDR4_3200MHz_image_3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.2,
+      "reviews": 145,
       "featured": false,
       "specifications": {
-        "Driver": "53mm Neodymium",
-        "Frequency Response": "10Hz - 21kHz",
-        "Connectivity": "2.4GHz Wireless",
-        "Battery Life": "Up to 120 hours",
-        "Features": "DTS Headphone:X Spatial Audio",
-        "Microphone": "Detachable noise-cancelling"
+        "Brand": "XPG GAMMIX",
+        "Type": "DDR4",
+        "Capacity": "16 GB",
+        "Frequency": "3200 MHz"
       },
-      "platforms": ["PC", "PlayStation"],
-      "dateAdded": "2023-10-12"
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
     },
     {
-      "id": "secretlab-titan-evo",
-      "name": "Secretlab Titan Evo 2022",
-      "brand": "Secretlab",
-      "category": "Chairs",
-      "price": 519.99,
-      "description": "Premium gaming chair with NEO Hybrid Leatherette, 4-way lumbar support, and cold-cure foam. Designed for all-day comfort and gaming performance.",
+      "id": "xpg-spectrix-d35-16gb-white",
+      "name": "kit mémoire XPG SPECTRIX D35 16GB WHITE",
+      "brand": "XPG",
+      "category": "Memory",
+      "price": 159,
+      "description": "La XPG GAMMIX D45 est une mémoire RAM DDR4 de 16 Go (2 x 16 Go) à 3200 MHz. Conçue pour des performances optimales, elle offre une vitesse rapide et une réactivité idéale pour le gaming et les applications intensives. Son élégant design noir s'intègre parfaitement dans toute configuration.",
       "images": [
-        "./assets/ProductImages/secretlab-titan-evo-1.jpg",
-        "./assets/ProductImages/secretlab-titan-evo-2.jpg"
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_D35_16GB_WHITE_DDR4_3200MHz/XPG_SPECTRIX_D35_16GB_WHITE_DDR4_3200MHz_image_1.jpg",
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_D35_16GB_WHITE_DDR4_3200MHz/XPG_SPECTRIX_D35_16GB_WHITE_DDR4_3200MHz_image_2.jpg",
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_D35_16GB_WHITE_DDR4_3200MHz/XPG_SPECTRIX_D35_16GB_WHITE_DDR4_3200MHz_image_3.jpg"
       ],
-      "stock": 12,
+      "stock": 5,
+      "rating": 4.3,
+      "reviews": 132,
+      "featured": false,
+      "specifications": {
+        "Brand": "XPG GAMMIX",
+        "Type": "DDR4",
+        "Capacity": "16 GB",
+        "Frequency": "3200 MHz"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "xpg-spectrix-d35-16gb-rgb-black",
+      "name": "kit mémoire XPG SPECTRIX D35 16GB RGB BLACK",
+      "brand": "XPG",
+      "category": "Memory",
+      "price": 199,
+      "description": "La XPG GAMMIX D45 est une mémoire RAM DDR4 de 16 Go (2 x 16 Go) à 3200 MHz. Conçue pour des performances optimales, elle offre une vitesse rapide et une réactivité idéale pour le gaming et les applications intensives. Son élégant design noir s'intègre parfaitement dans toute configuration.",
+      "images": [
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_D35_16GB_RGB_BLACK_DDR4_3200MHz/XPG_SPECTRIX_D35_16GB_RGB_BLACK_DDR4_3200MHz_image_1.jpg",
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_D35_16GB_RGB_BLACK_DDR4_3200MHz/XPG_SPECTRIX_D35_16GB_RGB_BLACK_DDR4_3200MHz_image_2.png"
+      ],
+      "stock": 5,
+      "rating": 4.4,
+      "reviews": 167,
+      "featured": false,
+      "specifications": {
+        "Brand": "XPG GAMMIX",
+        "Type": "DDR4",
+        "Capacity": "16 GB",
+        "Frequency": "3200 MHz",
+        "LED RGB": "OUI"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "xpg-spectrix-dt60-16gb-rgb",
+      "name": "kit mémoire XPG SPECTRIX DT60 16 GB RGB",
+      "brand": "XPG",
+      "category": "Memory",
+      "price": 199,
+      "description": "La XPG GAMMIX DT60 est une mémoire RAM DDR4 de 16 Go (2 x 8 Go) à 3200 MHz. Conçue pour des performances optimales, elle offre une vitesse rapide et une réactivité idéale pour le gaming et les applications intensives. Son élégant design noir s'intègre parfaitement dans toute configuration.",
+      "images": [
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_DT60_16GB_RGB_DDR4_3200MHz/XPG_SPECTRIX_DT60_16GB_RGB_DDR4_3200MHz_image_1.jpeg",
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_DT60_16GB_RGB_DDR4_3200MHz/XPG_SPECTRIX_DT60_16GB_RGB_DDR4_3200MHz_image_2.png",
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_DT60_16GB_RGB_DDR4_3200MHz/XPG_SPECTRIX_DT60_16GB_RGB_DDR4_3200MHz_image_3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.3,
+      "reviews": 189,
+      "featured": false,
+      "specifications": {
+        "Brand": "XPG GAMMIX",
+        "Type": "DDR4",
+        "Capacity": "16 GB",
+        "Frequency": "3200 MHz",
+        "LED RGB": "OUI"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "xpg-spectrix-d35g-16gb-rgb",
+      "name": "kit mémoire XPG SPECTRIX D35G 16GB RGB",
+      "brand": "XPG",
+      "category": "Memory",
+      "price": 209,
+      "description": "La XPG GAMMIX D45 est une mémoire RAM DDR4 de 16 Go (2 x 16 Go) à 3200 MHz. Conçue pour des performances optimales, elle offre une vitesse rapide et une réactivité idéale pour le gaming et les applications intensives. Son élégant design noir s'intègre parfaitement dans toute configuration.",
+      "images": [
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_D35G_16GB_RGB_DDR4_3200MHz/XPG_SPECTRIX_D35G_16GB_RGB_DDR4_3200MHz_image_1.jpg",
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_D35G_16GB_RGB_DDR4_3200MHz/XPG_SPECTRIX_D35G_16GB_RGB_DDR4_3200MHz_image_2.jpg",
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_D35G_16GB_RGB_DDR4_3200MHz/XPG_SPECTRIX_D35G_16GB_RGB_DDR4_3200MHz_image_3.webp"
+      ],
+      "stock": 5,
+      "rating": 4.5,
+      "reviews": 112,
+      "featured": false,
+      "specifications": {
+        "Brand": "XPG GAMMIX",
+        "Type": "DDR4",
+        "Capacity": "16 GB",
+        "Frequency": "3200 MHz",
+        "LED RGB": "OUI"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "xpg-spectrix-dt50-16gb-rgb",
+      "name": "kit mémoire XPG SPECTRIX DT50 16 GB RGB",
+      "brand": "XPG",
+      "category": "Memory",
+      "price": 209,
+      "description": "La XPG GAMMIX DT50 est une mémoire RAM DDR4 de 16 Go (2 x 16 Go) à 3200 MHz. Conçue pour des performances optimales, elle offre une vitesse rapide et une réactivité idéale pour le gaming et les applications intensives. Son élégant design noir s'intègre parfaitement dans toute configuration.",
+      "images": [
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_DT50_16GB_RGB_DDR4_3200MHz/XPG_SPECTRIX_DT50_16GB_RGB_DDR4_3200MHz_image_1.jpg",
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_DT50_16GB_RGB_DDR4_3200MHz/XPG_SPECTRIX_DT50_16GB_RGB_DDR4_3200MHz_image_2.webp",
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_DT50_16GB_RGB_DDR4_3200MHz/XPG_SPECTRIX_DT50_16GB_RGB_DDR4_3200MHz_image_3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.3,
+      "reviews": 156,
+      "featured": false,
+      "specifications": {
+        "Brand": "XPG GAMMIX",
+        "Type": "DDR4",
+        "Capacity": "16 GB",
+        "Frequency": "3200 MHz",
+        "LED RGB": "OUI"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "xpg-gammix-d35g-32gb-rgb-black",
+      "name": "kit mémoire XPG GAMMIX D35G 32GB RGB BLACK",
+      "brand": "XPG",
+      "category": "Memory",
+      "price": 295,
+      "description": "La XPG GAMMIX D35G est une mémoire RAM DDR4 de 32 Go (2 x 16 Go) à 3200 MHz. Conçue pour des performances optimales, elle offre une vitesse rapide et une réactivité idéale pour le gaming et les applications intensives. Son élégant design noir s'intègre parfaitement dans toute configuration.",
+      "images": [
+        "./assets/ProductImages/RAM/XPG/GAMMIX_D35G_32GB_RGB_BLACK_DDR4_3200MHz/XPG_GAMMIX_D35G_32GB_RGB_BLACK_DDR4_3200MHz_image_1.jpg",
+        "./assets/ProductImages/RAM/XPG/GAMMIX_D35G_32GB_RGB_BLACK_DDR4_3200MHz/XPG_GAMMIX_D35G_32GB_RGB_BLACK_DDR4_3200MHz_image_2.png"
+      ],
+      "stock": 5,
+      "rating": 4.5,
+      "reviews": 87,
+      "featured": false,
+      "specifications": {
+        "Brand": "XPG GAMMIX",
+        "Type": "DDR4",
+        "Capacity": "32 GB",
+        "Frequency": "3200 MHz",
+        "LED RGB": "OUI"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "xpg-gammix-d45-32gb-black",
+      "name": "kit mémoire XPG GAMMIX D45 32 GB BLACK",
+      "brand": "XPG",
+      "category": "Memory",
+      "price": 320,
+      "description": "La XPG GAMMIX D45 est une mémoire RAM DDR4 de 32 Go (2 x 16 Go) à 3200 MHz. Conçue pour des performances optimales, elle offre une vitesse rapide et une réactivité idéale pour le gaming et les applications intensives. Son élégant design noir s'intègre parfaitement dans toute configuration.",
+      "images": [
+        "./assets/ProductImages/RAM/XPG/GAMMIX_D45_32GB_BLACK_DDR4_3200MHz/XPG_GAMMIX_D45_32GB_BLACK_DDR4_3200MHz_image_1.jpg",
+        "./assets/ProductImages/RAM/XPG/GAMMIX_D45_32GB_BLACK_DDR4_3200MHz/XPG_GAMMIX_D45_32GB_BLACK_DDR4_3200MHz_image_2.jpg",
+        "./assets/ProductImages/RAM/XPG/GAMMIX_D45_32GB_BLACK_DDR4_3200MHz/XPG_GAMMIX_D45_32GB_BLACK_DDR4_3200MHz_image_3.jpg"
+      ],
+      "stock": 5,
       "rating": 4.6,
+      "reviews": 102,
+      "featured": false,
+      "specifications": {
+        "Brand": "XPG GAMMIX",
+        "Type": "DDR4",
+        "Capacity": "32 GB",
+        "Frequency": "3200 MHz"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "xpg-spectrix-dt50-32gb-rgb",
+      "name": "kit mémoire XPG SPECTRIX DT50 32 GB RGB",
+      "brand": "XPG",
+      "category": "Memory",
+      "price": 329,
+      "description": "La XPG GAMMIX DT50 est une mémoire RAM DDR4 de 32 Go (2 x 16 Go) à 3200 MHz. Conçue pour des performances optimales, elle offre une vitesse rapide et une réactivité idéale pour le gaming et les applications intensives. Son élégant design noir s'intègre parfaitement dans toute configuration.",
+      "images": [
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_DT50_32GB_RGB_DDR4_3200MHz/XPG_SPECTRIX_DT50_32GB_RGB_DDR4_3200MHz_image_1.jpg",
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_DT50_32GB_RGB_DDR4_3200MHz/XPG_SPECTRIX_DT50_32GB_RGB_DDR4_3200MHz_image_2.jpg",
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_DT50_32GB_RGB_DDR4_3200MHz/XPG_SPECTRIX_DT50_32GB_RGB_DDR4_3200MHz_image_3.webp"
+      ],
+      "stock": 5,
+      "rating": 4.7,
       "reviews": 78,
       "featured": false,
       "specifications": {
-        "Material": "NEO Hybrid Leatherette",
-        "Weight Capacity": "130kg (286 lbs)",
-        "Dimensions": "84-91cm height",
-        "Features": "4-way lumbar support, Memory foam",
-        "Armrests": "4D adjustable",
-        "Warranty": "5 years"
+        "Brand": "XPG GAMMIX",
+        "Type": "DDR4",
+        "Capacity": "32 GB",
+        "Frequency": "3200 MHz",
+        "LED RGB": "OUI"
       },
       "platforms": ["PC"],
-      "dateAdded": "2023-09-08"
-    }
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "xpg-spectrix-dt60-32gb-rgb",
+      "name": "kit mémoire XPG SPECTRIX DT60 32 GB RGB",
+      "brand": "XPG",
+      "category": "Memory",
+      "price": 359,
+      "description": "La XPG GAMMIX DT60 est une mémoire RAM DDR4 de 32 Go (2 x 16 Go) à 3200 MHz. Conçue pour des performances optimales, elle offre une vitesse rapide et une réactivité idéale pour le gaming et les applications intensives. Son élégant design noir s'intègre parfaitement dans toute configuration.",
+      "images": [
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_DT60_32GB_RGB_DDR4_3200MHz/XPG_SPECTRIX_DT60_32GB_RGB_DDR4_3200MHz_image_1.jpg",
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_DT60_32GB_RGB_DDR4_3200MHz/XPG_SPECTRIX_DT60_32GB_RGB_DDR4_3200MHz_image_2.webp",
+        "./assets/ProductImages/RAM/XPG/SPECTRIX_DT60_32GB_RGB_DDR4_3200MHz/XPG_SPECTRIX_DT60_32GB_RGB_DDR4_3200MHz_image_3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.5,
+      "reviews": 92,
+      "featured": false,
+      "specifications": {
+        "Brand": "XPG GAMMIX",
+        "Type": "DDR4",
+        "Capacity": "32 GB",
+        "Frequency": "3200 MHz",
+        "LED RGB": "OUI"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "xpg-lancer-blade-32gb",
+      "name": "kit mémoire XPG LANCER BLADE 32 GB",
+      "brand": "XPG",
+      "category": "Memory",
+      "price": 359,
+      "description": "La XPG LANCER BLADE est une mémoire RAM DDR5 de 32 Go (2 x 16 Go) à 5600 MHz. Conçue pour des performances optimales, elle offre une vitesse rapide et une réactivité idéale pour le gaming et les applications intensives. Son élégant design noir s'intègre parfaitement dans toute configuration.",
+      "images": [
+        "./assets/ProductImages/RAM/XPG/LANCER_BLADE_32GB_DDR5_5600MHz/XPG_LANCER_BLADE_32GB_DDR5_5600MHz_image_1.jpg",
+        "./assets/ProductImages/RAM/XPG/LANCER_BLADE_32GB_DDR5_5600MHz/XPG_LANCER_BLADE_32GB_DDR5_5600MHz_image_2.jpg",
+        "./assets/ProductImages/RAM/XPG/LANCER_BLADE_32GB_DDR5_5600MHz/XPG_LANCER_BLADE_32GB_DDR5_5600MHz_image_3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.6,
+      "reviews": 65,
+      "featured": false,
+      "specifications": {
+        "Brand": "XPG GAMMIX",
+        "Type": "DDR5",
+        "Capacity": "32 GB",
+        "Frequency": "5600 MHz"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "xpg-lancer-32gb-rgb-white",
+      "name": "kit mémoire XPG LANCER 32 GB RGB WHITE",
+      "brand": "XPG",
+      "category": "Memory",
+      "price": 399,
+      "description": "La XPG LANCER est une mémoire RAM DDR5 de 32 Go (2 x 16 Go) à 5200 MHz. Conçue pour des performances optimales, elle offre une vitesse rapide et une réactivité idéale pour le gaming et les applications intensives. Son élégant design blanc s'intègre parfaitement dans toute configuration.",
+      "images": [
+        "./assets/ProductImages/RAM/XPG/LANCER_32GB_RGB_WHITE_DDR5_5200MHz/XPG_LANCER_32GB_RGB_WHITE_DDR5_5200MHz_image_1.jpg",
+        "./assets/ProductImages/RAM/XPG/LANCER_32GB_RGB_WHITE_DDR5_5200MHz/XPG_LANCER_32GB_RGB_WHITE_DDR5_5200MHz_image_2.jpg",
+        "./assets/ProductImages/RAM/XPG/LANCER_32GB_RGB_WHITE_DDR5_5200MHz/XPG_LANCER_32GB_RGB_WHITE_DDR5_5200MHz_image_3.webp"
+      ],
+      "stock": 5,
+      "rating": 4.7,
+      "reviews": 58,
+      "featured": false,
+      "specifications": {
+        "Brand": "XPG GAMMIX",
+        "Type": "DDR5",
+        "Capacity": "32 GB",
+        "Frequency": "5200 MHz",
+        "LED RGB": "OUI",
+        "Color": "White"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "xpg-lancer-32gb-rgb",
+      "name": "kit mémoire XPG LANCER 32 GB RGB",
+      "brand": "XPG",
+      "category": "Memory",
+      "price": 439,
+      "description": "La XPG LANCER est une mémoire RAM DDR5 de 32 Go (2 x 16 Go) à 5200 MHz. Conçue pour des performances optimales, elle offre une vitesse rapide et une réactivité idéale pour le gaming et les applications intensives. Son élégant design noir s'intègre parfaitement dans toute configuration.",
+      "images": [
+        "./assets/ProductImages/RAM/XPG/LANCER_32GB_RGB_DDR5_5200MHz/XPG_LANCER_32GB_RGB_DDR5_5200MHz_image_1.jpg",
+        "./assets/ProductImages/RAM/XPG/LANCER_32GB_RGB_DDR5_5200MHz/XPG_LANCER_32GB_RGB_DDR5_5200MHz_image_2.jpg",
+        "./assets/ProductImages/RAM/XPG/LANCER_32GB_RGB_DDR5_5200MHz/XPG_LANCER_32GB_RGB_DDR5_5200MHz_image_3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.7,
+      "reviews": 72,
+      "featured": false,
+      "specifications": {
+        "Brand": "XPG GAMMIX",
+        "Type": "DDR5",
+        "Capacity": "32 GB",
+        "Frequency": "5200 MHz",
+        "LED RGB": "OUI"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "corsair-vengeance-64gb-black",
+      "name": "Kit de mémoire VENGEANCE – Noir 64 GO (2 x 32 GO) DDR5 DRAM 5 200 MHz C40",
+      "brand": "CORSAIR",
+      "category": "Memory",
+      "price": 729,
+      "description": "Améliorez les performances de votre système avec le kit de mémoire VENGEANCE de 64 Go, composé de deux modules de 32 Go. Avec une fréquence de 5200 MHz et une latence CAS de 40, ce kit DDR5 offre une vitesse et une réactivité exceptionnelles pour les jeux et les applications exigeantes. Son design élégant en noir s'intègre parfaitement dans tout build.",
+      "images": [
+        "./assets/ProductImages/RAM/CORSAIR/VENGEANCE_64GB_BLACK_DDR5_5200MHz/CORSAIR_VENGEANCE_64GB_BLACK_DDR5_5200MHz_image_1.jpg",
+        "./assets/ProductImages/RAM/CORSAIR/VENGEANCE_64GB_BLACK_DDR5_5200MHz/CORSAIR_VENGEANCE_64GB_BLACK_DDR5_5200MHz_image_2.jpg",
+        "./assets/ProductImages/RAM/CORSAIR/VENGEANCE_64GB_BLACK_DDR5_5200MHz/CORSAIR_VENGEANCE_64GB_BLACK_DDR5_5200MHz_image_3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.8,
+      "reviews": 43,
+      "featured": false,
+      "specifications": {
+        "Brand": "CORSAIR",
+        "Type": "DDR5",
+        "Capacity": "64 GB",
+        "Frequency": "5200 MHz",
+        "Color": "Black"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "corsair-vengeance-64gb-white",
+      "name": "Kit de mémoire VENGEANCE – WHITE 64 GO (2 x 32 GO) DDR5 DRAM 5 200 MHz C40",
+      "brand": "CORSAIR",
+      "category": "Memory",
+      "price": 729,
+      "description": "Améliorez les performances de votre système avec le kit de mémoire VENGEANCE de 64 Go, composé de deux modules de 32 Go. Avec une fréquence de 5200 MHz et une latence CAS de 40, ce kit DDR5 offre une vitesse et une réactivité exceptionnelles pour les jeux et les applications exigeantes. Son design élégant en blanc s'intègre parfaitement dans tout build.",
+      "images": [
+        "./assets/ProductImages/RAM/CORSAIR/VENGEANCE_64GB_WHITE_DDR5_5200MHz/CORSAIR_VENGEANCE_64GB_WHITE_DDR5_5200MHz_image_1.jpg",
+        "./assets/ProductImages/RAM/CORSAIR/VENGEANCE_64GB_WHITE_DDR5_5200MHz/CORSAIR_VENGEANCE_64GB_WHITE_DDR5_5200MHz_image_2.jpg",
+        "./assets/ProductImages/RAM/CORSAIR/VENGEANCE_64GB_WHITE_DDR5_5200MHz/CORSAIR_VENGEANCE_64GB_WHITE_DDR5_5200MHz_image_3.webp"
+      ],
+      "stock": 5,
+      "rating": 4.8,
+      "reviews": 39,
+      "featured": false,
+      "specifications": {
+        "Brand": "CORSAIR",
+        "Type": "DDR5",
+        "Capacity": "64 GB",
+        "Frequency": "5200 MHz",
+        "Color": "White"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "corsair-vengeance-rgb-64gb-black",
+      "name": "Kit de mémoire VENGEANCE RGB – BLACK 64 Go(2 x 32 Go) – DDR5 5200 MHz – CL40",
+      "brand": "CORSAIR",
+      "category": "Memory",
+      "price": 759,
+      "description": "La mémoire CORSAIR VENGEANCE RGB DDR5 offre des performances DDR5, des fréquences plus élevées et davantage de capacités optimisées pour les cartes mères AMD, tout en éclairant votre PC avec un éclairage RVB dynamique et adressable individuellement sur dix zones.",
+      "images": [
+        "./assets/ProductImages/RAM/CORSAIR/VENGEANCE_RGB_64GB_BLACK_DDR5_5200MHz/CORSAIR_VENGEANCE_RGB_64GB_BLACK_DDR5_5200MHz_image_1.jpg",
+        "./assets/ProductImages/RAM/CORSAIR/VENGEANCE_RGB_64GB_BLACK_DDR5_5200MHz/CORSAIR_VENGEANCE_RGB_64GB_BLACK_DDR5_5200MHz_image_2.jpg",
+        "./assets/ProductImages/RAM/CORSAIR/VENGEANCE_RGB_64GB_BLACK_DDR5_5200MHz/CORSAIR_VENGEANCE_RGB_64GB_BLACK_DDR5_5200MHz_image_3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.9,
+      "reviews": 51,
+      "featured": false,
+      "specifications": {
+        "Brand": "CORSAIR",
+        "Type": "DDR5",
+        "Capacity": "64 GB",
+        "Frequency": "5200 MHz",
+        "LED RGB": "Oui, personnalisable",
+        "Color": "Black"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "xpg-lancer-64gb-rgb",
+      "name": "kit mémoire XPG LANCER 64 GB RGB",
+      "brand": "XPG",
+      "category": "Memory",
+      "price": 899,
+      "description": "La XPG LANCER est une mémoire RAM DDR5 de 64 Go (2 x 32 Go) à 5600 MHz. Conçue pour des performances optimales, elle offre une vitesse rapide et une réactivité idéale pour le gaming et les applications intensives. Son élégant design noir s'intègre parfaitement dans toute configuration.",
+      "images": [
+        "./assets/ProductImages/RAM/XPG/LANCER_64GB_RGB_DDR5_5600MHz/XPG_LANCER_64GB_RGB_DDR5_5600MHz_image_1.jpg",
+        "./assets/ProductImages/RAM/XPG/LANCER_64GB_RGB_DDR5_5600MHz/XPG_LANCER_64GB_RGB_DDR5_5600MHz_image_2.jpg",
+        "./assets/ProductImages/RAM/XPG/LANCER_64GB_RGB_DDR5_5600MHz/XPG_LANCER_64GB_RGB_DDR5_5600MHz_image_3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.8,
+      "reviews": 37,
+      "featured": false,
+      "specifications": {
+        "Brand": "XPG GAMMIX",
+        "Type": "DDR5",
+        "Capacity": "64 GB",
+        "Frequency": "5600 MHz",
+        "LED RGB": "OUI"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+      "id": "xpg-lancer-64gb-rgb-white",
+      "name": "kit mémoire XPG LANCER 64 GB RGB WHITE",
+      "brand": "XPG",
+      "category": "Memory",
+      "price": 859.000,
+      "description": "La XPG LANCER est une mémoire RAM DDR5 de 64 Go (2 x 32 Go) à 5600 MHz. Conçue pour des performances optimales, elle offre une vitesse rapide et une réactivité idéale pour le gaming et les applications intensives. Son élégant design blanc s'intègre parfaitement dans toute configuration.",
+      "images": [
+        "./assets/ProductImages/RAM/XPG/LANCER_64GB_RGB_WHITE_DDR5_5600MHz/XPG_LANCER_64GB_RGB_WHITE_DDR5_5600MHz_image_1.jpg",
+        "./assets/ProductImages/RAM/XPG/LANCER_64GB_RGB_WHITE_DDR5_5600MHz/XPG_LANCER_64GB_RGB_WHITE_DDR5_5600MHz_image_2.jpg",
+        "./assets/ProductImages/RAM/XPG/LANCER_64GB_RGB_WHITE_DDR5_5600MHz/XPG_LANCER_64GB_RGB_WHITE_DDR5_5600MHz_image_3.jpg"
+      ],
+      "stock": 5,
+      "rating": 4.8,
+      "reviews": 32,
+      "featured": false,
+      "specifications": {
+        "Brand": "XPG GAMMIX",
+        "Type": "DDR5",
+        "Capacity": "64 GB",
+        "Frequency": "5600 MHz",
+        "LED RGB": "OUI",
+        "Color": "White"
+      },
+      "platforms": ["PC"],
+      "dateAdded": "2025-06-18"
+    },
+    {
+    "id": "intel-core-i3-12100f",
+    "name": "Processeur Intel Core i3-12100F",
+    "brand": "Intel",
+    "category": "Processors",
+    "price": 441,
+    "description": "Intel Core i3-12100F, 12e génération Alder Lake, 4 cœurs / 8 threads, 3.3 GHz base / 4.3 GHz turbo, 12 Mo cache, socket LGA1700, DDR4/DDR5, PCIe 5.0, TDP 89W",
+    "images": ["./assets/ProductImages/CPU/Intel_Core_i3_12100F/Intel_Core_i3_12100F_image_1.jpg"],
+    "stock": 5,
+    "rating": 4.4,
+    "reviews": 267,
+    "featured": true,
+    "specifications": {
+      "Brand": "Intel",
+      "Socket": "LGA1700",
+      "Cores": "4",
+      "Threads": "8",
+      "Cache": "12 Mo",
+      "Base Clock": "3.3 GHz",
+      "Boost Clock": "4.3 GHz",
+      "TDP": "89W"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "intel-core-i5-12400f",
+    "name": "Processeur Intel Core i5-12400F",
+    "brand": "Intel",
+    "category": "Processors",
+    "price": 441,
+    "description": "Intel Core i5-12400F, 12e génération Alder Lake, 6 cœurs / 12 threads, 2.5 GHz base / 4.4 GHz turbo, 18 Mo cache, socket LGA1700, DDR4/DDR5, PCIe 5.0, TDP 65W",
+    "images": ["./assets/ProductImages/CPU/Intel_Core_i5_12400F/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.6,
+    "reviews": 120,
+    "featured": true,
+    "specifications": {
+      "Brand": "Intel",
+      "Socket": "LGA1700",
+      "Cores": "6",
+      "Threads": "12",
+      "Cache": "18 Mo",
+      "Base Clock": "2.5 GHz",
+      "Boost Clock": "4.4 GHz",
+      "TDP": "65W"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "intel-core-i5-12400",
+    "name": "Processeur Intel Core i5-12400",
+    "brand": "Intel",
+    "category": "Processors",
+    "price": 569,
+    "description": "Intel Core i5-12400, 12e génération Alder Lake, 6 cœurs / 12 threads, 2.5 GHz base / 4.4 GHz turbo, 18 Mo cache, socket LGA1700, DDR4/DDR5, PCIe 5.0, TDP 65W, iGPU Intel UHD Graphics 730",
+    "images": ["./assets/ProductImages/CPU/Intel_Core_i5_12400/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.5,
+    "reviews": 110,
+    "featured": true,
+    "specifications": {
+      "Brand": "Intel",
+      "Socket": "LGA1700",
+      "Cores": "6",
+      "Threads": "12",
+      "Cache": "18 Mo",
+      "Base Clock": "2.5 GHz",
+      "Boost Clock": "4.4 GHz",
+      "TDP": "65W",
+      "iGPU": "Intel UHD Graphics 730"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "intel-core-i5-12600kf",
+    "name": "Processeur Intel Core i5-12600KF",
+    "brand": "Intel",
+    "category": "Processors",
+    "price": 669,
+    "description": "Intel Core i5-12600KF, 12e génération Alder Lake, 10 cœurs (6P+4E) / 16 threads, 3.7 GHz base (P) / 4.9 GHz turbo (P), 20 Mo cache, socket LGA1700, DDR4/DDR5, PCIe 5.0, TDP 125W",
+    "images": ["./assets/ProductImages/CPU/Intel_Core_i5_12600KF/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.7,
+    "reviews": 95,
+    "featured": true,
+    "specifications": {
+      "Brand": "Intel",
+      "Socket": "LGA1700",
+      "Cores": "10 (6P+4E)",
+      "Threads": "16",
+      "Cache": "20 Mo",
+      "Base Clock": "3.7 GHz (P)",
+      "Boost Clock": "4.9 GHz (P)",
+      "TDP": "125W"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "intel-core-i5-14500",
+    "name": "Processeur Intel Core i5-14500",
+    "brand": "Intel",
+    "category": "Processors",
+    "price": 987,
+    "description": "Intel Core i5-14500, 14e génération Raptor Lake Refresh, 14 cœurs (6P+8E) / 20 threads, 2.6 GHz base (P) / 5.0 GHz turbo (P), 24 Mo cache, socket LGA1700, DDR4/DDR5, PCIe 5.0, TDP 65W, iGPU Intel UHD Graphics 770",
+    "images": ["./assets/ProductImages/CPU/Intel_Core_i5_14500/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.7,
+    "reviews": 80,
+    "featured": true,
+    "specifications": {
+      "Brand": "Intel",
+      "Socket": "LGA1700",
+      "Cores": "14 (6P+8E)",
+      "Threads": "20",
+      "Cache": "24 Mo",
+      "Base Clock": "2.6 GHz (P)",
+      "Boost Clock": "5.0 GHz (P)",
+      "TDP": "65W",
+      "iGPU": "Intel UHD Graphics 770"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "intel-core-i7-13700kf",
+    "name": "Processeur Intel Core i7-13700KF",
+    "brand": "Intel",
+    "category": "Processors",
+    "price": 1246,
+    "description": "Intel Core i7-13700KF, 13e génération Raptor Lake, 16 cœurs (8P+8E) / 24 threads, 3.4 GHz base (P) / 5.4 GHz turbo (P), 30 Mo cache, socket LGA1700, DDR4/DDR5, PCIe 5.0, TDP 125W",
+    "images": ["./assets/ProductImages/CPU/Intel_Core_i7_13700KF/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.8,
+    "reviews": 70,
+    "featured": true,
+    "specifications": {
+      "Brand": "Intel",
+      "Socket": "LGA1700",
+      "Cores": "16 (8P+8E)",
+      "Threads": "24",
+      "Cache": "30 Mo",
+      "Base Clock": "3.4 GHz (P)",
+      "Boost Clock": "5.4 GHz (P)",
+      "TDP": "125W"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "amd-ryzen-7-8700g",
+    "name": "Processeur AMD Ryzen 7 8700G Box",
+    "brand": "AMD",
+    "category": "Processors",
+    "price": 1247,
+    "description": "AMD Ryzen 7 8700G, 8 cœurs / 16 threads, 4.2 GHz base / 5.1 GHz turbo, 16 Mo cache, socket AM5, DDR5, PCIe 5.0, TDP 65W, iGPU Radeon Graphics",
+    "images": ["./assets/ProductImages/CPU/AMD_Ryzen_7_8700G/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.7,
+    "reviews": 65,
+    "featured": true,
+    "specifications": {
+      "Brand": "AMD",
+      "Socket": "AM5",
+      "Cores": "8",
+      "Threads": "16",
+      "Cache": "16 Mo",
+      "Base Clock": "4.2 GHz",
+      "Boost Clock": "5.1 GHz",
+      "TDP": "65W",
+      "iGPU": "Radeon Graphics"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "intel-core-i7-14700kf",
+    "name": "Processeur INTEL i7-14700KF",
+    "brand": "Intel",
+    "category": "Processors",
+    "price": 1646,
+    "description": "Intel Core i7-14700KF, 14e génération Raptor Lake Refresh, 20 cœurs (8P+12E) / 28 threads, 3.4 GHz base (P) / 5.6 GHz turbo (P), 33 Mo cache, socket LGA1700, DDR4/DDR5, PCIe 5.0, TDP 125W",
+    "images": ["./assets/ProductImages/CPU/Intel_Core_i7_14700KF/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.8,
+    "reviews": 60,
+    "featured": true,
+    "specifications": {
+      "Brand": "Intel",
+      "Socket": "LGA1700",
+      "Cores": "20 (8P+12E)",
+      "Threads": "28",
+      "Cache": "33 Mo",
+      "Base Clock": "3.4 GHz (P)",
+      "Boost Clock": "5.6 GHz (P)",
+      "TDP": "125W"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "intel-core-i9-14900kf",
+    "name": "Processeur INTEL i9-14900KF",
+    "brand": "Intel",
+    "category": "Processors",
+    "price": 2293,
+    "description": "Intel Core i9-14900KF, 14e génération Raptor Lake Refresh, 24 cœurs (8P+16E) / 32 threads, 3.2 GHz base (P) / 6.0 GHz turbo (P), 36 Mo cache, socket LGA1700, DDR4/DDR5, PCIe 5.0, TDP 125W",
+    "images": ["./assets/ProductImages/CPU/Intel_Core_i9_14900KF/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.9,
+    "reviews": 45,
+    "featured": true,
+    "specifications": {
+      "Brand": "Intel",
+      "Socket": "LGA1700",
+      "Cores": "24 (8P+16E)",
+      "Threads": "32",
+      "Cache": "36 Mo",
+      "Base Clock": "3.2 GHz (P)",
+      "Boost Clock": "6.0 GHz (P)",
+      "TDP": "125W"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "intel-core-i9-14900k",
+    "name": "Processeur INTEL i9-14900K",
+    "brand": "Intel",
+    "category": "Processors",
+    "price": 2365,
+    "description": "Intel Core i9-14900K, 14e génération Raptor Lake Refresh, 24 cœurs (8P+16E) / 32 threads, 3.2 GHz base (P) / 5.8 GHz turbo (P), 36 Mo cache, socket LGA1700, DDR4/DDR5, PCIe 5.0, TDP 125W, iGPU Intel UHD Graphics 770",
+    "images": ["./assets/ProductImages/CPU/Intel_Core_i9_14900K/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.9,
+    "reviews": 40,
+    "featured": true,
+    "specifications": {
+      "Brand": "Intel",
+      "Socket": "LGA1700",
+      "Cores": "24 (8P+16E)",
+      "Threads": "32",
+      "Cache": "36 Mo",
+      "Base Clock": "3.2 GHz (P)",
+      "Boost Clock": "5.8 GHz (P)",
+      "TDP": "125W",
+      "iGPU": "Intel UHD Graphics 770"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-pro-h610m-e-ddr4",
+    "name": "Carte Mère MSI PRO H610M-E DDR4",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 205,
+    "description": "Carte mère MSI PRO H610M-E DDR4, socket LGA1700, chipset H610, 2x DDR4 DIMM (max 64 Go, 3200 MHz), 4x SATA, 1x M.2 Gen3, Gigabit LAN, HD Audio, micro-ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_PRO_H610M-E_DDR4/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.2,
+    "reviews": 45,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "LGA1700",
+      "Chipset": "H610",
+      "RAM": "2x DDR4 (max 64 Go, 3200 MHz)",
+      "SATA": "4x SATA 6Gbps",
+      "M.2": "1x M.2 Gen3",
+      "LAN": "Gigabit",
+      "Audio": "HD Audio",
+      "Format": "Micro-ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-pro-a620m-e",
+    "name": "Carte Mère MSI PRO A620M-E",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 259,
+    "description": "Carte mère MSI PRO A620M-E, socket AM5, chipset A620, 2x DDR5 (max 128 Go, jusqu'à 6800 MHz), 4x SATA, 1x M.2, HDMI/VGA, micro-ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_PRO_A620M-E/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.2,
+    "reviews": 40,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "AM5",
+      "Chipset": "A620",
+      "RAM": "2x DDR5 (max 128 Go, jusqu'à 6800 MHz)",
+      "SATA": "4x SATA 6Gbps",
+      "M.2": "1x M.2",
+      "Video": "HDMI, VGA",
+      "Format": "Micro-ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-b550m-pro-vdh-wifi",
+    "name": "Carte Mère MSI B550M PRO-VDH WiFi",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 299,
+    "description": "Carte mère MSI B550M PRO-VDH WiFi, socket AM4, chipset B550, 4x DDR4 (max 64 Go), 2x M.2, WiFi, Gigabit LAN, HD Audio, micro-ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_B550M_PRO-VDH_WiFi/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.4,
+    "reviews": 90,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "AM4",
+      "Chipset": "B550",
+      "RAM": "4x DDR4 (max 64 Go)",
+      "SATA": "4x SATA 6Gbps",
+      "M.2": "2x M.2",
+      "LAN": "Gigabit",
+      "WiFi": "Oui",
+      "Audio": "HD Audio",
+      "Format": "Micro-ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-pro-b650m-b",
+    "name": "Carte Mère MSI PRO B650M-B",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 319,
+    "description": "Carte mère MSI PRO B650M-B, socket AM5, chipset B650, 2x DDR5 (max 128 Go, jusqu'à 6800+ MHz), 4x SATA, 1x M.2, HDMI/VGA, micro-ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_PRO_B650M-B/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.3,
+    "reviews": 38,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "AM5",
+      "Chipset": "B650",
+      "RAM": "2x DDR5 (max 128 Go, jusqu'à 6800+ MHz)",
+      "SATA": "4x SATA 6Gbps",
+      "M.2": "1x M.2",
+      "Video": "HDMI, VGA",
+      "Format": "Micro-ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-pro-b760m-p-ddr4",
+    "name": "Carte Mère MSI PRO B760M-P DDR4",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 335,
+    "description": "Carte mère MSI PRO B760M-P DDR4, socket LGA1700, chipset B760, 4x DDR4 (max 128 Go, jusqu'à 4800 MHz), 2x M.2, Gigabit LAN, HD Audio, micro-ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_PRO_B760M-P_DDR4/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.3,
+    "reviews": 42,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "LGA1700",
+      "Chipset": "B760",
+      "RAM": "4x DDR4 (max 128 Go, jusqu'à 4800 MHz)",
+      "SATA": "4x SATA 6Gbps",
+      "M.2": "2x M.2",
+      "LAN": "Gigabit",
+      "Audio": "HD Audio",
+      "Format": "Micro-ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-pro-b760m-p-ddr5",
+    "name": "Carte Mère MSI PRO B760M-P DDR5",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 379,
+    "description": "Carte mère MSI PRO B760M-P DDR5, socket LGA1700, chipset B760, 4x DDR5 (max 128 Go), 2x M.2, Gigabit LAN, HD Audio, micro-ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_PRO_B760M-P_DDR5/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.4,
+    "reviews": 40,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "LGA1700",
+      "Chipset": "B760",
+      "RAM": "4x DDR5 (max 128 Go)",
+      "SATA": "4x SATA 6Gbps",
+      "M.2": "2x M.2",
+      "LAN": "Gigabit",
+      "Audio": "HD Audio",
+      "Format": "Micro-ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-pro-b650m-p",
+    "name": "Carte Mère MSI PRO B650M-P",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 399,
+    "description": "Carte mère MSI PRO B650M-P, socket AM5, chipset B650, 4x DDR5 (max 256 Go, jusqu'à 7200+ MHz), 2x M.2, HDMI/DisplayPort, Gigabit LAN, micro-ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_PRO_B650M-P/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.4,
+    "reviews": 38,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "AM5",
+      "Chipset": "B650",
+      "RAM": "4x DDR5 (max 256 Go, jusqu'à 7200+ MHz)",
+      "SATA": "4x SATA 6Gbps",
+      "M.2": "2x M.2",
+      "Video": "HDMI, DisplayPort",
+      "LAN": "Gigabit",
+      "Format": "Micro-ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-b760m-gaming-plus-wifi",
+    "name": "Carte Mère MSI B760M GAMING PLUS WIFI",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 509,
+    "description": "Carte mère MSI B760M GAMING PLUS WIFI, socket LGA1700, chipset B760, 4x DDR5 (max 192 Go, jusqu'à 6800 MHz), 2x M.2, WiFi 6E, 2.5G LAN, HD Audio, micro-ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_B760M_GAMING_PLUS_WIFI/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.5,
+    "reviews": 50,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "LGA1700",
+      "Chipset": "B760",
+      "RAM": "4x DDR5 (max 192 Go, jusqu'à 6800 MHz)",
+      "SATA": "4x SATA 6Gbps",
+      "M.2": "2x M.2",
+      "LAN": "2.5G, WiFi 6E",
+      "Audio": "HD Audio",
+      "Format": "Micro-ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-pro-b760m-a-wifi-ddr4",
+    "name": "Carte Mère MSI PRO B760M-A WIFI DDR4",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 545,
+    "description": "Carte mère MSI PRO B760M-A WIFI DDR4, socket LGA1700, chipset B760, 4x DDR4 (max 128 Go, jusqu'à 5333 MHz), 2x M.2, WiFi, Gigabit LAN, HD Audio, micro-ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_PRO_B760M-A_WIFI_DDR4/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.5,
+    "reviews": 48,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "LGA1700",
+      "Chipset": "B760",
+      "RAM": "4x DDR4 (max 128 Go, jusqu'à 5333 MHz)",
+      "SATA": "4x SATA 6Gbps",
+      "M.2": "2x M.2",
+      "LAN": "Gigabit, WiFi",
+      "Audio": "HD Audio",
+      "Format": "Micro-ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-b760-gaming-plus-wifi",
+    "name": "Carte Mère MSI B760 GAMING PLUS WIFI",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 599,
+    "description": "Carte mère MSI B760 GAMING PLUS WIFI, socket LGA1700, chipset B760, 4x DDR5 (max 192 Go, jusqu'à 6800+ MHz), 2x M.2, WiFi 6E, 2.5G LAN, HD Audio, ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_B760_GAMING_PLUS_WIFI/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.6,
+    "reviews": 55,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "LGA1700",
+      "Chipset": "B760",
+      "RAM": "4x DDR5 (max 192 Go, jusqu'à 6800+ MHz)",
+      "SATA": "4x SATA 6Gbps",
+      "M.2": "2x M.2",
+      "LAN": "2.5G, WiFi 6E",
+      "Audio": "HD Audio",
+      "Format": "ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-b650-gaming-plus-wifi",
+    "name": "Carte Mère MSI B650 GAMING PLUS WIFI",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 569,
+    "description": "Carte mère MSI B650 GAMING PLUS WIFI, socket AM5, chipset B650, 4x DDR5 (max 128 Go, jusqu'à 7200 MHz), 2x M.2, WiFi 6E, 2.5G LAN, HD Audio, ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_B650_GAMING_PLUS_WIFI/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.6,
+    "reviews": 52,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "AM5",
+      "Chipset": "B650",
+      "RAM": "4x DDR5 (max 128 Go, jusqu'à 7200 MHz)",
+      "SATA": "4x SATA 6Gbps",
+      "M.2": "2x M.2",
+      "LAN": "2.5G, WiFi 6E",
+      "Audio": "HD Audio",
+      "Format": "ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-pro-z790-p-wifi-ddr5",
+    "name": "Carte Mère MSI PRO Z790-P WIFI DDR5",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 799,
+    "description": "Carte mère MSI PRO Z790-P WIFI DDR5, socket LGA1700, chipset Z790, 4x DDR5 (max 192 Go), 4x M.2, WiFi 6E, 2.5G LAN, HD Audio, ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_PRO_Z790-P_WIFI_DDR5/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.7,
+    "reviews": 45,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "LGA1700",
+      "Chipset": "Z790",
+      "RAM": "4x DDR5 (max 192 Go)",
+      "SATA": "6x SATA 6Gbps",
+      "M.2": "4x M.2",
+      "LAN": "2.5G, WiFi 6E",
+      "Audio": "HD Audio",
+      "Format": "ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-x670e-gaming-plus-wifi",
+    "name": "Carte Mère MSI X670E GAMING PLUS WIFI",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 899,
+    "description": "Carte mère MSI X670E GAMING PLUS WIFI, socket AM5, chipset X670E, 4x DDR5 (max 128 Go, jusqu'à 7200 MHz), 2x M.2 PCIe 5.0, WiFi 6E, 2.5G LAN, HD Audio, ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_X670E_GAMING_PLUS_WIFI/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.7,
+    "reviews": 42,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "AM5",
+      "Chipset": "X670E",
+      "RAM": "4x DDR5 (max 128 Go, jusqu'à 7200 MHz)",
+      "SATA": "6x SATA 6Gbps",
+      "M.2": "2x M.2 PCIe 5.0",
+      "LAN": "2.5G, WiFi 6E",
+      "Audio": "HD Audio",
+      "Format": "ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-pro-x870-p-wifi",
+    "name": "Carte Mère MSI PRO X870-P WIFI",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 929,
+    "description": "Carte mère MSI PRO X870-P WIFI, socket AM5, chipset X870, 4x DDR5 (max 256 Go, jusqu'à 8000+ MHz), 3x M.2 (PCIe 5.0/4.0), WiFi 7, 5G LAN, HD Audio, ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_PRO_X870-P_WIFI/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.8,
+    "reviews": 38,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "AM5",
+      "Chipset": "X870",
+      "RAM": "4x DDR5 (max 256 Go, jusqu'à 8000+ MHz)",
+      "SATA": "4x SATA 6Gbps",
+      "M.2": "3x M.2 (PCIe 5.0/4.0)",
+      "LAN": "5G, WiFi 7",
+      "Audio": "HD Audio",
+      "Format": "ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-pro-z790-a-max-wifi",
+    "name": "Carte Mère MSI PRO Z790-A MAX WIFI",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 955,
+    "description": "Carte mère MSI PRO Z790-A MAX WIFI, socket LGA1700, chipset Z790, 4x DDR5 (max 192 Go, jusqu'à 7800 MHz), 4x M.2, WiFi 7, 2.5G LAN, HD Audio, ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_PRO_Z790-A_MAX_WIFI/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.8,
+    "reviews": 35,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "LGA1700",
+      "Chipset": "Z790",
+      "RAM": "4x DDR5 (max 192 Go, jusqu'à 7800 MHz)",
+      "SATA": "6x SATA 6Gbps",
+      "M.2": "4x M.2",
+      "LAN": "2.5G, WiFi 7",
+      "Audio": "HD Audio",
+      "Format": "ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-mag-x870-tomahawk-wifi",
+    "name": "Carte Mère MSI MAG X870 TOMAHAWK WIFI",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 1059,
+    "description": "Carte mère MSI MAG X870 TOMAHAWK WIFI, socket AM5, chipset X870, 4x DDR5 (max 256 Go, jusqu'à 8000+ MHz), 3x M.2 (PCIe 5.0/4.0), WiFi 7, 5G LAN, HD Audio, ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_MAG_X870_TOMAHAWK_WIFI/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.8,
+    "reviews": 32,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "AM5",
+      "Chipset": "X870",
+      "RAM": "4x DDR5 (max 256 Go, jusqu'à 8000+ MHz)",
+      "SATA": "6x SATA 6Gbps",
+      "M.2": "3x M.2 (PCIe 5.0/4.0)",
+      "LAN": "5G, WiFi 7",
+      "Audio": "HD Audio",
+      "Format": "ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-mag-z790-tomahawk-max-wifi",
+    "name": "Carte Mère MSI MAG Z790 TOMAHAWK MAX WIFI",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 1099,
+    "description": "Carte mère MSI MAG Z790 TOMAHAWK MAX WIFI, socket LGA1700, chipset Z790, 4x DDR5 (max 192 Go, jusqu'à 7800 MHz), 4x M.2, WiFi 7, 2.5G LAN, HD Audio, ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_MAG_Z790_TOMAHAWK_MAX_WIFI/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.8,
+    "reviews": 30,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "LGA1700",
+      "Chipset": "Z790",
+      "RAM": "4x DDR5 (max 192 Go, jusqu'à 7800 MHz)",
+      "SATA": "6x SATA 6Gbps",
+      "M.2": "4x M.2",
+      "LAN": "2.5G, WiFi 7",
+      "Audio": "HD Audio",
+      "Format": "ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-mpg-x670e-carbon-wifi",
+    "name": "Carte Mère MSI MPG X670E CARBON WIFI",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 1699,
+    "description": "Carte mère MSI MPG X670E CARBON WIFI, socket AM5, chipset X670E, 4x DDR5 (max 128 Go, jusqu'à 7200 MHz), 2x M.2 PCIe 5.0, WiFi 6E, 2.5G LAN, HD Audio, ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_MPG_X670E_CARBON_WIFI/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.8,
+    "reviews": 28,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "AM5",
+      "Chipset": "X670E",
+      "RAM": "4x DDR5 (max 128 Go, jusqu'à 7200 MHz)",
+      "SATA": "6x SATA 6Gbps",
+      "M.2": "2x M.2 PCIe 5.0",
+      "LAN": "2.5G, WiFi 6E",
+      "Audio": "HD Audio",
+      "Format": "ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-mpg-z790-carbon-max-wifi-ii",
+    "name": "Carte Mère MPG Z790 CARBON MAX WIFI II",
+    "brand": "MSI",
+    "category": "Motherboards",
+    "price": 1845,
+    "description": "Carte mère MSI MPG Z790 CARBON MAX WIFI II, socket LGA1700, chipset Z790, 4x DDR5 (max 192 Go, jusqu'à 7800 MHz), 4x M.2, WiFi 7, 2.5G LAN, HD Audio, ATX",
+    "images": ["./assets/ProductImages/Motherboard/MSI_MPG_Z790_CARBON_MAX_WIFI_II/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.9,
+    "reviews": 25,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Socket": "LGA1700",
+      "Chipset": "Z790",
+      "RAM": "4x DDR5 (max 192 Go, jusqu'à 7800 MHz)",
+      "SATA": "6x SATA 6Gbps",
+      "M.2": "4x M.2",
+      "LAN": "2.5G, WiFi 7",
+      "Audio": "HD Audio",
+      "Format": "ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-mag-a500dn",
+    "name": "Alimentation MSI MAG A500DN",
+    "brand": "MSI",
+    "category": "Power Supplies",
+    "price": 129,
+    "description": "Alimentation MSI MAG A500DN, 500W, 80 PLUS Standard (jusqu'à 80%), ventilateur 120mm, protections OCP/OVP/OPP/OTP/SCP/UVP, ATX, EPS, PCI-E, SATA, Molex",
+    "images": ["./assets/ProductImages/PSU/MSI_MAG_A500DN/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.2,
+    "reviews": 40,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Power": "500W",
+      "Certification": "80 PLUS Standard",
+      "Fan": "120mm",
+      "Protections": "OCP/OVP/OPP/OTP/SCP/UVP",
+      "Form Factor": "ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-mag-a600dn",
+    "name": "Alimentation MSI MAG A600DN",
+    "brand": "MSI",
+    "category": "Power Supplies",
+    "price": 139,
+    "description": "Alimentation MSI MAG A600DN, 600W, 80 PLUS Standard (jusqu'à 80%), ventilateur 120mm, protections OCP/OVP/OPP/OTP/SCP/UVP, ATX, EPS, PCI-E, SATA, Molex",
+    "images": ["./assets/ProductImages/PSU/MSI_MAG_A600DN/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.3,
+    "reviews": 38,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Power": "600W",
+      "Certification": "80 PLUS Standard",
+      "Fan": "120mm",
+      "Protections": "OCP/OVP/OPP/OTP/SCP/UVP",
+      "Form Factor": "ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-mag-a550bnl",
+    "name": "Alimentation MSI MAG A550BNL",
+    "brand": "MSI",
+    "category": "Power Supplies",
+    "price": 145,
+    "description": "Alimentation MSI MAG A550BNL, 550W, 80 PLUS Bronze (jusqu'à 85%), ventilateur 120mm, protections OCP/OVP/OPP/OTP/SCP/UVP, ATX, EPS, PCI-E, SATA, Molex",
+    "images": ["./assets/ProductImages/PSU/MSI_MAG_A550BNL/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.3,
+    "reviews": 42,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Power": "550W",
+      "Certification": "80 PLUS Bronze",
+      "Fan": "120mm",
+      "Protections": "OCP/OVP/OPP/OTP/SCP/UVP",
+      "Form Factor": "ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-mag-a550-bn",
+    "name": "Bloc D’Alimentation MSI MAG A550 BN",
+    "brand": "MSI",
+    "category": "Power Supplies",
+    "price": 149,
+    "description": "Bloc d’alimentation MSI MAG A550 BN, 550W, 80 PLUS Bronze (jusqu'à 85%), ventilateur 120mm, protections OCP/OVP/OPP/OTP/SCP/UVP, ATX, EPS, PCI-E, SATA, Molex",
+    "images": ["./assets/ProductImages/PSU/MSI_MAG_A550_BN/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.3,
+    "reviews": 40,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Power": "550W",
+      "Certification": "80 PLUS Bronze",
+      "Fan": "120mm",
+      "Protections": "OCP/OVP/OPP/OTP/SCP/UVP",
+      "Form Factor": "ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-mag-a650bnl",
+    "name": "Alimentation MSI MAG A650BNL",
+    "brand": "MSI",
+    "category": "Power Supplies",
+    "price": 155,
+    "description": "Alimentation MSI MAG A650BNL, 650W, 80 PLUS Bronze (jusqu'à 85%), ventilateur 120mm, protections OCP/OVP/OPP/OTP/SCP/UVP, ATX, EPS, PCI-E, SATA, Molex",
+    "images": ["./assets/ProductImages/PSU/MSI_MAG_A650BNL/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.4,
+    "reviews": 45,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Power": "650W",
+      "Certification": "80 PLUS Bronze",
+      "Fan": "120mm",
+      "Protections": "OCP/OVP/OPP/OTP/SCP/UVP",
+      "Form Factor": "ATX"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-mag-a750bn-pcie5",
+    "name": "Bloc D’Alimentation MSI MAG A750BN PCIE5",
+    "brand": "MSI",
+    "category": "Power Supplies",
+    "price": 255,
+    "description": "Bloc d’alimentation MSI MAG A750BN PCIE5, 750W, 80 PLUS Bronze (jusqu'à 85%), ventilateur 120mm, protections OCP/OVP/OPP/OTP/SCP/UVP, ATX, EPS, PCIe 5.0, SATA, Molex",
+    "images": ["./assets/ProductImages/PSU/MSI_MAG_A750BN_PCIE5/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.5,
+    "reviews": 48,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Power": "750W",
+      "Certification": "80 PLUS Bronze",
+      "Fan": "120mm",
+      "Protections": "OCP/OVP/OPP/OTP/SCP/UVP",
+      "Form Factor": "ATX",
+      "PCIe 5.0": "Oui"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-mag-a650gl",
+    "name": "Bloc D’Alimentation MSI MAG A650GL",
+    "brand": "MSI",
+    "category": "Power Supplies",
+    "price": 255,
+    "description": "Bloc d’alimentation MSI MAG A650GL, 650W, 80 PLUS Gold (jusqu'à 90%), ventilateur 120mm, protections OCP/OVP/OPP/OTP/SCP/UVP, entièrement modulaire, ATX, EPS, PCI-E, SATA, Molex",
+    "images": ["./assets/ProductImages/PSU/MSI_MAG_A650GL/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.6,
+    "reviews": 52,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Power": "650W",
+      "Certification": "80 PLUS Gold",
+      "Fan": "120mm",
+      "Protections": "OCP/OVP/OPP/OTP/SCP/UVP",
+      "Form Factor": "ATX",
+      "Modular": "Oui"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-mag-a750gl-pcie5",
+    "name": "Bloc D’Alimentation MSI MAG A750GL PCIE5",
+    "brand": "MSI",
+    "category": "Power Supplies",
+    "price": 295,
+    "description": "Bloc d’alimentation MSI MAG A750GL PCIE5, 750W, 80 PLUS Gold (jusqu'à 90%), ventilateur 120mm, protections OCP/OVP/OPP/OTP/SCP/UVP, entièrement modulaire, ATX, EPS, PCIe 5.0, SATA, Molex",
+    "images": ["./assets/ProductImages/PSU/MSI_MAG_A750GL_PCIE5/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.7,
+    "reviews": 55,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Power": "750W",
+      "Certification": "80 PLUS Gold",
+      "Fan": "120mm",
+      "Protections": "OCP/OVP/OPP/OTP/SCP/UVP",
+      "Form Factor": "ATX",
+      "Modular": "Oui",
+      "PCIe 5.0": "Oui"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-mag-a850gl-pcie5",
+    "name": "Bloc D’Alimentation MSI MAG A850GL PCIE5",
+    "brand": "MSI",
+    "category": "Power Supplies",
+    "price": 369,
+    "description": "Bloc d’alimentation MSI MAG A850GL PCIE5, 850W, 80 PLUS Gold (jusqu'à 90%), ventilateur 120mm, protections OCP/OVP/OPP/OTP/SCP/UVP, entièrement modulaire, ATX, EPS, PCIe 5.0, SATA, Molex",
+    "images": ["./assets/ProductImages/PSU/MSI_MAG_A850GL_PCIE5/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.7,
+    "reviews": 50,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Power": "850W",
+      "Certification": "80 PLUS Gold",
+      "Fan": "120mm",
+      "Protections": "OCP/OVP/OPP/OTP/SCP/UVP",
+      "Form Factor": "ATX",
+      "Modular": "Oui",
+      "PCIe 5.0": "Oui"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-mag-a1000gl",
+    "name": "Bloc D’Alimentation MSI MAG A1000GL",
+    "brand": "MSI",
+    "category": "Power Supplies",
+    "price": 519,
+    "description": "Bloc d’alimentation MSI MAG A1000GL, 1000W, 80 PLUS Gold (jusqu'à 90%), ventilateur 120mm, protections OCP/OVP/OPP/OTP/SCP/UVP, entièrement modulaire, ATX, EPS, PCIe 5.0, SATA, Molex",
+    "images": ["./assets/ProductImages/PSU/MSI_MAG_A1000GL/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.8,
+    "reviews": 45,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Power": "1000W",
+      "Certification": "80 PLUS Gold",
+      "Fan": "120mm",
+      "Protections": "OCP/OVP/OPP/OTP/SCP/UVP",
+      "Form Factor": "ATX",
+      "Modular": "Oui",
+      "PCIe 5.0": "Oui"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-mag-a1250gl",
+    "name": "Bloc D’Alimentation MSI MAG A1250GL",
+    "brand": "MSI",
+    "category": "Power Supplies",
+    "price": 755,
+    "description": "Bloc d’alimentation MSI MAG A1250GL, 1250W, 80 PLUS Gold (jusqu'à 90%), ventilateur 120mm, protections OCP/OVP/OPP/OTP/SCP/UVP, entièrement modulaire, ATX, EPS, PCIe 5.0, SATA, Molex",
+    "images": ["./assets/ProductImages/PSU/MSI_MAG_A1250GL/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.8,
+    "reviews": 40,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Power": "1250W",
+      "Certification": "80 PLUS Gold",
+      "Fan": "120mm",
+      "Protections": "OCP/OVP/OPP/OTP/SCP/UVP",
+      "Form Factor": "ATX",
+      "Modular": "Oui",
+      "PCIe 5.0": "Oui"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-meg-ai1300p",
+    "name": "Bloc D’Alimentation MSI MEG Ai1300P",
+    "brand": "MSI",
+    "category": "Power Supplies",
+    "price": 1155,
+    "description": "Bloc d’alimentation MSI MEG Ai1300P, 1300W, 80 PLUS Platinum (jusqu'à 92%), ventilateur 120mm, protections OCP/OVP/OPP/OTP/SCP/UVP, entièrement modulaire, ATX, EPS, PCIe 5.0, SATA, Molex",
+    "images": ["./assets/ProductImages/PSU/MSI_MEG_Ai1300P/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.9,
+    "reviews": 35,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Power": "1300W",
+      "Certification": "80 PLUS Platinum",
+      "Fan": "120mm",
+      "Protections": "OCP/OVP/OPP/OTP/SCP/UVP",
+      "Form Factor": "ATX",
+      "Modular": "Oui",
+      "PCIe 5.0": "Oui"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-spatium-m371-nvme-m2-500gb",
+    "name": "Disque SSD MSI SPATIUM M371 NVMe M.2 500GB",
+    "brand": "MSI",
+    "category": "Storage",
+    "price": 155,
+    "description": "Disque SSD MSI SPATIUM M371 NVMe M.2, 500GB, PCIe 3.0 x4, jusqu'à 2400 MB/s lecture, 1800 MB/s écriture, NVMe 1.3, M.2 2280",
+    "images": ["./assets/ProductImages/SSD/MSI_SPATIUM_M371_NVMe_M2_500GB/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.3,
+    "reviews": 60,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Capacity": "500GB",
+      "Interface": "PCIe 3.0 x4",
+      "Read": "2400 MB/s",
+      "Write": "1800 MB/s",
+      "Form Factor": "M.2 2280"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-spatium-m450-pcie-4-0-500g",
+    "name": "Disque SSD MSI SPATIUM M450 PCIe 4.0 500G",
+    "brand": "MSI",
+    "category": "Storage",
+    "price": 149,
+    "description": "Disque SSD MSI SPATIUM M450 PCIe 4.0, 500GB, PCIe 4.0 x4, jusqu'à 3600 MB/s lecture, 2500 MB/s écriture, NVMe 1.4, M.2 2280",
+    "images": ["./assets/ProductImages/SSD/MSI_SPATIUM_M450_PCIe_4_0_500G/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.4,
+    "reviews": 55,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Capacity": "500GB",
+      "Interface": "PCIe 4.0 x4",
+      "Read": "3600 MB/s",
+      "Write": "2500 MB/s",
+      "Form Factor": "M.2 2280"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-spatium-m371-nvme-m2-1tb",
+    "name": "Disque SSD MSI SPATIUM M371 NVMe M.2 1TB",
+    "brand": "MSI",
+    "category": "Storage",
+    "price": 229,
+    "description": "Disque SSD MSI SPATIUM M371 NVMe M.2, 1TB, PCIe 3.0 x4, jusqu'à 2400 MB/s lecture, 1800 MB/s écriture, NVMe 1.3, M.2 2280",
+    "images": ["./assets/ProductImages/SSD/MSI_SPATIUM_M371_NVMe_M2_1TB/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.5,
+    "reviews": 50,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Capacity": "1TB",
+      "Interface": "PCIe 3.0 x4",
+      "Read": "2400 MB/s",
+      "Write": "1800 MB/s",
+      "Form Factor": "M.2 2280"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-spatium-m450-1tb",
+    "name": "Disque SSD MSI SPATIUM M450 1 TB",
+    "brand": "MSI",
+    "category": "Storage",
+    "price": 235,
+    "description": "Disque SSD MSI SPATIUM M450, 1TB, PCIe 4.0 x4, jusqu'à 3600 MB/s lecture, 3000 MB/s écriture, NVMe 1.4, M.2 2280",
+    "images": ["./assets/ProductImages/SSD/MSI_SPATIUM_M450_1TB/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.5,
+    "reviews": 48,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Capacity": "1TB",
+      "Interface": "PCIe 4.0 x4",
+      "Read": "3600 MB/s",
+      "Write": "3000 MB/s",
+      "Form Factor": "M.2 2280"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-spatium-m460-1tb",
+    "name": "Disque SSD MSI SPATIUM M460 1 TB",
+    "brand": "MSI",
+    "category": "Storage",
+    "price": 259,
+    "description": "Disque SSD MSI SPATIUM M460, 1TB, PCIe 4.0 x4, jusqu'à 5000 MB/s lecture, 4500 MB/s écriture, NVMe 1.4, M.2 2280",
+    "images": ["./assets/ProductImages/SSD/MSI_SPATIUM_M460_1TB/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.6,
+    "reviews": 45,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Capacity": "1TB",
+      "Interface": "PCIe 4.0 x4",
+      "Read": "5000 MB/s",
+      "Write": "4500 MB/s",
+      "Form Factor": "M.2 2280"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-spatium-m480-pro-1tb",
+    "name": "Disque SSD MSI SPATIUM M480 PRO 1 TB",
+    "brand": "MSI",
+    "category": "Storage",
+    "price": 299,
+    "description": "Disque SSD MSI SPATIUM M480 PRO, 1TB, PCIe 4.0 x4, jusqu'à 7000 MB/s lecture, 5500 MB/s écriture, NVMe 1.4, M.2 2280",
+    "images": ["./assets/ProductImages/SSD/MSI_SPATIUM_M480_PRO_1TB/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.7,
+    "reviews": 42,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Capacity": "1TB",
+      "Interface": "PCIe 4.0 x4",
+      "Read": "7000 MB/s",
+      "Write": "5500 MB/s",
+      "Form Factor": "M.2 2280"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-spatium-m480-pro-2tb",
+    "name": "Disque SSD MSI SPATIUM M480 PRO 2 TB",
+    "brand": "MSI",
+    "category": "Storage",
+    "price": 495,
+    "description": "Disque SSD MSI SPATIUM M480 PRO, 2TB, PCIe 4.0 x4, jusqu'à 7000 MB/s lecture, 5500 MB/s écriture, NVMe 1.4, M.2 2280",
+    "images": ["./assets/ProductImages/SSD/MSI_SPATIUM_M480_PRO_2TB/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.8,
+    "reviews": 40,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Capacity": "2TB",
+      "Interface": "PCIe 4.0 x4",
+      "Read": "7000 MB/s",
+      "Write": "5500 MB/s",
+      "Form Factor": "M.2 2280"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-spatium-m580-2tb-frozr",
+    "name": "Disque SSD SPATIUM M580 2TB FROZR",
+    "brand": "MSI",
+    "category": "Storage",
+    "price": 1159,
+    "description": "Disque SSD MSI SPATIUM M580 FROZR, 2TB, PCIe 5.0 x4, jusqu'à 10000 MB/s lecture, 9000 MB/s écriture, NVMe 2.0, M.2 2280, dissipateur thermique intégré",
+    "images": ["./assets/ProductImages/SSD/MSI_SPATIUM_M580_2TB_FROZR/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.9,
+    "reviews": 38,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Capacity": "2TB",
+      "Interface": "PCIe 5.0 x4",
+      "Read": "10000 MB/s",
+      "Write": "9000 MB/s",
+      "Form Factor": "M.2 2280",
+      "Cooling": "Dissipateur intégré"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+    "id": "msi-mag-coreliquid-m360",
+    "name": "WaterCooling MSI MAG CORELIQUID M360",
+    "brand": "MSI",
+    "category": "Watercooling",
+    "price": 365,
+    "description": "Watercooling MSI MAG CORELIQUID M360, 360mm, ventilateurs ARGB, pompe intégrée, compatibles Intel/AMD, support LGA1700/AM5, éclairage personnalisable",
+    "images": ["./assets/ProductImages/Watercooling/MSI_MAG_CORELIQUID_M360/image_1.jpg"],
+    "stock": 5,
+    "rating": 4.6,
+    "reviews": 45,
+    "featured": false,
+    "specifications": {
+      "Brand": "MSI",
+      "Radiator": "360mm",
+      "Fans": "3x ARGB",
+      "Pump": "Intégrée",
+      "Compatibility": "Intel/AMD",
+      "RGB": "Oui"
+    },
+    "platforms": ["PC"],
+    "dateAdded": "2025-06-18"
+  },
+  {
+  "id": "msi-mag-coreliquid-e240",
+  "name": "WaterCooling MSI MAG CORELIQUID E240",
+  "brand": "MSI",
+  "category": "Watercooling",
+  "price": 389,
+  "description": "Watercooling MSI MAG CORELIQUID E240, 240mm, ventilateurs ARGB, pompe intégrée, compatibles Intel LGA1700/AM5 et plus, éclairage personnalisable, installation simplifiée avec bloc rotatif, excellente gestion thermique pour CPU gaming",
+  "images": [
+    "./assets/ProductImages/Watercooling/MSI_MAG_CORELIQUID_E240/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.5,
+  "reviews": 48,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Radiator": "240mm",
+    "Fans": "2x ARGB",
+    "Pump": "Intégrée",
+    "Compatibility": "Intel LGA1700, AM5, LGA1200, AM4, etc.",
+    "RGB": "Oui, personnalisable",
+    "Pump Noise Level": "20 dBA (avg.)",
+    "Pump Life Expectancy": "200,000 hours"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-mag-coreliquid-e240-white",
+  "name": "WaterCooling MSI MAG CORELIQUID E240 White",
+  "brand": "MSI",
+  "category": "Watercooling",
+  "price": 399,
+  "description": "Watercooling MSI MAG CORELIQUID E240 White, 240mm, ventilateurs ARGB, pompe intégrée, compatibles Intel LGA1700/AM5 et plus, éclairage personnalisable, installation simplifiée avec bloc rotatif, excellente gestion thermique pour CPU gaming",
+  "images": [
+    "./assets/ProductImages/Watercooling/MSI_MAG_CORELIQUID_E240_White/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.5,
+  "reviews": 45,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Radiator": "240mm",
+    "Fans": "2x ARGB",
+    "Pump": "Intégrée",
+    "Compatibility": "Intel LGA1700, AM5, LGA1200, AM4, etc.",
+    "RGB": "Oui, personnalisable",
+    "Pump Noise Level": "20 dBA (avg.)",
+    "Pump Life Expectancy": "200,000 hours"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-mag-coreliquid-i240",
+  "name": "WaterCooling MSI MAG CORELIQUID I240",
+  "brand": "MSI",
+  "category": "Watercooling",
+  "price": 425,
+  "description": "Watercooling MSI MAG CORELIQUID I240, 240mm, ventilateurs ARGB, pompe intégrée, compatibles Intel/AMD, support LGA1700/AM5, éclairage personnalisable",
+  "images": [
+    "./assets/ProductImages/Watercooling/MSI_MAG_CORELIQUID_I240/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.4,
+  "reviews": 46,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Radiator": "240mm",
+    "Fans": "2x ARGB",
+    "Pump": "Intégrée",
+    "Compatibility": "Intel/AMD",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-mag-coreliquid-i240-white",
+  "name": "WaterCooling MSI MAG CORELIQUID I240 White",
+  "brand": "MSI",
+  "category": "Watercooling",
+  "price": 429,
+  "description": "Watercooling MSI MAG CORELIQUID I240 White, 240mm, ventilateurs ARGB, pompe intégrée, compatibles Intel/AMD, support LGA1700/AM5, éclairage personnalisable",
+  "images": [
+    "./assets/ProductImages/Watercooling/MSI_MAG_CORELIQUID_I240_White/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.4,
+  "reviews": 43,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Radiator": "240mm",
+    "Fans": "2x ARGB",
+    "Pump": "Intégrée",
+    "Compatibility": "Intel/AMD",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-mag-coreliquid-e360",
+  "name": "WaterCooling MSI MAG CORELIQUID E360",
+  "brand": "MSI",
+  "category": "Watercooling",
+  "price": 479,
+  "description": "Watercooling MSI MAG CORELIQUID E360, 360mm, ventilateurs ARGB, pompe intégrée, compatibles Intel/AMD, support LGA1700/AM5, éclairage personnalisable",
+  "images": [
+    "./assets/ProductImages/Watercooling/MSI_MAG_CORELIQUID_E360/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.6,
+  "reviews": 42,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Radiator": "360mm",
+    "Fans": "3x ARGB",
+    "Pump": "Intégrée",
+    "Compatibility": "Intel/AMD",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-mag-coreliquid-e360-white",
+  "name": "WaterCooling MSI MAG CORELIQUID E360 White",
+  "brand": "MSI",
+  "category": "Watercooling",
+  "price": 495,
+  "description": "Watercooling MSI MAG CORELIQUID E360 White, 360mm, ventilateurs ARGB, pompe intégrée, compatibles Intel/AMD, support LGA1700/AM5, éclairage personnalisable",
+  "images": [
+    "./assets/ProductImages/Watercooling/MSI_MAG_CORELIQUID_E360_White/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.6,
+  "reviews": 40,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Radiator": "360mm",
+    "Fans": "3x ARGB",
+    "Pump": "Intégrée",
+    "Compatibility": "Intel/AMD",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-mag-coreliquid-i360",
+  "name": "WaterCooling MSI MAG CORELIQUID I360",
+  "brand": "MSI",
+  "category": "Watercooling",
+  "price": 509,
+  "description": "Watercooling MSI MAG CORELIQUID I360, 360mm, ventilateurs ARGB, pompe intégrée, compatibles Intel/AMD, support LGA1700/AM5, éclairage personnalisable",
+  "images": [
+    "./assets/ProductImages/Watercooling/MSI_MAG_CORELIQUID_I360/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.6,
+  "reviews": 41,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Radiator": "360mm",
+    "Fans": "3x ARGB",
+    "Pump": "Intégrée",
+    "Compatibility": "Intel/AMD",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-mag-coreliquid-i360-white",
+  "name": "WaterCooling MSI MAG CORELIQUID I360 White",
+  "brand": "MSI",
+  "category": "Watercooling",
+  "price": 535,
+  "description": "Watercooling MSI MAG CORELIQUID I360 White, 360mm, ventilateurs ARGB, pompe intégrée, compatibles Intel/AMD, support LGA1700/AM5, éclairage personnalisable",
+  "images": [
+    "./assets/ProductImages/Watercooling/MSI_MAG_CORELIQUID_I360_White/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.6,
+  "reviews": 39,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Radiator": "360mm",
+    "Fans": "3x ARGB",
+    "Pump": "Intégrée",
+    "Compatibility": "Intel/AMD",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-meg-coreliquid-s360",
+  "name": "WaterCooling MSI MEG CORELIQUID S360",
+  "brand": "MSI",
+  "category": "Watercooling",
+  "price": 995,
+  "description": "Watercooling MSI MEG CORELIQUID S360, 360mm, ventilateurs ARGB, pompe intégrée, compatibles Intel/AMD, support LGA1700/AM5, éclairage personnalisable, refroidissement haut de gamme",
+  "images": [
+    "./assets/ProductImages/Watercooling/MSI_MEG_CORELIQUID_S360/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.7,
+  "reviews": 37,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Radiator": "360mm",
+    "Fans": "3x ARGB",
+    "Pump": "Intégrée",
+    "Compatibility": "Intel/AMD",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-max-f12a-3-argb",
+  "name": "MSI MAX F12A-3 ARGB",
+  "brand": "MSI",
+  "category": "Fans",
+  "price": 69,
+  "description": "Ventilateur MSI MAX F12A-3 ARGB, 120mm, éclairage ARGB personnalisable, faible bruit, parfait pour le refroidissement de boîtier ou de radiateur",
+  "images": [
+    "./assets/ProductImages/Fans/MSI_MAX_F12A-3_ARGB/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.2,
+  "reviews": 56,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Size": "120mm",
+    "RGB": "ARGB",
+    "Noise": "Low"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "aqirys-uranus-ls-black",
+  "name": "AQIRYS URANUS LS BLACK",
+  "brand": "AQIRYS",
+  "category": "Fans",
+  "price": 76,
+  "description": "Ventilateur AQIRYS URANUS LS BLACK, 120mm, flux d'air élevé, faible bruit, parfait pour le refroidissement de boîtier",
+  "images": [
+    "./assets/ProductImages/Fans/AQIRYS_URANUS_LS_BLACK/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.0,
+  "reviews": 45,
+  "featured": false,
+  "specifications": {
+    "Brand": "AQIRYS",
+    "Size": "120mm",
+    "RGB": "Non",
+    "Noise": "Low"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "aqirys-uranus-ls-white",
+  "name": "AQIRYS URANUS LS White",
+  "brand": "AQIRYS",
+  "category": "Fans",
+  "price": 83,
+  "description": "Ventilateur AQIRYS URANUS LS White, 120mm, flux d'air élevé, faible bruit, parfait pour le refroidissement de boîtier",
+  "images": [
+    "./assets/ProductImages/Fans/AQIRYS_URANUS_LS_WHITE/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.0,
+  "reviews": 43,
+  "featured": false,
+  "specifications": {
+    "Brand": "AQIRYS",
+    "Size": "120mm",
+    "RGB": "Non",
+    "Noise": "Low"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "sandberg-streamer-usb",
+  "name": "Sandberg Streamer USB",
+  "brand": "Sandberg",
+  "category": "Microphones",
+  "price": 230,
+  "description": "Microphone USB Sandberg Streamer, idéal pour streaming, gaming, podcast, plug & play, compatibilité multiplateforme, son clair et précis",
+  "images": [
+    "./assets/ProductImages/Microphones/Sandberg_Streamer_USB/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.3,
+  "reviews": 38,
+  "featured": false,
+  "specifications": {
+    "Brand": "Sandberg",
+    "Type": "USB",
+    "Plug & Play": "Oui",
+    "Platforms": "PC, Mac, PS4, PS5, Xbox"
+  },
+  "platforms": ["PC", "Mac", "PS4", "PS5", "Xbox"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-vigor-gk20-rgb",
+  "name": "MSI VIGOR GK20 RGB",
+  "brand": "MSI",
+  "category": "Keyboards",
+  "price": 89,
+  "description": "Clavier MSI VIGOR GK20 RGB, rétroéclairage RGB personnalisable, switches mécaniques, anti-ghosting, layout FR, parfait pour gaming et bureautique",
+  "images": [
+    "./assets/ProductImages/Keyboards/MSI_VIGOR_GK20_RGB/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.4,
+  "reviews": 67,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Switches": "Mécaniques",
+    "RGB": "Oui",
+    "Anti-Ghosting": "Oui",
+    "Layout": "FR"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "aqirys-capella-rgb-black",
+  "name": "AQIRYS CAPELLA RGB BLACK",
+  "brand": "AQIRYS",
+  "category": "Keyboards",
+  "price": 95,
+  "description": "Clavier AQIRYS CAPELLA RGB BLACK, rétroéclairage RGB, switches mécaniques, anti-ghosting, layout FR, parfait pour gaming",
+  "images": [
+    "./assets/ProductImages/Keyboards/AQIRYS_CAPELLA_RGB_BLACK/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.4,
+  "reviews": 59,
+  "featured": false,
+  "specifications": {
+    "Brand": "AQIRYS",
+    "Switches": "Mécaniques",
+    "RGB": "Oui",
+    "Anti-Ghosting": "Oui",
+    "Layout": "FR"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-vigor-gk41-lr-fr-red-switch",
+  "name": "MSI VIGOR GK41 LR FR Red Switch",
+  "brand": "MSI",
+  "category": "Keyboards",
+  "price": 159,
+  "description": "Clavier MSI VIGOR GK41 LR FR Red Switch, switches mécaniques linéaires, rétroéclairage RGB, anti-ghosting, layout FR, parfait pour gaming",
+  "images": [
+    "./assets/ProductImages/Keyboards/MSI_VIGOR_GK41_LR_FR_Red_Switch/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.5,
+  "reviews": 63,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Switches": "Mécaniques (Red)",
+    "RGB": "Oui",
+    "Anti-Ghosting": "Oui",
+    "Layout": "FR"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "aqirys-mira-100-anti-ghosting-rgb",
+  "name": "AQIRYS MIRA | 100% ANTI-GHOSTING | RGB",
+  "brand": "AQIRYS",
+  "category": "Keyboards",
+  "price": 170,
+  "description": "Clavier AQIRYS MIRA, 100% anti-ghosting, rétroéclairage RGB, switches mécaniques, layout FR, parfait pour gaming",
+  "images": [
+    "./assets/ProductImages/Keyboards/AQIRYS_MIRA_100_ANTI_GHOSTING_RGB/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.5,
+  "reviews": 57,
+  "featured": false,
+  "specifications": {
+    "Brand": "AQIRYS",
+    "Switches": "Mécaniques",
+    "RGB": "Oui",
+    "Anti-Ghosting": "100%",
+    "Layout": "FR"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "madlions-mad60he",
+  "name": "Madlions MAD60HE",
+  "brand": "Madlions",
+  "category": "Keyboards",
+  "price": 299,
+  "description": "Clavier Madlions MAD60HE, compact 60%, switches optiques, rétroéclairage RGB, anti-ghosting, parfait pour gaming compétitif",
+  "images": [
+    "./assets/ProductImages/Keyboards/Madlions_MAD60HE/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.6,
+  "reviews": 42,
+  "featured": false,
+  "specifications": {
+    "Brand": "Madlions",
+    "Switches": "Optiques",
+    "RGB": "Oui",
+    "Anti-Ghosting": "Oui",
+    "Layout": "60%"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-forge-gm300",
+  "name": "MSI FORGE GM300",
+  "brand": "MSI",
+  "category": "Mice",
+  "price": 35,
+  "description": "Souris gaming MSI FORGE GM300, capteur optique, 7 boutons, rétroéclairage RGB, ergonomique, parfaite pour gaming",
+  "images": [
+    "./assets/ProductImages/Mice/MSI_FORGE_GM300/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.3,
+  "reviews": 78,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Sensor": "Optique",
+    "Buttons": "7",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-clutch-gm08",
+  "name": "MSI CLUTCH GM08",
+  "brand": "MSI",
+  "category": "Mice",
+  "price": 45,
+  "description": "Souris gaming MSI CLUTCH GM08, capteur optique, 6 boutons, rétroéclairage RGB, ergonomique, parfaite pour gaming",
+  "images": [
+    "./assets/ProductImages/Mice/MSI_CLUTCH_GM08/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.2,
+  "reviews": 65,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Sensor": "Optique",
+    "Buttons": "6",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-clutch-gm11-noir",
+  "name": "MSI CLUTCH GM11 – Noir",
+  "brand": "MSI",
+  "category": "Mice",
+  "price": 69,
+  "description": "Souris gaming MSI CLUTCH GM11 – Noir, capteur optique, 6 boutons, rétroéclairage RGB, ergonomique, parfaite pour gaming",
+  "images": [
+    "./assets/ProductImages/Mice/MSI_CLUTCH_GM11_Noir/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.3,
+  "reviews": 71,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Sensor": "Optique",
+    "Buttons": "6",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "aqirys-acrux",
+  "name": "AQIRYS Acrux",
+  "brand": "AQIRYS",
+  "category": "Mice",
+  "price": 49,
+  "description": "Souris gaming AQIRYS Acrux, capteur optique, 6 boutons, rétroéclairage RGB, ergonomique, parfaite pour gaming",
+  "images": [
+    "./assets/ProductImages/Mice/AQIRYS_Acrux/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.2,
+  "reviews": 62,
+  "featured": false,
+  "specifications": {
+    "Brand": "AQIRYS",
+    "Sensor": "Optique",
+    "Buttons": "6",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "aqirys-phoenix-black",
+  "name": "AQIRYS PHOENIX – Black",
+  "brand": "AQIRYS",
+  "category": "Mice",
+  "price": 70,
+  "description": "Souris gaming AQIRYS PHOENIX – Black, capteur optique, 7 boutons, rétroéclairage RGB, ergonomique, parfaite pour gaming",
+  "images": [
+    "./assets/ProductImages/Mice/AQIRYS_PHOENIX_Black/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.3,
+  "reviews": 68,
+  "featured": false,
+  "specifications": {
+    "Brand": "AQIRYS",
+    "Sensor": "Optique",
+    "Buttons": "7",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-clutch-gm20-elite",
+  "name": "MSI CLUTCH GM20 ELITE",
+  "brand": "MSI",
+  "category": "Mice",
+  "price": 95,
+  "description": "Souris gaming MSI CLUTCH GM20 ELITE, capteur optique, 7 boutons, rétroéclairage RGB, ergonomique, parfaite pour gaming compétitif",
+  "images": [
+    "./assets/ProductImages/Mice/MSI_CLUTCH_GM20_ELITE/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.5,
+  "reviews": 75,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Sensor": "Optique",
+    "Buttons": "7",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "razer-deathadder-essential",
+  "name": "SOURIS GAMER RAZER DEATHADDER Essential",
+  "brand": "Razer",
+  "category": "Mice",
+  "price": 99,
+  "description": "Souris gaming Razer DeathAdder Essential, capteur optique, 5 boutons, ergonomique, parfaite pour gaming et bureautique",
+  "images": [
+    "./assets/ProductImages/Mice/Razer_DeathAdder_Essential/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.6,
+  "reviews": 112,
+  "featured": false,
+  "specifications": {
+    "Brand": "Razer",
+    "Sensor": "Optique",
+    "Buttons": "5",
+    "RGB": "Non"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "aqirys-polaris-blanc",
+  "name": "AQIRYS Polaris – Blanc",
+  "brand": "AQIRYS",
+  "category": "Mice",
+  "price":115,
+  "description": "Souris gaming AQIRYS Polaris – Blanc, capteur optique, 6 boutons, rétroéclairage RGB, ergonomique, parfaite pour gaming",
+  "images": [
+    "./assets/ProductImages/Mice/AQIRYS_Polaris_Blanc/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.3,
+  "reviews": 67,
+  "featured": false,
+  "specifications": {
+    "Brand": "AQIRYS",
+    "Sensor": "Optique",
+    "Buttons": "6",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "xtrfy-mz1-rgb-wireless-black",
+  "name": "XTRFY MZ1 RGB WIRELESS BLACK",
+  "brand": "XTRFY",
+  "category": "Mice",
+  "price": 239,
+  "description": "Souris gaming XTRFY MZ1 RGB WIRELESS BLACK, capteur optique, 6 boutons, rétroéclairage RGB, sans fil, ergonomique, parfaite pour gaming compétitif",
+  "images": [
+    "./assets/ProductImages/Mice/XTRFY_MZ1_RGB_Wireless_Black/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.7,
+  "reviews": 52,
+  "featured": false,
+  "specifications": {
+    "Brand": "XTRFY",
+    "Sensor": "Optique",
+    "Buttons": "6",
+    "RGB": "Oui",
+    "Wireless": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "razer-deathadder-v3",
+  "name": "SOURIS GAMER RAZER DEATHADDER V3",
+  "brand": "Razer",
+  "category": "Mice",
+  "price": 249,
+  "description": "Souris gaming Razer DeathAdder V3, capteur optique, 5 boutons, ergonomique, parfaite pour gaming compétitif",
+  "images": [
+    "./assets/ProductImages/Mice/Razer_DeathAdder_V3/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.7,
+  "reviews": 87,
+  "featured": false,
+  "specifications": {
+    "Brand": "Razer",
+    "Sensor": "Optique",
+    "Buttons": "5",
+    "RGB": "Non"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "patriot-viper-v380",
+  "name": "PATRIOT Viper V380",
+  "brand": "PATRIOT",
+  "category": "Headsets",
+  "price": 99,
+  "description": "Casque gaming PATRIOT Viper V380, son surround 7.1, micro détachable, confortable, parfait pour gaming et communication",
+  "images": [
+    "./assets/ProductImages/Headsets/PATRIOT_Viper_V380/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.2,
+  "reviews": 54,
+  "featured": false,
+  "specifications": {
+    "Brand": "PATRIOT",
+    "Type": "Casque gaming",
+    "Surround": "7.1",
+    "Micro": "Détachable"
+  },
+  "platforms": ["PC", "PS4", "PS5", "Xbox"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "aqirys-cygnus-rgb",
+  "name": "AQIRYS Cygnus RGB",
+  "brand": "AQIRYS",
+  "category": "Headsets",
+  "price": 105,
+  "description": "Casque gaming AQIRYS Cygnus RGB, son surround 7.1, micro flexible, rétroéclairage RGB, confortable, parfait pour gaming et communication",
+  "images": [
+    "./assets/ProductImages/Headsets/AQIRYS_Cygnus_RGB/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.3,
+  "reviews": 62,
+  "featured": false,
+  "specifications": {
+    "Brand": "AQIRYS",
+    "Type": "Casque gaming",
+    "Surround": "7.1",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC", "PS4", "PS5", "Xbox"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-immerse-gh20",
+  "name": "MSI IMMERSE GH20",
+  "brand": "MSI",
+  "category": "Headsets",
+  "price": 109,
+  "description": "Casque gaming MSI IMMERSE GH20, son surround 7.1, micro flexible, confortable, parfait pour gaming et communication",
+  "images": [
+    "./assets/ProductImages/Headsets/MSI_IMMERSE_GH20/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.4,
+  "reviews": 68,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Type": "Casque gaming",
+    "Surround": "7.1",
+    "Micro": "Flexible"
+  },
+  "platforms": ["PC", "PS4", "PS5", "Xbox"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-force-gc20-v2-blanc",
+  "name": "MSI FORCE GC20 V2 – Blanc",
+  "brand": "MSI",
+  "category": "Gamepads",
+  "price": 119,
+  "description": "Manette MSI FORCE GC20 V2 – Blanc, compatible PC, ergonomique, rétroéclairage RGB, parfaite pour gaming",
+  "images": [
+    "./assets/ProductImages/Gamepads/MSI_FORCE_GC20_V2_Blanc/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.2,
+  "reviews": 47,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Platforms": "PC",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-force-gc30-v2-noir",
+  "name": "MSI FORCE GC30 V2 – Noir",
+  "brand": "MSI",
+  "category": "Gamepads",
+  "price": 135,
+  "description": "Manette MSI FORCE GC30 V2 – Noir, compatible PC, ergonomique, rétroéclairage RGB, parfaite pour gaming",
+  "images": [
+    "./assets/ProductImages/Gamepads/MSI_FORCE_GC30_V2_Noir/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.3,
+  "reviews": 52,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Platforms": "PC",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-force-gc30-v2-wireless-white",
+  "name": "MSI FORCE GC30 V2 Wireless – White",
+  "brand": "MSI",
+  "category": "Gamepads",
+  "price": 149,
+  "description": "Manette MSI FORCE GC30 V2 Wireless – White, compatible PC, sans fil, ergonomique, rétroéclairage RGB, parfaite pour gaming",
+  "images": [
+    "./assets/ProductImages/Gamepads/MSI_FORCE_GC30_V2_Wireless_White/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.4,
+  "reviews": 56,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Platforms": "PC",
+    "Wireless": "Oui",
+    "RGB": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "aqirys-webb-medium",
+  "name": "AQIRYS WEBB Medium",
+  "brand": "AQIRYS",
+  "category": "Mousepads",
+  "price": 35,
+  "description": "Tapis de souris AQIRYS WEBB Medium, surface lisse, taille medium, parfait pour gaming et bureautique",
+  "images": [
+    "./assets/ProductImages/Mousepads/AQIRYS_WEBB_Medium/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.0,
+  "reviews": 45,
+  "featured": false,
+  "specifications": {
+    "Brand": "AQIRYS",
+    "Size": "Medium",
+    "Surface": "Lisse"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "aqirys-gravity-xl-white",
+  "name": "AQIRYS GRAVITY XL WHITE",
+  "brand": "AQIRYS",
+  "category": "Mousepads",
+  "price": 50,
+  "description": "Tapis de souris AQIRYS GRAVITY XL WHITE, surface lisse, taille XL, parfait pour gaming et bureautique",
+  "images": [
+    "./assets/ProductImages/Mousepads/AQIRYS_GRAVITY_XL_WHITE/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.2,
+  "reviews": 51,
+  "featured": false,
+  "specifications": {
+    "Brand": "AQIRYS",
+    "Size": "XL",
+    "Surface": "Lisse"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "aqirys-webb-xl",
+  "name": "AQIRYS WEBB XL",
+  "brand": "AQIRYS",
+  "category": "Mousepads",
+  "price": 52,
+  "description": "Tapis de souris AQIRYS WEBB XL, surface lisse, taille XL, parfait pour gaming et bureautique",
+  "images": [
+    "./assets/ProductImages/Mousepads/AQIRYS_WEBB_XL/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.2,
+  "reviews": 49,
+  "featured": false,
+  "specifications": {
+    "Brand": "AQIRYS",
+    "Size": "XL",
+    "Surface": "Lisse"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-agility-gd2",
+  "name": "MSI AGILITY GD2",
+  "brand": "MSI",
+  "category": "Mousepads",
+  "price": 69,
+  "description": "Tapis de souris MSI AGILITY GD2, surface lisse, taille large, parfait pour gaming et bureautique",
+  "images": [
+    "./assets/ProductImages/Mousepads/MSI_AGILITY_GD2/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.3,
+  "reviews": 53,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Size": "Large",
+    "Surface": "Lisse"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-vigor-wr01",
+  "name": "MSI Vigor WR01",
+  "brand": "MSI",
+  "category": "Mousepads",
+  "price": 75,
+  "description": "Tapis de souris MSI Vigor WR01, surface lisse, taille large, bordure cousue, parfait pour gaming et bureautique",
+  "images": [
+    "./assets/ProductImages/Mousepads/MSI_Vigor_WR01/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.4,
+  "reviews": 56,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Size": "Large",
+    "Surface": "Lisse",
+    "Stitched Edge": "Oui"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "aqirys-eclipse-xl",
+  "name": "AQIRYS Eclipse XL",
+  "brand": "AQIRYS",
+  "category": "Mousepads",
+  "price": 88,
+  "description": "Tapis de souris AQIRYS Eclipse XL, surface lisse, taille XL, parfait pour gaming et bureautique",
+  "images": [
+    "./assets/ProductImages/Mousepads/AQIRYS_Eclipse_XL/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.3,
+  "reviews": 54,
+  "featured": false,
+  "specifications": {
+    "Brand": "AQIRYS",
+    "Size": "XL",
+    "Surface": "Lisse"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "msi-agility-gd70",
+  "name": "MSI AGILITY GD70",
+  "brand": "MSI",
+  "category": "Mousepads",
+  "price": 119,
+  "description": "Tapis de souris MSI AGILITY GD70, surface lisse, taille XXL, parfait pour gaming et bureautique",
+  "images": [
+    "./assets/ProductImages/Mousepads/MSI_AGILITY_GD70/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.5,
+  "reviews": 58,
+  "featured": false,
+  "specifications": {
+    "Brand": "MSI",
+    "Size": "XXL",
+    "Surface": "Lisse"
+  },
+  "platforms": ["PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "thrustmaster-t80-ferrari",
+  "name": "VOLANT Thrustmaster T80 Ferrari",
+  "brand": "Thrustmaster",
+  "category": "SteeringWheels",
+  "price": 649,
+  "description": "Volant Thrustmaster T80 Ferrari, compatibilité PS4/PS5/PC, pédales intégrées, design officiel Ferrari, parfait pour simulation de conduite",
+  "images": [
+    "./assets/ProductImages/SteeringWheels/Thrustmaster_T80_Ferrari/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.3,
+  "reviews": 67,
+  "featured": false,
+  "specifications": {
+    "Brand": "Thrustmaster",
+    "Platforms": "PS4, PS5, PC",
+    "Pedals": "Intégrées",
+    "Design": "Ferrari"
+  },
+  "platforms": ["PS4", "PS5", "PC"],
+  "dateAdded": "2025-06-18"
+},
+{
+  "id": "thrustmaster-t300-rs",
+  "name": "VOLANT THRUSTMASTER T300 RS",
+  "brand": "Thrustmaster",
+  "category": "SteeringWheels",
+  "price": 1.949,
+  "description": "Volant Thrustmaster T300 RS, compatibilité PS4/PS5/PC, force feedback, pédales séparées, parfait pour simulation de conduite",
+  "images": [
+    "./assets/ProductImages/SteeringWheels/Thrustmaster_T300_RS/image_1.jpg"
+  ],
+  "stock": 5,
+  "rating": 4.7,
+  "reviews": 89,
+  "featured": false,
+  "specifications": {
+    "Brand": "Thrustmaster",
+    "Platforms": "PS4, PS5, PC",
+    "Force Feedback": "Oui",
+    "Pedals": "Séparées"
+  },
+  "platforms": ["PS4", "PS5", "PC"],
+  "dateAdded": "2025-06-18"
+},
+  {
+    "name": "Processeur Intel Core i3-12100",
+    "price": "441 "
+  }
   ],
 "partners": [
   {
@@ -532,79 +3494,160 @@
     "logo": "./assets/partners/HyperX.png"
   }
 ],
-  "categories": [
-    {
-      "id": "laptops",
-      "name": "Laptops",
-      "slug": "Laptops",
-      "description": "High-performance gaming laptops",
-      "icon": "fas fa-laptop",
-      "featured": true,
-      "order": 1
-    },
-    {
-      "id": "consoles",
-      "name": "Consoles", 
-      "slug": "Consoles",
-      "description": "Next-gen gaming consoles",
-      "icon": "fas fa-gamepad",
-      "featured": true,
-      "order": 2
-    },
-    {
-      "id": "vr",
-      "name": "VR Headsets",
-      "slug": "VR", 
-      "description": "Virtual reality gaming",
-      "icon": "fas fa-vr-cardboard",
-      "featured": true,
-      "order": 3
-    },
-    {
-      "id": "monitors",
-      "name": "Monitors",
-      "slug": "Monitors",
-      "description": "Gaming displays and monitors", 
-      "icon": "fas fa-desktop",
-      "featured": true,
-      "order": 4
-    },
-    {
-      "id": "keyboards",
-      "name": "Keyboards",
-      "slug": "Keyboards",
-      "description": "Mechanical gaming keyboards",
-      "icon": "fas fa-keyboard",
-      "featured": false,
-      "order": 5
-    },
-    {
-      "id": "mice",
-      "name": "Gaming Mouse",
-      "slug": "Mice", 
-      "description": "Precision gaming mice",
-      "icon": "fas fa-mouse",
-      "featured": false,
-      "order": 6
-    },
-    {
-      "id": "headsets",
-      "name": "Headsets",
-      "slug": "Headsets",
-      "description": "Gaming audio headsets",
-      "icon": "fas fa-headphones",
-      "featured": false,
-      "order": 7
-    },
-    {
-      "id": "chairs",
-      "name": "Gaming Chairs",
-      "slug": "Chairs",
-      "description": "Ergonomic gaming chairs",
-      "icon": "fas fa-chair",
-      "featured": false,
-      "order": 8
-    }
-    
-  ]
+"categories": [
+  {
+    "id": "cases",
+    "name": "Cases",
+    "slug": "Cases",
+    "description": "PC cases and chassis for all builds",
+    "icon": "fas fa-box-open",
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": "processors",
+    "name": "Processors",
+    "slug": "Processors",
+    "description": "High-performance CPUs for gaming and workstations",
+    "icon": "fas fa-microchip",
+    "featured": true,
+    "order": 2
+  },
+  {
+    "id": "graphics-cards",
+    "name": "Graphics Cards",
+    "slug": "GraphicsCards",
+    "description": "GPUs for gaming and creative workloads",
+    "icon": "fas fa-gamepad",
+    "featured": true,
+    "order": 3
+  },
+  {
+    "id": "monitors",
+    "name": "Monitors",
+    "slug": "Monitors",
+    "description": "Gaming and productivity displays",
+    "icon": "fas fa-desktop",
+    "featured": true,
+    "order": 4
+  },
+  {
+    "id": "memory",
+    "name": "Memory",
+    "slug": "Memory",
+    "description": "RAM and memory upgrades",
+    "icon": "fas fa-memory",
+    "featured": true,
+    "order": 5
+  },
+  {
+    "id": "motherboards",
+    "name": "Motherboards",
+    "slug": "Motherboards",
+    "description": "PC motherboards for Intel and AMD",
+    "icon": "fas fa-microchip",
+    "featured": false,
+    "order": 6
+  },
+  {
+    "id": "power-supplies",
+    "name": "Power Supplies",
+    "slug": "PowerSupplies",
+    "description": "PC power supplies and PSUs",
+    "icon": "fas fa-plug",
+    "featured": false,
+    "order": 7
+  },
+  {
+    "id": "storage",
+    "name": "Storage",
+    "slug": "Storage",
+    "description": "SSDs and storage solutions",
+    "icon": "fas fa-hdd",
+    "featured": false,
+    "order": 8
+  },
+  {
+    "id": "watercooling",
+    "name": "Watercooling",
+    "slug": "Watercooling",
+    "description": "Liquid cooling solutions for PCs",
+    "icon": "fas fa-water",
+    "featured": false,
+    "order": 9
+  },
+  {
+    "id": "fans",
+    "name": "Fans",
+    "slug": "Fans",
+    "description": "PC case and radiator fans",
+    "icon": "fas fa-fan",
+    "featured": false,
+    "order": 10
+  },
+  {
+    "id": "microphones",
+    "name": "Microphones",
+    "slug": "Microphones",
+    "description": "Microphones for streaming and gaming",
+    "icon": "fas fa-microphone",
+    "featured": false,
+    "order": 11
+  },
+  {
+    "id": "keyboards",
+    "name": "Keyboards",
+    "slug": "Keyboards",
+    "description": "Mechanical gaming keyboards",
+    "icon": "fas fa-keyboard",
+    "featured": false,
+    "order": 12
+  },
+  {
+    "id": "mice",
+    "name": "Gaming Mouse",
+    "slug": "Mice",
+    "description": "Precision gaming mice",
+    "icon": "fas fa-mouse",
+    "featured": false,
+    "order": 13
+  },
+  {
+    "id": "headsets",
+    "name": "Headsets",
+    "slug": "Headsets",
+    "description": "Gaming audio headsets",
+    "icon": "fas fa-headphones",
+    "featured": false,
+    "order": 14
+  },
+  {
+    "id": "gamepads",
+    "name": "Gamepads",
+    "slug": "Gamepads",
+    "description": "Gaming controllers",
+    "icon": "fas fa-gamepad",
+    "featured": false,
+    "order": 15
+  },
+  {
+    "id": "mousepads",
+    "name": "Mousepads",
+    "slug": "Mousepads",
+    "description": "Gaming and office mousepads",
+    "icon": "fas fa-mouse-pointer",
+    "featured": false,
+    "order": 16
+  },
+  {
+    "id": "steering-wheels",
+    "name": "Steering Wheels",
+    "slug": "SteeringWheels",
+    "description": "Racing wheels for simulation gaming",
+    "icon": "fas fa-car",
+    "featured": false,
+    "order": 17
+  }
+]
+
 }
