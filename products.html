@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
@@ -17,7 +19,7 @@
             <!-- Left Section -->
             <div class="nav-left">
                 <div class="logo-container">
-                   <a href="index.html"><img src="assets/GGG_logo_white.png" alt="GGGuys Logo" class="logo"></a>
+                    <a href="index.html"><img src="assets/GGG_logo_white.png" alt="GGGuys Logo" class="logo"></a>
                 </div>
                 <div class="search-container">
                     <input type="text" class="search-input" placeholder="Search products..." id="searchInput">
@@ -302,7 +304,8 @@
                 </div>
                 <div class="form-group">
                     <label for="orderNotes">Order Notes (Optional)</label>
-                    <textarea id="orderNotes" name="notes" rows="2" placeholder="Special instructions for delivery..."></textarea>
+                    <textarea id="orderNotes" name="notes" rows="2"
+                        placeholder="Special instructions for delivery..."></textarea>
                 </div>
                 <div class="checkout-summary">
                     <h4>Order Summary</h4>
@@ -330,6 +333,80 @@
         </div>
     </div>
 
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/GGG_logo_white.png" alt="GGGuys Logo" class="footer-logo-img">
+                        <h3>GGGuys</h3>
+                    </div>
+                    <p class="footer-description">
+                        Your ultimate destination for gaming gear, consoles, and accessories.
+                        We bring you the latest in gaming technology.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/GoodGameGuysGGG" class="social-link"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/good_game_guys_ggg?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                            class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://discord.gg/4qnwCBZmWx" class="social-link"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-title">Categories</h4>
+                    <ul class="footer-links" id="footerCategories">
+                        <!-- Categories will be populated by JavaScript -->
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Carthage, Tunisia</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+216 25 910 385</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@ggguys.store</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Daily 09:00-23:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom" style="text-align: center; padding: 15px 0;">
+                <div class="footer-bottom-content" style="display: flex; justify-content: center; align-items: center;">
+                    <p class="copyright">
+                        © 2025 <a href="https://redixsolutions.pro" style="color: inherit; text-decoration: none;">REDIX
+                            Digital Solutions</a>. All rights reserved.
+                    </p>
+                </div>
+            </div>
+    </footer>
+
     <script src="js/main.js"></script>
 </body>
+
 </html>
